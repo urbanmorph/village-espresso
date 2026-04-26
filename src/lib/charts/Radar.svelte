@@ -8,8 +8,9 @@
 
   let { village, peers }: Props = $props();
 
-  const W = 360;
-  const H = 360;
+  // wider viewBox than the plot radius to leave room for axis labels
+  const W = 480;
+  const H = 420;
   const cx = W / 2;
   const cy = H / 2;
   const R = 130;
@@ -23,14 +24,32 @@
     return [cx + Math.cos(angle) * r, cy + Math.sin(angle) * r];
   }
 
-  function labelAt(i: number, padding = 18): { x: number; y: number; anchor: 'start' | 'middle' | 'end' } {
+  function labelAt(i: number, padding = 14): { x: number; y: number; anchor: 'start' | 'middle' | 'end' } {
     const angle = (i / N) * 2 * Math.PI - Math.PI / 2;
     const x = cx + Math.cos(angle) * (R + padding);
     const y = cy + Math.sin(angle) * (R + padding);
     const anchor: 'start' | 'middle' | 'end' =
-      Math.abs(Math.cos(angle)) < 0.2 ? 'middle' : Math.cos(angle) > 0 ? 'start' : 'end';
+      Math.abs(Math.cos(angle)) < 0.25 ? 'middle' : Math.cos(angle) > 0 ? 'start' : 'end';
     return { x, y, anchor };
   }
+
+  // shorter, dashboard-friendly labels that don't blow up the radar margins
+  const SHORT_LABEL: Record<string, string> = {
+    'distress-migration': 'Migration',
+    'export-import': 'Export/Imp',
+    'hh-income': 'Income',
+    'livelihood-basket': 'Livelihood',
+    'youth-employment': 'Youth Emp',
+    'agro-ecology': 'Agro Eco',
+    energy: 'Energy',
+    forest: 'Forest',
+    soil: 'Soil',
+    water: 'Water',
+    'gender-inclusion': 'Gender',
+    'health-nutrition': 'Health',
+    institution: 'Institution',
+    wash: 'WASH'
+  };
 
   function polygonPath(vals: number[]): string {
     return vals
@@ -96,9 +115,9 @@
         text-anchor={lp.anchor}
         dominant-baseline="middle"
         class="fill-neutral-700"
-        style="font-size:10px;font-family:ui-sans-serif,system-ui;"
+        style="font-size:10.5px;font-family:ui-sans-serif,system-ui;"
       >
-        {ind.label}
+        {SHORT_LABEL[ind.code] ?? ind.label}
       </text>
     {/each}
   </svg>

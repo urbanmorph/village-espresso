@@ -69,7 +69,7 @@
 
 <header class="border-b border-neutral-200 bg-white">
   <div class="mx-auto flex max-w-[1600px] flex-wrap items-center gap-4 px-6 py-3">
-    <h1 class="text-lg font-semibold tracking-tight">Village Dashboard</h1>
+    <a href="/" class="text-lg font-semibold tracking-tight hover:text-neutral-700">SOTH+BON</a>
     <span class="text-xs text-neutral-500">
       {VILLAGES.length} villages · {INDICATORS.length} indicators · CG / JH / OD
     </span>
