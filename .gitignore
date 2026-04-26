@@ -1,0 +1,19 @@
+node_modules
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# Build outputs
+dist
+build
+.svelte-kit
+.vercel
+
+# Working notes — not for the public repo
+supporting-docs/
+
+# Large local-only artifacts
+data/raw/
+data/geo/*.pmtiles
+data/geo/*.parquet
