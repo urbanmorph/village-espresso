@@ -4,6 +4,7 @@
   import 'maplibre-gl/dist/maplibre-gl.css';
   import polygonsRaw from '../../../data/processed/villages_polygons.json';
   import type { Village } from '$lib/data';
+  import { SCORE_PAINT_STEP } from '$lib/colors';
 
   type Props = {
     villages: Village[];
@@ -52,15 +53,7 @@
     ]
   };
 
-  const SCORE_PAINT_COLOR: maplibregl.ExpressionSpecification = [
-    'step',
-    ['get', 'score'],
-    '#f43f5e',
-    20, '#f97316',
-    35, '#f59e0b',
-    50, '#84cc16',
-    70, '#10b981'
-  ];
+  const SCORE_PAINT_COLOR = SCORE_PAINT_STEP as unknown as maplibregl.ExpressionSpecification;
 
   function computeBounds(vs: Village[]): maplibregl.LngLatBoundsLike | null {
     const valid = vs.filter((v) => v.lat != null && v.lon != null);

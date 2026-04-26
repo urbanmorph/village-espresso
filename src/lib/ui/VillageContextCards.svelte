@@ -7,6 +7,7 @@
     effectiveScore,
     type Village
   } from '$lib/data';
+  import { scoreBg, scoreShade } from '$lib/colors';
 
   type Props = {
     village: Village;
@@ -35,12 +36,20 @@
     return idx === -1 ? null : { rank: idx + 1, total: sorted.length };
   });
 
-  // Best / worst indicator for this village WITHIN the current component scope
-  const indicatorList = $derived(
-    componentInds.map((i) => ({ ...i, score: indicatorScore(village.code, i.code) }))
-  );
-  const best = $derived([...indicatorList].sort((a, b) => b.score - a.score)[0]);
-  const worst = $derived([...indicatorList].sort((a, b) => a.score - b.score)[0]);
+  // Best / worst indicator for this village WITHIN the current component scope —
+  // single linear pass instead of two full sorts.
+  const extremes = $derived.by(() => {
+    let best = { code: '', label: '', score: -Infinity };
+    let worst = { code: '', label: '', score: Infinity };
+    for (const i of componentInds) {
+      const score = indicatorScore(village.code, i.code);
+      if (score > best.score) best = { code: i.code, label: i.label, score };
+      if (score < worst.score) worst = { code: i.code, label: i.label, score };
+    }
+    return { best, worst };
+  });
+  const best = $derived(extremes.best);
+  const worst = $derived(extremes.worst);
 
   // Selected indicator card — honors component scope when 'overall'
   const selScore = $derived(effectiveScore(village.code, selectedComponentCode, selectedIndicatorCode));
@@ -61,17 +70,6 @@
         : `${COMPONENTS.find((c) => c.code === selectedComponentCode)?.label ?? ''} avg`
       : INDICATORS.find((i) => i.code === selectedIndicatorCode)?.label ?? selectedIndicatorCode
   );
-
-  function colorFor(s: number) {
-    if (s >= 70) return { bg: 'bg-emerald-500', text: 'text-emerald-700' };
-    if (s >= 50) return { bg: 'bg-lime-400', text: 'text-lime-800' };
-    if (s >= 35) return { bg: 'bg-amber-400', text: 'text-amber-800' };
-    if (s >= 20) return { bg: 'bg-orange-500', text: 'text-orange-700' };
-    return { bg: 'bg-rose-500', text: 'text-rose-700' };
-  }
-  const selColor = $derived(colorFor(selScore));
-  const bestColor = $derived(colorFor(best.score));
-  const worstColor = $derived(colorFor(worst.score));
 
   const gap = $derived(selScore - selPeerAvg);
 </script>
@@ -94,10 +92,10 @@
       <div class="text-[10px] font-medium tracking-wide text-neutral-500 uppercase truncate">
         {selLabel}
       </div>
-      <div class={`text-[10px] font-medium tabular-nums ${selColor.text}`}>{selScore}</div>
+      <div class={`text-[10px] font-medium tabular-nums ${scoreShade(selScore)}`}>{selScore}</div>
     </div>
     <div class="mt-1 h-1.5 w-full overflow-hidden rounded-full bg-neutral-100">
-      <div class={`h-full ${selColor.bg}`} style="width:{Math.max(2, selScore)}%"></div>
+      <div class={`h-full ${scoreBg(selScore)}`} style="width:{Math.max(2, selScore)}%"></div>
     </div>
     <div class="mt-1 flex items-center justify-between text-[11px] text-neutral-500">
       <span>peer avg {selPeerAvg}</span>
@@ -112,7 +110,7 @@
     <div class="text-[10px] font-medium tracking-wide text-neutral-500 uppercase">Strongest</div>
     <div class="mt-0.5 truncate text-sm font-semibold">{best.label}</div>
     <div class="flex items-baseline gap-2 text-xs">
-      <span class={`text-base font-semibold tabular-nums ${bestColor.text}`}>{best.score}</span>
+      <span class={`text-base font-semibold tabular-nums ${scoreShade(best.score)}`}>{best.score}</span>
       <span class="text-neutral-400">/100</span>
     </div>
   </div>
@@ -122,7 +120,7 @@
     <div class="text-[10px] font-medium tracking-wide text-neutral-500 uppercase">Weakest</div>
     <div class="mt-0.5 truncate text-sm font-semibold">{worst.label}</div>
     <div class="flex items-baseline gap-2 text-xs">
-      <span class={`text-base font-semibold tabular-nums ${worstColor.text}`}>{worst.score}</span>
+      <span class={`text-base font-semibold tabular-nums ${scoreShade(worst.score)}`}>{worst.score}</span>
       <span class="text-neutral-400">/100</span>
     </div>
   </div>

@@ -1,9 +1,6 @@
 <script lang="ts">
-  import scoresJson from '../../../data/processed/scores.json';
-  import { FRAMEWORK, type Village } from '$lib/data';
-
-  type ScoreRow = { v: string; p: string; s: number | null };
-  const SCORES = scoresJson as ScoreRow[];
+  import { FRAMEWORK, loadParameterScores, type Village } from '$lib/data';
+  import { scoreBg, gapTone } from '$lib/colors';
 
   type Props = {
     village: Village;
@@ -13,16 +10,20 @@
 
   let { village, peers, selectedComponentCode }: Props = $props();
 
-  // Index scores by (village, parameter) for fast lookup
-  const byKey = new Map<string, number>();
-  for (const r of SCORES) {
-    if (r.s != null) byKey.set(`${r.v}::${r.p}`, r.s);
-  }
+  // Build the (village, parameter) -> score lookup once, after the lazy
+  // scores.json chunk arrives.
+  let byKey = $state<Map<string, number> | null>(null);
+  $effect(() => {
+    if (byKey !== null) return;
+    loadParameterScores().then((rows) => {
+      const m = new Map<string, number>();
+      for (const r of rows) if (r.s != null) m.set(`${r.v}::${r.p}`, r.s);
+      byKey = m;
+    });
+  });
 
-  function paramScore(villageCode: string, paramCode: string): number | null {
-    const v = byKey.get(`${villageCode}::${paramCode}`);
-    return v ?? null;
-  }
+  const paramScore = (villageCode: string, paramCode: string): number | null =>
+    byKey?.get(`${villageCode}::${paramCode}`) ?? null;
 
   // Group parameters by sub-indicator → indicator → component, scoped to selectedComponent
   const params = $derived(
@@ -62,21 +63,7 @@
     return [...map.values()];
   });
 
-  function colorForGap(gap: number): string {
-    if (gap >= 10) return 'text-emerald-600';
-    if (gap >= 0) return 'text-emerald-500';
-    if (gap >= -10) return 'text-orange-500';
-    return 'text-rose-600';
-  }
-
-  function colorBg(s: number | null): string {
-    if (s == null) return 'bg-neutral-200';
-    if (s >= 70) return 'bg-emerald-500';
-    if (s >= 50) return 'bg-lime-400';
-    if (s >= 35) return 'bg-amber-400';
-    if (s >= 20) return 'bg-orange-500';
-    return 'bg-rose-500';
-  }
+  const cellBg = (s: number | null) => (s == null ? 'bg-neutral-200' : scoreBg(s));
 </script>
 
 <div class="flex h-full min-h-0 flex-col overflow-hidden rounded-lg border border-neutral-200 bg-white">
@@ -114,7 +101,7 @@
               <td class="px-3 py-1.5 text-neutral-700">{p.parameter_name}</td>
               <td class="px-2 py-1.5 text-right">
                 {#if vScore != null}
-                  <span class="inline-flex h-5 w-9 items-center justify-center rounded text-[11px] font-semibold tabular-nums text-white {colorBg(vScore)}">
+                  <span class="inline-flex h-5 w-9 items-center justify-center rounded text-[11px] font-semibold tabular-nums text-white {cellBg(vScore)}">
                     {vScore}
                   </span>
                 {:else}
@@ -124,7 +111,7 @@
               <td class="px-2 py-1.5 text-right tabular-nums text-neutral-500">
                 {pAvg ?? '—'}
               </td>
-              <td class={`px-2 py-1.5 text-right tabular-nums ${gap == null ? 'text-neutral-300' : colorForGap(gap)}`}>
+              <td class={`px-2 py-1.5 text-right tabular-nums ${gap == null ? 'text-neutral-300' : gapTone(gap)}`}>
                 {gap == null ? '—' : (gap >= 0 ? '+' : '') + gap}
               </td>
             </tr>

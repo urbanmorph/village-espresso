@@ -8,13 +8,40 @@
     effectiveScore,
     type Village
   } from '$lib/data';
+  import { onMount } from 'svelte';
   import StripPlot from '$lib/charts/StripPlot.svelte';
   import Radar from '$lib/charts/Radar.svelte';
   import SubIndicatorMatrix from '$lib/charts/SubIndicatorMatrix.svelte';
   import EconomicStrip from '$lib/charts/EconomicStrip.svelte';
-  import Map from '$lib/map/Map.svelte';
   import VillageList from '$lib/ui/VillageList.svelte';
   import VillageContextCards from '$lib/ui/VillageContextCards.svelte';
+
+  // The Map (with maplibre-gl ~600 KB) is dynamic-imported on the client
+  // so it doesn't ship in the initial JS bundle.
+  let MapComponent = $state<typeof import('$lib/map/Map.svelte').default | null>(null);
+  onMount(async () => {
+    MapComponent = (await import('$lib/map/Map.svelte')).default;
+  });
+
+  const SPINNER_VERBS = [
+    'surveying villages',
+    'consulting the patwari',
+    'tracing block boundaries',
+    'hailing the gram sabha',
+    'untangling district lines',
+    'warming up the cartographer',
+    'asking MapLibre nicely',
+    'paging Survey of India'
+  ];
+  let spinnerVerb = $state(SPINNER_VERBS[0]);
+  onMount(() => {
+    let i = 0;
+    const id = setInterval(() => {
+      i = (i + 1) % SPINNER_VERBS.length;
+      spinnerVerb = SPINNER_VERBS[i];
+    }, 1100);
+    return () => clearInterval(id);
+  });
 
   // URL state — read page.url.search (a tracked string) and parse from it,
   // so the rune dependency is unambiguous across hydration / goto.
@@ -123,14 +150,27 @@
     style="height: calc(100vh - 8rem); min-height: 520px;"
   >
     <div class="h-full overflow-hidden rounded-lg border border-neutral-200 bg-neutral-100">
-      <Map
-        villages={filteredVillages}
-        selectedVillageCode={selectedVillage?.code ?? ''}
-        indicatorCode={selectedIndicatorCode}
-        componentCode={selectedComponentCode}
-        scoreFor={(c) => effectiveScore(c, selectedComponentCode, selectedIndicatorCode)}
-        onSelectVillage={(code) => setParam('v', code)}
-      />
+      {#if MapComponent}
+        {@const Map = MapComponent}
+        <Map
+          villages={filteredVillages}
+          selectedVillageCode={selectedVillage?.code ?? ''}
+          indicatorCode={selectedIndicatorCode}
+          componentCode={selectedComponentCode}
+          scoreFor={(c) => effectiveScore(c, selectedComponentCode, selectedIndicatorCode)}
+          onSelectVillage={(code) => setParam('v', code)}
+        />
+      {:else}
+        <div
+          class="flex h-full flex-col items-center justify-center gap-2 text-xs text-neutral-500"
+        >
+          <span
+            class="block h-6 w-6 animate-spin rounded-full border-2 border-neutral-300 border-t-neutral-700"
+            aria-hidden="true"
+          ></span>
+          <span class="tabular-nums">{spinnerVerb}…</span>
+        </div>
+      {/if}
     </div>
 
     <div class="flex h-full min-h-0 flex-col gap-4">

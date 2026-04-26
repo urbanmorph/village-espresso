@@ -1,19 +1,11 @@
 <script lang="ts">
   import {
     INDICATORS,
-    COMPONENTS,
     avgInComponent,
     effectiveScore,
-    indicatorScore,
     type Village
   } from '$lib/data';
-
-  // grouped indicators per Component (preserves Eco/Env/Soc display order)
-  const indicatorGroups = COMPONENTS.map((c) => ({
-    code: c.code,
-    label: c.label,
-    indicators: INDICATORS.filter((i) => i.component === c.code)
-  }));
+  import { scoreBg, scoreText } from '$lib/colors';
 
   type SortMode = 'score' | 'name' | 'district' | 'imbalance';
 
@@ -35,53 +27,52 @@
 
   let sort = $state<SortMode>('score');
   let query = $state('');
+  let listEl: HTMLUListElement;
 
-  function indicatorVal(v: Village): number {
-    return effectiveScore(v.code, selectedComponentCode, selectedIndicatorCode);
-  }
+  // when selection changes from outside (map / strip plot), scroll the row
+  // into view so the user sees the highlight without hunting for it.
+  $effect(() => {
+    if (!selectedVillageCode || !listEl) return;
+    const row = listEl.querySelector<HTMLElement>(`[data-code="${selectedVillageCode}"]`);
+    if (!row) return;
+    const r = row.getBoundingClientRect();
+    const c = listEl.getBoundingClientRect();
+    if (r.top < c.top || r.bottom > c.bottom) {
+      row.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+    }
+  });
+
+  const indicatorVal = (v: Village) =>
+    effectiveScore(v.code, selectedComponentCode, selectedIndicatorCode);
 
   function imbalance(v: Village): number {
     let min = Infinity;
     let max = -Infinity;
     for (const i of INDICATORS) {
-      const s = indicatorScore(v.code, i.code);
+      const s = effectiveScore(v.code, 'all', i.code);
       if (s < min) min = s;
       if (s > max) max = s;
     }
     return max - min;
   }
 
-  const ranked = $derived.by(() => {
-    const filtered = villages.filter((v) =>
-      query.trim() === ''
-        ? true
-        : `${v.name} ${v.district}`.toLowerCase().includes(query.trim().toLowerCase())
-    );
-    const cmp =
-      sort === 'name'
-        ? (a: Village, b: Village) => a.name.localeCompare(b.name)
-        : sort === 'district'
-          ? (a: Village, b: Village) =>
-              a.district.localeCompare(b.district) || a.name.localeCompare(b.name)
-          : sort === 'imbalance'
-            ? (a: Village, b: Village) => imbalance(b) - imbalance(a)
-            : (a: Village, b: Village) => indicatorVal(b) - indicatorVal(a);
-    return [...filtered].sort(cmp);
-  });
+  const COMPARATORS: Record<SortMode, (a: Village, b: Village) => number> = {
+    score: (a, b) => indicatorVal(b) - indicatorVal(a),
+    name: (a, b) => a.name.localeCompare(b.name),
+    district: (a, b) => a.district.localeCompare(b.district) || a.name.localeCompare(b.name),
+    imbalance: (a, b) => imbalance(b) - imbalance(a)
+  };
 
-  function color(s: number): string {
-    if (s >= 70) return 'bg-emerald-500';
-    if (s >= 50) return 'bg-lime-400';
-    if (s >= 35) return 'bg-amber-400';
-    if (s >= 20) return 'bg-orange-500';
-    return 'bg-rose-500';
-  }
-  function tone(s: number): string {
-    return s >= 50 ? 'text-neutral-900' : 'text-neutral-50';
-  }
+  const ranked = $derived.by(() => {
+    const q = query.trim().toLowerCase();
+    const filtered = q
+      ? villages.filter((v) => `${v.name} ${v.district}`.toLowerCase().includes(q))
+      : villages;
+    return [...filtered].sort(COMPARATORS[sort]);
+  });
 </script>
 
-<div class="flex h-full flex-col overflow-hidden rounded-lg border border-neutral-200 bg-white">
+<div class="flex h-full min-h-0 flex-col overflow-hidden rounded-lg border border-neutral-200 bg-white">
   <div class="border-b border-neutral-200 px-3 py-2">
     <div class="flex items-center gap-2">
       <input
@@ -102,23 +93,13 @@
     </div>
     <div class="mt-1.5 flex items-center justify-between text-[11px] text-neutral-500">
       <span>{ranked.length} of {villages.length}</span>
-      <span class="tabular-nums"
-        >{selectedIndicatorCode === 'overall' ? 'overall avg' : selectedIndicatorCode}</span
-      >
-    </div>
-    <!-- legend for the 14-bar fingerprint -->
-    <div class="mt-1 grid grid-cols-[28px_1fr_auto] gap-2">
-      <span></span>
-      <span class="grid grid-cols-3 gap-2 text-[9px] tracking-wide text-neutral-400 uppercase">
-        <span class="text-center">Economic</span>
-        <span class="text-center">Ecology</span>
-        <span class="text-center">Social</span>
+      <span class="tabular-nums">
+        {selectedIndicatorCode === 'overall' ? 'overall avg' : selectedIndicatorCode}
       </span>
-      <span></span>
     </div>
   </div>
 
-  <ul class="min-h-0 flex-1 divide-y divide-neutral-100 overflow-y-auto">
+  <ul bind:this={listEl} class="min-h-0 flex-1 divide-y divide-neutral-100 overflow-y-auto">
     {#each ranked as v, i (v.code)}
       {@const sel = indicatorVal(v)}
       {@const overall = avgInComponent(v.code, selectedComponentCode)}
@@ -126,8 +107,9 @@
       <li>
         <button
           type="button"
+          data-code={v.code}
           class="grid w-full grid-cols-[28px_1fr_auto] items-center gap-2 px-3 py-2 text-left hover:bg-neutral-50 {isSelected
-            ? 'bg-neutral-100'
+            ? 'border-l-2 border-neutral-900 bg-neutral-200/70 pl-[10px]'
             : ''}"
           onclick={() => onSelect(v.code)}
         >
@@ -138,30 +120,20 @@
             <span class="block truncate text-[11px] text-neutral-500"
               >{v.district} · {v.state} · {v.households ?? '—'} HHs</span
             >
-            <!-- 14-bar fingerprint, grouped by Component -->
-            <span class="mt-1 grid grid-cols-3 gap-2">
-              {#each indicatorGroups as g}
-                <span class="flex h-1.5 gap-[2px]">
-                  {#each g.indicators as ind}
-                    {@const s = indicatorScore(v.code, ind.code)}
-                    {@const isSelected = selectedIndicatorCode === ind.code}
-                    <span
-                      class="flex-1 rounded-sm {color(s)} {isSelected
-                        ? 'ring-1 ring-neutral-900 ring-offset-[1px]'
-                        : ''}"
-                      style="opacity:{isSelected ? 1 : 0.85}"
-                    ></span>
-                  {/each}
-                </span>
-              {/each}
+            <!-- single avg-score bar — width = village avg, color = bucket -->
+            <span class="mt-1 block h-1.5 w-full overflow-hidden rounded-sm bg-neutral-100">
+              <span
+                class="block h-full rounded-sm {scoreBg(overall)}"
+                style="width:{Math.max(2, overall)}%"
+              ></span>
             </span>
           </span>
 
           <span class="flex flex-col items-end gap-0.5">
             <span
-              class="inline-flex h-7 min-w-9 items-center justify-center rounded px-1 text-xs font-semibold tabular-nums {color(
+              class="inline-flex h-7 min-w-9 items-center justify-center rounded px-1 text-xs font-semibold tabular-nums {scoreBg(
                 sel
-              )} {tone(sel)}"
+              )} {scoreText(sel)}"
             >
               {sel}
             </span>

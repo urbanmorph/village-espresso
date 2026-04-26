@@ -1,5 +1,6 @@
 <script lang="ts">
   import type { Village } from '$lib/data';
+  import { scoreHex } from '$lib/colors';
 
   type Props = {
     label: string;
@@ -36,14 +37,6 @@
   function r(households: number | null): number {
     const h = households ?? 80;
     return Math.max(3, Math.min(9, Math.sqrt(h) / 2));
-  }
-
-  function color(score: number): string {
-    if (score >= 70) return '#10b981';
-    if (score >= 50) return '#84cc16';
-    if (score >= 35) return '#f59e0b';
-    if (score >= 20) return '#f97316';
-    return '#f43f5e';
   }
 
   const sortedVillages = $derived(
@@ -112,7 +105,7 @@
         cx={x(s)}
         cy={trackY}
         r={isSelected ? r(v.households) + 1 : r(v.households)}
-        fill={color(s)}
+        fill={scoreHex(s)}
         fill-opacity={isSelected ? 1 : 0.55}
         stroke={isSelected ? '#0a0a0a' : 'white'}
         stroke-width={isSelected ? 1.5 : 0.5}

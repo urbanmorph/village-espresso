@@ -1,8 +1,9 @@
-// Static imports → bundled at build time.
 import villagesJson from '../../data/processed/villages.json';
 import frameworkJson from '../../data/processed/framework.json';
 import indicatorsJson from '../../data/processed/indicators.json';
-import economicJson from '../../data/processed/economic.json';
+// economic.json (~720 KB) and scores.json (~220 KB) are lazy-loaded
+// inside the components that use them so they don't bloat the
+// initial route bundle.
 
 export type Component = 'Economic' | 'Ecology' | 'Social';
 
@@ -72,10 +73,25 @@ export type EconomicRow = {
 export const VILLAGES = villagesJson as Village[];
 export const FRAMEWORK = frameworkJson as Framework;
 export const INDICATOR_SCORES = indicatorsJson as IndicatorScores[];
-export const ECONOMIC = economicJson as EconomicRow[];
 
 export const COMPONENTS = FRAMEWORK.components;
 export const INDICATORS = FRAMEWORK.indicators;
+
+let economicCache: EconomicRow[] | null = null;
+export async function loadEconomic(): Promise<EconomicRow[]> {
+  if (economicCache) return economicCache;
+  const mod = await import('../../data/processed/economic.json');
+  economicCache = mod.default as EconomicRow[];
+  return economicCache;
+}
+
+let scoresCache: { v: string; p: string; s: number | null }[] | null = null;
+export async function loadParameterScores() {
+  if (scoresCache) return scoresCache;
+  const mod = await import('../../data/processed/scores.json');
+  scoresCache = mod.default as { v: string; p: string; s: number | null }[];
+  return scoresCache;
+}
 
 // Build a fast lookup: village_code -> indicator scores
 export const SCORES_BY_VILLAGE: Record<string, Record<string, number>> = Object.fromEntries(

@@ -1,29 +1,27 @@
 <script lang="ts">
-  import { ECONOMIC, type Village } from '$lib/data';
+  import { loadEconomic, type Village } from '$lib/data';
+  import type { EconomicRow } from '$lib/data';
 
   type Props = { village: Village };
   let { village }: Props = $props();
 
-  const rows = $derived(ECONOMIC.filter((r) => r.village_code === village.code));
+  let economic = $state<EconomicRow[] | null>(null);
+  $effect(() => {
+    void village.code;
+    if (economic === null) loadEconomic().then((d) => (economic = d));
+  });
 
-  const topImports = $derived(
-    [...rows]
-      .filter((r) => r.import_value > 0)
-      .sort((a, b) => b.import_value - a.import_value)
-      .slice(0, 5)
-  );
-  const topExports = $derived(
-    [...rows]
-      .filter((r) => r.export_value > 0)
-      .sort((a, b) => b.export_value - a.export_value)
-      .slice(0, 5)
-  );
-  const topOpp = $derived(
-    [...rows]
-      .filter((r) => r.opportunity_cost > 0)
-      .sort((a, b) => b.opportunity_cost - a.opportunity_cost)
-      .slice(0, 5)
-  );
+  const rows = $derived(economic ? economic.filter((r) => r.village_code === village.code) : []);
+
+  function topN(by: keyof EconomicRow): EconomicRow[] {
+    return rows
+      .filter((r) => Number(r[by]) > 0)
+      .sort((a, b) => Number(b[by]) - Number(a[by]))
+      .slice(0, 5);
+  }
+  const topImports = $derived(topN('import_value'));
+  const topExports = $derived(topN('export_value'));
+  const topOpp = $derived(topN('opportunity_cost'));
 
   const totalImport = $derived(rows.reduce((s, r) => s + r.import_value, 0));
   const totalExport = $derived(rows.reduce((s, r) => s + r.export_value, 0));
@@ -31,10 +29,12 @@
   const tradeBalance = $derived(totalExport - totalImport);
 
   function fmt(n: number): string {
-    if (n >= 1e7) return `₹${(n / 1e7).toFixed(2)} Cr`;
-    if (n >= 1e5) return `₹${(n / 1e5).toFixed(2)} L`;
-    if (n >= 1e3) return `₹${(n / 1e3).toFixed(1)} k`;
-    return `₹${Math.round(n)}`;
+    const sign = n < 0 ? '−' : '';
+    const v = Math.abs(n);
+    if (v >= 1e7) return `${sign}₹${(v / 1e7).toFixed(2)} Cr`;
+    if (v >= 1e5) return `${sign}₹${(v / 1e5).toFixed(2)} L`;
+    if (v >= 1e3) return `${sign}₹${(v / 1e3).toFixed(1)} k`;
+    return `${sign}₹${Math.round(v)}`;
   }
 
   // shared scale across all three lists so bar widths are comparable
@@ -54,7 +54,7 @@
     <span class="text-[11px] text-neutral-500">
       {rows.length} items · trade balance
       <span class={tradeBalance >= 0 ? 'text-emerald-600' : 'text-rose-600'}
-        >{tradeBalance >= 0 ? '+' : ''}{fmt(tradeBalance)}</span
+        >{tradeBalance > 0 ? '+' : ''}{fmt(tradeBalance)}</span
       >
     </span>
   </div>
