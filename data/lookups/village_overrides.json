@@ -1,0 +1,34 @@
+{
+  "_comment": "Manual matches for villages where the auto-matcher couldn't confidently resolve. Each entry: village_code → either a target LGD vil_lgd, or an explicit lat/lon. Status reflects confidence.",
+
+  "od-koraput-bhatabir": {
+    "strategy": "block_proxy",
+    "match_block_name": "NANDAPUR",
+    "note": "Bhatabir not in LGD as a distinct revenue village; using Nandapur block centroid as proxy.",
+    "status": "block-proxy"
+  },
+
+  "cg-kanker-rodepara": {
+    "strategy": "gp_proxy",
+    "match_gp_name": "KANHARPURI",
+    "match_block_name": "KANKER",
+    "note": "Rodepara is a hamlet under Kanharpuri GP; using Kanharpuri village centroid.",
+    "status": "gp-proxy"
+  },
+
+  "jh-gumla-podha": {
+    "strategy": "accept_fuzzy",
+    "match_lgd_name": "PORHA",
+    "match_block_name": "GHAGHRA",
+    "note": "Podha vs PORHA — same village, different transliteration. Block matches exactly.",
+    "status": "fuzzy-confirmed"
+  },
+
+  "jh-godda-talbadiya": {
+    "strategy": "accept_fuzzy",
+    "match_lgd_name": "TALBARIA",
+    "match_block_name": "BOARIJOR",
+    "note": "Talbadiya vs TALBARIA — same village, different transliteration. Block matches exactly.",
+    "status": "fuzzy-confirmed"
+  }
+}

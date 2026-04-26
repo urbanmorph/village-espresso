@@ -1,0 +1,6776 @@
+{
+  "andaman islands|andaman and nicobar": {
+    "name": "Andaman Islands",
+    "state": "Andaman and Nicobar",
+    "lon": 92.68189416419327,
+    "lat": 11.85607319485656
+  },
+  "andaman islands": {
+    "name": "Andaman Islands",
+    "state": "Andaman and Nicobar",
+    "lon": 92.68189416419327,
+    "lat": 11.85607319485656
+  },
+  "nicobar islands|andaman and nicobar": {
+    "name": "Nicobar Islands",
+    "state": "Andaman and Nicobar",
+    "lon": 93.80748587570623,
+    "lat": 7.012923728813538
+  },
+  "nicobar islands": {
+    "name": "Nicobar Islands",
+    "state": "Andaman and Nicobar",
+    "lon": 93.80748587570623,
+    "lat": 7.012923728813538
+  },
+  "adilabad|andhra pradesh": {
+    "name": "Adilabad",
+    "state": "Andhra Pradesh",
+    "lon": 78.81116959064327,
+    "lat": 19.28684210526315
+  },
+  "adilabad": {
+    "name": "Adilabad",
+    "state": "Andhra Pradesh",
+    "lon": 78.81116959064327,
+    "lat": 19.28684210526315
+  },
+  "anantapur|andhra pradesh": {
+    "name": "Anantapur",
+    "state": "Andhra Pradesh",
+    "lon": 77.46090322580642,
+    "lat": 14.31367741935484
+  },
+  "anantapur": {
+    "name": "Anantapur",
+    "state": "Andhra Pradesh",
+    "lon": 77.46090322580642,
+    "lat": 14.31367741935484
+  },
+  "chittoor|andhra pradesh": {
+    "name": "Chittoor",
+    "state": "Andhra Pradesh",
+    "lon": 78.92556313993171,
+    "lat": 13.333344709897602
+  },
+  "chittoor": {
+    "name": "Chittoor",
+    "state": "Andhra Pradesh",
+    "lon": 78.92556313993171,
+    "lat": 13.333344709897602
+  },
+  "cuddapah|andhra pradesh": {
+    "name": "Cuddapah",
+    "state": "Andhra Pradesh",
+    "lon": 78.69756756756759,
+    "lat": 14.493716216216214
+  },
+  "cuddapah": {
+    "name": "Cuddapah",
+    "state": "Andhra Pradesh",
+    "lon": 78.69756756756759,
+    "lat": 14.493716216216214
+  },
+  "east godavari|andhra pradesh": {
+    "name": "East Godavari",
+    "state": "Andhra Pradesh",
+    "lon": 82.22352298850558,
+    "lat": 16.809632183908036
+  },
+  "east godavari": {
+    "name": "East Godavari",
+    "state": "Andhra Pradesh",
+    "lon": 82.22352298850558,
+    "lat": 16.809632183908036
+  },
+  "guntur|andhra pradesh": {
+    "name": "Guntur",
+    "state": "Andhra Pradesh",
+    "lon": 80.55167315175083,
+    "lat": 15.893618677042822
+  },
+  "guntur": {
+    "name": "Guntur",
+    "state": "Andhra Pradesh",
+    "lon": 80.55167315175083,
+    "lat": 15.893618677042822
+  },
+  "hyderabad|andhra pradesh": {
+    "name": "Hyderabad",
+    "state": "Andhra Pradesh",
+    "lon": 78.47000000000001,
+    "lat": 17.39166666666667
+  },
+  "hyderabad": {
+    "name": "Hyderabad",
+    "state": "Andhra Pradesh",
+    "lon": 78.47000000000001,
+    "lat": 17.39166666666667
+  },
+  "karimnagar|andhra pradesh": {
+    "name": "Karimnagar",
+    "state": "Andhra Pradesh",
+    "lon": 79.43486666666671,
+    "lat": 18.519933333333338
+  },
+  "karimnagar": {
+    "name": "Karimnagar",
+    "state": "Andhra Pradesh",
+    "lon": 79.43486666666671,
+    "lat": 18.519933333333338
+  },
+  "khammam|andhra pradesh": {
+    "name": "Khammam",
+    "state": "Andhra Pradesh",
+    "lon": 80.6685185185185,
+    "lat": 17.69012345679012
+  },
+  "khammam": {
+    "name": "Khammam",
+    "state": "Andhra Pradesh",
+    "lon": 80.6685185185185,
+    "lat": 17.69012345679012
+  },
+  "krishna|andhra pradesh": {
+    "name": "Krishna",
+    "state": "Andhra Pradesh",
+    "lon": 81.13477547495664,
+    "lat": 16.144240069084645
+  },
+  "krishna": {
+    "name": "Krishna",
+    "state": "Andhra Pradesh",
+    "lon": 81.13477547495664,
+    "lat": 16.144240069084645
+  },
+  "kurnool|andhra pradesh": {
+    "name": "Kurnool",
+    "state": "Andhra Pradesh",
+    "lon": 77.90880952380955,
+    "lat": 15.442678571428576
+  },
+  "kurnool": {
+    "name": "Kurnool",
+    "state": "Andhra Pradesh",
+    "lon": 77.90880952380955,
+    "lat": 15.442678571428576
+  },
+  "mahbubnagar|andhra pradesh": {
+    "name": "Mahbubnagar",
+    "state": "Andhra Pradesh",
+    "lon": 77.98759090909086,
+    "lat": 16.64349999999999
+  },
+  "mahbubnagar": {
+    "name": "Mahbubnagar",
+    "state": "Andhra Pradesh",
+    "lon": 77.98759090909086,
+    "lat": 16.64349999999999
+  },
+  "medak|andhra pradesh": {
+    "name": "Medak",
+    "state": "Andhra Pradesh",
+    "lon": 78.1347674418605,
+    "lat": 17.892325581395355
+  },
+  "medak": {
+    "name": "Medak",
+    "state": "Andhra Pradesh",
+    "lon": 78.1347674418605,
+    "lat": 17.892325581395355
+  },
+  "nalgonda|andhra pradesh": {
+    "name": "Nalgonda",
+    "state": "Andhra Pradesh",
+    "lon": 79.16762295081965,
+    "lat": 17.117295081967214
+  },
+  "nalgonda": {
+    "name": "Nalgonda",
+    "state": "Andhra Pradesh",
+    "lon": 79.16762295081965,
+    "lat": 17.117295081967214
+  },
+  "nellore|andhra pradesh": {
+    "name": "Nellore",
+    "state": "Andhra Pradesh",
+    "lon": 80.14467776354996,
+    "lat": 13.942501067008097
+  },
+  "nellore": {
+    "name": "Nellore",
+    "state": "Andhra Pradesh",
+    "lon": 80.14467776354996,
+    "lat": 13.942501067008097
+  },
+  "nizamabad|andhra pradesh": {
+    "name": "Nizamabad",
+    "state": "Andhra Pradesh",
+    "lon": 78.0777570093458,
+    "lat": 18.434485981308423
+  },
+  "nizamabad": {
+    "name": "Nizamabad",
+    "state": "Andhra Pradesh",
+    "lon": 78.0777570093458,
+    "lat": 18.434485981308423
+  },
+  "prakasam|andhra pradesh": {
+    "name": "Prakasam",
+    "state": "Andhra Pradesh",
+    "lon": 80.11568797399778,
+    "lat": 15.493163596966426
+  },
+  "prakasam": {
+    "name": "Prakasam",
+    "state": "Andhra Pradesh",
+    "lon": 80.11568797399778,
+    "lat": 15.493163596966426
+  },
+  "rangareddi|andhra pradesh": {
+    "name": "Rangareddi",
+    "state": "Andhra Pradesh",
+    "lon": 78.06060439560444,
+    "lat": 17.24906593406593
+  },
+  "rangareddi": {
+    "name": "Rangareddi",
+    "state": "Andhra Pradesh",
+    "lon": 78.06060439560444,
+    "lat": 17.24906593406593
+  },
+  "srikakulam|andhra pradesh": {
+    "name": "Srikakulam",
+    "state": "Andhra Pradesh",
+    "lon": 84.25893518518525,
+    "lat": 18.571192129629612
+  },
+  "srikakulam": {
+    "name": "Srikakulam",
+    "state": "Andhra Pradesh",
+    "lon": 84.25893518518525,
+    "lat": 18.571192129629612
+  },
+  "vishakhapatnam|andhra pradesh": {
+    "name": "Vishakhapatnam",
+    "state": "Andhra Pradesh",
+    "lon": 83.0027126099706,
+    "lat": 17.64722140762465
+  },
+  "vishakhapatnam": {
+    "name": "Vishakhapatnam",
+    "state": "Andhra Pradesh",
+    "lon": 83.0027126099706,
+    "lat": 17.64722140762465
+  },
+  "vizianagaram|andhra pradesh": {
+    "name": "Vizianagaram",
+    "state": "Andhra Pradesh",
+    "lon": 83.45985596707821,
+    "lat": 18.284526748971196
+  },
+  "vizianagaram": {
+    "name": "Vizianagaram",
+    "state": "Andhra Pradesh",
+    "lon": 83.45985596707821,
+    "lat": 18.284526748971196
+  },
+  "warangal|andhra pradesh": {
+    "name": "Warangal",
+    "state": "Andhra Pradesh",
+    "lon": 79.87839080459767,
+    "lat": 18.022873563218383
+  },
+  "warangal": {
+    "name": "Warangal",
+    "state": "Andhra Pradesh",
+    "lon": 79.87839080459767,
+    "lat": 18.022873563218383
+  },
+  "west godavari|andhra pradesh": {
+    "name": "West Godavari",
+    "state": "Andhra Pradesh",
+    "lon": 81.46006172839505,
+    "lat": 16.63962962962962
+  },
+  "west godavari": {
+    "name": "West Godavari",
+    "state": "Andhra Pradesh",
+    "lon": 81.46006172839505,
+    "lat": 16.63962962962962
+  },
+  "changlang|arunachal pradesh": {
+    "name": "Changlang",
+    "state": "Arunachal Pradesh",
+    "lon": 96.37822368421047,
+    "lat": 27.36197368421052
+  },
+  "changlang": {
+    "name": "Changlang",
+    "state": "Arunachal Pradesh",
+    "lon": 96.37822368421047,
+    "lat": 27.36197368421052
+  },
+  "east kameng|arunachal pradesh": {
+    "name": "East Kameng",
+    "state": "Arunachal Pradesh",
+    "lon": 93.04840277777775,
+    "lat": 27.37298611111112
+  },
+  "east kameng": {
+    "name": "East Kameng",
+    "state": "Arunachal Pradesh",
+    "lon": 93.04840277777775,
+    "lat": 27.37298611111112
+  },
+  "east siang|arunachal pradesh": {
+    "name": "East Siang",
+    "state": "Arunachal Pradesh",
+    "lon": 95.06097560975608,
+    "lat": 28.159634146341453
+  },
+  "east siang": {
+    "name": "East Siang",
+    "state": "Arunachal Pradesh",
+    "lon": 95.06097560975608,
+    "lat": 28.159634146341453
+  },
+  "kurung kumey|arunachal pradesh": {
+    "name": "Kurung Kumey",
+    "state": "Arunachal Pradesh",
+    "lon": 93.2441758241758,
+    "lat": 28.050439560439546
+  },
+  "kurung kumey": {
+    "name": "Kurung Kumey",
+    "state": "Arunachal Pradesh",
+    "lon": 93.2441758241758,
+    "lat": 28.050439560439546
+  },
+  "lohit|arunachal pradesh": {
+    "name": "Lohit",
+    "state": "Arunachal Pradesh",
+    "lon": 96.60136054421773,
+    "lat": 27.948775510204076
+  },
+  "lohit": {
+    "name": "Lohit",
+    "state": "Arunachal Pradesh",
+    "lon": 96.60136054421773,
+    "lat": 27.948775510204076
+  },
+  "lower dibang valley|arunachal pradesh": {
+    "name": "Lower Dibang Valley",
+    "state": "Arunachal Pradesh",
+    "lon": 95.77205479452057,
+    "lat": 28.328767123287673
+  },
+  "lower dibang valley": {
+    "name": "Lower Dibang Valley",
+    "state": "Arunachal Pradesh",
+    "lon": 95.77205479452057,
+    "lat": 28.328767123287673
+  },
+  "lower subansiri|arunachal pradesh": {
+    "name": "Lower Subansiri",
+    "state": "Arunachal Pradesh",
+    "lon": 93.96893617021277,
+    "lat": 27.7095744680851
+  },
+  "lower subansiri": {
+    "name": "Lower Subansiri",
+    "state": "Arunachal Pradesh",
+    "lon": 93.96893617021277,
+    "lat": 27.7095744680851
+  },
+  "papum pare|arunachal pradesh": {
+    "name": "Papum Pare",
+    "state": "Arunachal Pradesh",
+    "lon": 93.54299065420561,
+    "lat": 27.276915887850464
+  },
+  "papum pare": {
+    "name": "Papum Pare",
+    "state": "Arunachal Pradesh",
+    "lon": 93.54299065420561,
+    "lat": 27.276915887850464
+  },
+  "tawang|arunachal pradesh": {
+    "name": "Tawang",
+    "state": "Arunachal Pradesh",
+    "lon": 91.83425925925924,
+    "lat": 27.682592592592588
+  },
+  "tawang": {
+    "name": "Tawang",
+    "state": "Arunachal Pradesh",
+    "lon": 91.83425925925924,
+    "lat": 27.682592592592588
+  },
+  "tirap|arunachal pradesh": {
+    "name": "Tirap",
+    "state": "Arunachal Pradesh",
+    "lon": 95.41675324675322,
+    "lat": 26.946493506493503
+  },
+  "tirap": {
+    "name": "Tirap",
+    "state": "Arunachal Pradesh",
+    "lon": 95.41675324675322,
+    "lat": 26.946493506493503
+  },
+  "upper dibang valley|arunachal pradesh": {
+    "name": "Upper Dibang Valley",
+    "state": "Arunachal Pradesh",
+    "lon": 95.98885714285714,
+    "lat": 29.02342857142856
+  },
+  "upper dibang valley": {
+    "name": "Upper Dibang Valley",
+    "state": "Arunachal Pradesh",
+    "lon": 95.98885714285714,
+    "lat": 29.02342857142856
+  },
+  "upper siang|arunachal pradesh": {
+    "name": "Upper Siang",
+    "state": "Arunachal Pradesh",
+    "lon": 94.9987878787879,
+    "lat": 28.836262626262634
+  },
+  "upper siang": {
+    "name": "Upper Siang",
+    "state": "Arunachal Pradesh",
+    "lon": 94.9987878787879,
+    "lat": 28.836262626262634
+  },
+  "upper subansiri|arunachal pradesh": {
+    "name": "Upper Subansiri",
+    "state": "Arunachal Pradesh",
+    "lon": 93.89406779661014,
+    "lat": 28.281779661016955
+  },
+  "upper subansiri": {
+    "name": "Upper Subansiri",
+    "state": "Arunachal Pradesh",
+    "lon": 93.89406779661014,
+    "lat": 28.281779661016955
+  },
+  "west kameng|arunachal pradesh": {
+    "name": "West Kameng",
+    "state": "Arunachal Pradesh",
+    "lon": 92.65043165467628,
+    "lat": 27.467913669064746
+  },
+  "west kameng": {
+    "name": "West Kameng",
+    "state": "Arunachal Pradesh",
+    "lon": 92.65043165467628,
+    "lat": 27.467913669064746
+  },
+  "west siang|arunachal pradesh": {
+    "name": "West Siang",
+    "state": "Arunachal Pradesh",
+    "lon": 94.53294964028771,
+    "lat": 28.112733812949642
+  },
+  "west siang": {
+    "name": "West Siang",
+    "state": "Arunachal Pradesh",
+    "lon": 94.53294964028771,
+    "lat": 28.112733812949642
+  },
+  "barpeta|assam": {
+    "name": "Barpeta",
+    "state": "Assam",
+    "lon": 90.97919191919192,
+    "lat": 26.430404040404042
+  },
+  "barpeta": {
+    "name": "Barpeta",
+    "state": "Assam",
+    "lon": 90.97919191919192,
+    "lat": 26.430404040404042
+  },
+  "bongaigaon|assam": {
+    "name": "Bongaigaon",
+    "state": "Assam",
+    "lon": 90.67546511627907,
+    "lat": 26.45313953488373
+  },
+  "bongaigaon": {
+    "name": "Bongaigaon",
+    "state": "Assam",
+    "lon": 90.67546511627907,
+    "lat": 26.45313953488373
+  },
+  "cachar|assam": {
+    "name": "Cachar",
+    "state": "Assam",
+    "lon": 92.86451807228914,
+    "lat": 24.817349397590363
+  },
+  "cachar": {
+    "name": "Cachar",
+    "state": "Assam",
+    "lon": 92.86451807228914,
+    "lat": 24.817349397590363
+  },
+  "darrang|assam": {
+    "name": "Darrang",
+    "state": "Assam",
+    "lon": 92.0459259259259,
+    "lat": 26.590000000000003
+  },
+  "darrang": {
+    "name": "Darrang",
+    "state": "Assam",
+    "lon": 92.0459259259259,
+    "lat": 26.590000000000003
+  },
+  "dhemaji|assam": {
+    "name": "Dhemaji",
+    "state": "Assam",
+    "lon": 94.72062499999997,
+    "lat": 27.588499999999993
+  },
+  "dhemaji": {
+    "name": "Dhemaji",
+    "state": "Assam",
+    "lon": 94.72062499999997,
+    "lat": 27.588499999999993
+  },
+  "dhuburi|assam": {
+    "name": "Dhuburi",
+    "state": "Assam",
+    "lon": 89.99304166666674,
+    "lat": 26.07083333333334
+  },
+  "dhuburi": {
+    "name": "Dhuburi",
+    "state": "Assam",
+    "lon": 89.99304166666674,
+    "lat": 26.07083333333334
+  },
+  "dibrugarh|assam": {
+    "name": "Dibrugarh",
+    "state": "Assam",
+    "lon": 95.10162393162395,
+    "lat": 27.309743589743597
+  },
+  "dibrugarh": {
+    "name": "Dibrugarh",
+    "state": "Assam",
+    "lon": 95.10162393162395,
+    "lat": 27.309743589743597
+  },
+  "goalpara|assam": {
+    "name": "Goalpara",
+    "state": "Assam",
+    "lon": 90.59903225806448,
+    "lat": 26.019569892473125
+  },
+  "goalpara": {
+    "name": "Goalpara",
+    "state": "Assam",
+    "lon": 90.59903225806448,
+    "lat": 26.019569892473125
+  },
+  "golaghat|assam": {
+    "name": "Golaghat",
+    "state": "Assam",
+    "lon": 93.82677884615386,
+    "lat": 26.380480769230765
+  },
+  "golaghat": {
+    "name": "Golaghat",
+    "state": "Assam",
+    "lon": 93.82677884615386,
+    "lat": 26.380480769230765
+  },
+  "hailakandi|assam": {
+    "name": "Hailakandi",
+    "state": "Assam",
+    "lon": 92.59417582417588,
+    "lat": 24.45769230769231
+  },
+  "hailakandi": {
+    "name": "Hailakandi",
+    "state": "Assam",
+    "lon": 92.59417582417588,
+    "lat": 24.45769230769231
+  },
+  "jorhat|assam": {
+    "name": "Jorhat",
+    "state": "Assam",
+    "lon": 94.30475409836065,
+    "lat": 26.766557377049164
+  },
+  "jorhat": {
+    "name": "Jorhat",
+    "state": "Assam",
+    "lon": 94.30475409836065,
+    "lat": 26.766557377049164
+  },
+  "kamrup|assam": {
+    "name": "Kamrup",
+    "state": "Assam",
+    "lon": 91.59141304347828,
+    "lat": 26.172010869565234
+  },
+  "kamrup": {
+    "name": "Kamrup",
+    "state": "Assam",
+    "lon": 91.59141304347828,
+    "lat": 26.172010869565234
+  },
+  "karbi anglong|assam": {
+    "name": "Karbi Anglong",
+    "state": "Assam",
+    "lon": 93.39688811188805,
+    "lat": 26.206468531468527
+  },
+  "karbi anglong": {
+    "name": "Karbi Anglong",
+    "state": "Assam",
+    "lon": 93.39688811188805,
+    "lat": 26.206468531468527
+  },
+  "karimganj|assam": {
+    "name": "Karimganj",
+    "state": "Assam",
+    "lon": 92.37022471910112,
+    "lat": 24.69820224719101
+  },
+  "karimganj": {
+    "name": "Karimganj",
+    "state": "Assam",
+    "lon": 92.37022471910112,
+    "lat": 24.69820224719101
+  },
+  "kokrajhar|assam": {
+    "name": "Kokrajhar",
+    "state": "Assam",
+    "lon": 90.14394495412843,
+    "lat": 26.501100917431174
+  },
+  "kokrajhar": {
+    "name": "Kokrajhar",
+    "state": "Assam",
+    "lon": 90.14394495412843,
+    "lat": 26.501100917431174
+  },
+  "lakhimpur|assam": {
+    "name": "Lakhimpur",
+    "state": "Assam",
+    "lon": 94.07952941176472,
+    "lat": 27.14623529411764
+  },
+  "lakhimpur": {
+    "name": "Lakhimpur",
+    "state": "Assam",
+    "lon": 94.07952941176472,
+    "lat": 27.14623529411764
+  },
+  "marigaon|assam": {
+    "name": "Marigaon",
+    "state": "Assam",
+    "lon": 92.22399999999999,
+    "lat": 26.253818181818183
+  },
+  "marigaon": {
+    "name": "Marigaon",
+    "state": "Assam",
+    "lon": 92.22399999999999,
+    "lat": 26.253818181818183
+  },
+  "nagaon|assam": {
+    "name": "Nagaon",
+    "state": "Assam",
+    "lon": 92.93334763948498,
+    "lat": 26.266652360515053
+  },
+  "nagaon": {
+    "name": "Nagaon",
+    "state": "Assam",
+    "lon": 92.93334763948498,
+    "lat": 26.266652360515053
+  },
+  "nalbari|assam": {
+    "name": "Nalbari",
+    "state": "Assam",
+    "lon": 91.41013888888887,
+    "lat": 26.46763888888887
+  },
+  "nalbari": {
+    "name": "Nalbari",
+    "state": "Assam",
+    "lon": 91.41013888888887,
+    "lat": 26.46763888888887
+  },
+  "north cachar hills|assam": {
+    "name": "North Cachar Hills",
+    "state": "Assam",
+    "lon": 92.97812865497079,
+    "lat": 25.339532163742682
+  },
+  "north cachar hills": {
+    "name": "North Cachar Hills",
+    "state": "Assam",
+    "lon": 92.97812865497079,
+    "lat": 25.339532163742682
+  },
+  "sibsagar|assam": {
+    "name": "Sibsagar",
+    "state": "Assam",
+    "lon": 94.90387931034486,
+    "lat": 27.0283620689655
+  },
+  "sibsagar": {
+    "name": "Sibsagar",
+    "state": "Assam",
+    "lon": 94.90387931034486,
+    "lat": 27.0283620689655
+  },
+  "sonitpur|assam": {
+    "name": "Sonitpur",
+    "state": "Assam",
+    "lon": 92.86451923076926,
+    "lat": 26.738942307692305
+  },
+  "sonitpur": {
+    "name": "Sonitpur",
+    "state": "Assam",
+    "lon": 92.86451923076926,
+    "lat": 26.738942307692305
+  },
+  "tinsukia|assam": {
+    "name": "Tinsukia",
+    "state": "Assam",
+    "lon": 95.6942,
+    "lat": 27.540799999999994
+  },
+  "tinsukia": {
+    "name": "Tinsukia",
+    "state": "Assam",
+    "lon": 95.6942,
+    "lat": 27.540799999999994
+  },
+  "araria|bihar": {
+    "name": "Araria",
+    "state": "Bihar",
+    "lon": 87.30637037037032,
+    "lat": 26.21296296296295
+  },
+  "araria": {
+    "name": "Araria",
+    "state": "Bihar",
+    "lon": 87.30637037037032,
+    "lat": 26.21296296296295
+  },
+  "aurangabad|bihar": {
+    "name": "Aurangabad",
+    "state": "Bihar",
+    "lon": 84.4634523809524,
+    "lat": 24.77785714285712
+  },
+  "aurangabad": {
+    "name": "Aurangabad",
+    "state": "Maharashtra",
+    "lon": 75.32363636363635,
+    "lat": 20.101681818181817
+  },
+  "banka|bihar": {
+    "name": "Banka",
+    "state": "Bihar",
+    "lon": 86.86984615384613,
+    "lat": 24.83469230769229
+  },
+  "banka": {
+    "name": "Banka",
+    "state": "Bihar",
+    "lon": 86.86984615384613,
+    "lat": 24.83469230769229
+  },
+  "begusarai|bihar": {
+    "name": "Begusarai",
+    "state": "Bihar",
+    "lon": 86.12756097560975,
+    "lat": 25.544146341463403
+  },
+  "begusarai": {
+    "name": "Begusarai",
+    "state": "Bihar",
+    "lon": 86.12756097560975,
+    "lat": 25.544146341463403
+  },
+  "bhabua|bihar": {
+    "name": "Bhabua",
+    "state": "Bihar",
+    "lon": 83.61242857142857,
+    "lat": 25.02528571428572
+  },
+  "bhabua": {
+    "name": "Bhabua",
+    "state": "Bihar",
+    "lon": 83.61242857142857,
+    "lat": 25.02528571428572
+  },
+  "bhagalpur|bihar": {
+    "name": "Bhagalpur",
+    "state": "Bihar",
+    "lon": 87.04210937500002,
+    "lat": 25.279453124999964
+  },
+  "bhagalpur": {
+    "name": "Bhagalpur",
+    "state": "Bihar",
+    "lon": 87.04210937500002,
+    "lat": 25.279453124999964
+  },
+  "bhojpur|bihar": {
+    "name": "Bhojpur",
+    "state": "Bihar",
+    "lon": 84.49895522388061,
+    "lat": 25.50970149253733
+  },
+  "bhojpur": {
+    "name": "Bhojpur",
+    "state": "Bihar",
+    "lon": 84.49895522388061,
+    "lat": 25.50970149253733
+  },
+  "buxar|bihar": {
+    "name": "Buxar",
+    "state": "Bihar",
+    "lon": 84.08456790123459,
+    "lat": 25.487777777777765
+  },
+  "buxar": {
+    "name": "Buxar",
+    "state": "Bihar",
+    "lon": 84.08456790123459,
+    "lat": 25.487777777777765
+  },
+  "darbhanga|bihar": {
+    "name": "Darbhanga",
+    "state": "Bihar",
+    "lon": 85.97183544303795,
+    "lat": 26.14879746835443
+  },
+  "darbhanga": {
+    "name": "Darbhanga",
+    "state": "Bihar",
+    "lon": 85.97183544303795,
+    "lat": 26.14879746835443
+  },
+  "gaya|bihar": {
+    "name": "Gaya",
+    "state": "Bihar",
+    "lon": 84.9453409090909,
+    "lat": 24.728977272727285
+  },
+  "gaya": {
+    "name": "Gaya",
+    "state": "Bihar",
+    "lon": 84.9453409090909,
+    "lat": 24.728977272727285
+  },
+  "gopalganj|bihar": {
+    "name": "Gopalganj",
+    "state": "Bihar",
+    "lon": 84.34727272727274,
+    "lat": 26.45181818181818
+  },
+  "gopalganj": {
+    "name": "Gopalganj",
+    "state": "Bihar",
+    "lon": 84.34727272727274,
+    "lat": 26.45181818181818
+  },
+  "jamui|bihar": {
+    "name": "Jamui",
+    "state": "Bihar",
+    "lon": 86.260306122449,
+    "lat": 24.786530612244885
+  },
+  "jamui": {
+    "name": "Jamui",
+    "state": "Bihar",
+    "lon": 86.260306122449,
+    "lat": 24.786530612244885
+  },
+  "jehanabad|bihar": {
+    "name": "Jehanabad",
+    "state": "Bihar",
+    "lon": 84.9205737704918,
+    "lat": 25.156721311475405
+  },
+  "jehanabad": {
+    "name": "Jehanabad",
+    "state": "Bihar",
+    "lon": 84.9205737704918,
+    "lat": 25.156721311475405
+  },
+  "katihar|bihar": {
+    "name": "Katihar",
+    "state": "Bihar",
+    "lon": 87.70791411042943,
+    "lat": 25.566993865030664
+  },
+  "katihar": {
+    "name": "Katihar",
+    "state": "Bihar",
+    "lon": 87.70791411042943,
+    "lat": 25.566993865030664
+  },
+  "khagaria|bihar": {
+    "name": "Khagaria",
+    "state": "Bihar",
+    "lon": 86.56486238532116,
+    "lat": 25.536880733944944
+  },
+  "khagaria": {
+    "name": "Khagaria",
+    "state": "Bihar",
+    "lon": 86.56486238532116,
+    "lat": 25.536880733944944
+  },
+  "kishanganj|bihar": {
+    "name": "Kishanganj",
+    "state": "Bihar",
+    "lon": 87.95087209302335,
+    "lat": 26.32372093023255
+  },
+  "kishanganj": {
+    "name": "Kishanganj",
+    "state": "Bihar",
+    "lon": 87.95087209302335,
+    "lat": 26.32372093023255
+  },
+  "lakhisarai|bihar": {
+    "name": "Lakhisarai",
+    "state": "Bihar",
+    "lon": 86.12696428571431,
+    "lat": 25.185357142857136
+  },
+  "lakhisarai": {
+    "name": "Lakhisarai",
+    "state": "Bihar",
+    "lon": 86.12696428571431,
+    "lat": 25.185357142857136
+  },
+  "madhepura|bihar": {
+    "name": "Madhepura",
+    "state": "Bihar",
+    "lon": 86.8963114754099,
+    "lat": 25.777295081967218
+  },
+  "madhepura": {
+    "name": "Madhepura",
+    "state": "Bihar",
+    "lon": 86.8963114754099,
+    "lat": 25.777295081967218
+  },
+  "madhubani|bihar": {
+    "name": "Madhubani",
+    "state": "Bihar",
+    "lon": 86.1626865671642,
+    "lat": 26.415373134328338
+  },
+  "madhubani": {
+    "name": "Madhubani",
+    "state": "Bihar",
+    "lon": 86.1626865671642,
+    "lat": 26.415373134328338
+  },
+  "munger|bihar": {
+    "name": "Munger",
+    "state": "Bihar",
+    "lon": 86.54146341463415,
+    "lat": 25.201219512195127
+  },
+  "munger": {
+    "name": "Munger",
+    "state": "Bihar",
+    "lon": 86.54146341463415,
+    "lat": 25.201219512195127
+  },
+  "muzaffarpur|bihar": {
+    "name": "Muzaffarpur",
+    "state": "Bihar",
+    "lon": 85.32884146341462,
+    "lat": 26.18817073170734
+  },
+  "muzaffarpur": {
+    "name": "Muzaffarpur",
+    "state": "Bihar",
+    "lon": 85.32884146341462,
+    "lat": 26.18817073170734
+  },
+  "nalanda|bihar": {
+    "name": "Nalanda",
+    "state": "Bihar",
+    "lon": 85.48023809523811,
+    "lat": 25.23103174603175
+  },
+  "nalanda": {
+    "name": "Nalanda",
+    "state": "Bihar",
+    "lon": 85.48023809523811,
+    "lat": 25.23103174603175
+  },
+  "nawada|bihar": {
+    "name": "Nawada",
+    "state": "Bihar",
+    "lon": 85.61538461538458,
+    "lat": 24.828205128205113
+  },
+  "nawada": {
+    "name": "Nawada",
+    "state": "Bihar",
+    "lon": 85.61538461538458,
+    "lat": 24.828205128205113
+  },
+  "pashchim champaran|bihar": {
+    "name": "Pashchim Champaran",
+    "state": "Bihar",
+    "lon": 84.30189999999999,
+    "lat": 27.162649999999967
+  },
+  "pashchim champaran": {
+    "name": "Pashchim Champaran",
+    "state": "Bihar",
+    "lon": 84.30189999999999,
+    "lat": 27.162649999999967
+  },
+  "patna|bihar": {
+    "name": "Patna",
+    "state": "Bihar",
+    "lon": 85.31739393939394,
+    "lat": 25.405151515151502
+  },
+  "patna": {
+    "name": "Patna",
+    "state": "Bihar",
+    "lon": 85.31739393939394,
+    "lat": 25.405151515151502
+  },
+  "purba champaran|bihar": {
+    "name": "Purba Champaran",
+    "state": "Bihar",
+    "lon": 85.00304568527922,
+    "lat": 26.682944162436566
+  },
+  "purba champaran": {
+    "name": "Purba Champaran",
+    "state": "Bihar",
+    "lon": 85.00304568527922,
+    "lat": 26.682944162436566
+  },
+  "purnia|bihar": {
+    "name": "Purnia",
+    "state": "Bihar",
+    "lon": 87.40672955974848,
+    "lat": 25.81943396226415
+  },
+  "purnia": {
+    "name": "Purnia",
+    "state": "Bihar",
+    "lon": 87.40672955974848,
+    "lat": 25.81943396226415
+  },
+  "rohtas|bihar": {
+    "name": "Rohtas",
+    "state": "Bihar",
+    "lon": 83.93909090909094,
+    "lat": 24.99663636363637
+  },
+  "rohtas": {
+    "name": "Rohtas",
+    "state": "Bihar",
+    "lon": 83.93909090909094,
+    "lat": 24.99663636363637
+  },
+  "saharsa|bihar": {
+    "name": "Saharsa",
+    "state": "Bihar",
+    "lon": 86.54577235772355,
+    "lat": 25.82325203252034
+  },
+  "saharsa": {
+    "name": "Saharsa",
+    "state": "Bihar",
+    "lon": 86.54577235772355,
+    "lat": 25.82325203252034
+  },
+  "samastipur|bihar": {
+    "name": "Samastipur",
+    "state": "Bihar",
+    "lon": 85.94742514970063,
+    "lat": 25.794730538922156
+  },
+  "samastipur": {
+    "name": "Samastipur",
+    "state": "Bihar",
+    "lon": 85.94742514970063,
+    "lat": 25.794730538922156
+  },
+  "saran|bihar": {
+    "name": "Saran",
+    "state": "Bihar",
+    "lon": 84.82329411764704,
+    "lat": 25.90247058823529
+  },
+  "saran": {
+    "name": "Saran",
+    "state": "Bihar",
+    "lon": 84.82329411764704,
+    "lat": 25.90247058823529
+  },
+  "sheikhpura|bihar": {
+    "name": "Sheikhpura",
+    "state": "Bihar",
+    "lon": 85.78099999999996,
+    "lat": 25.126200000000008
+  },
+  "sheikhpura": {
+    "name": "Sheikhpura",
+    "state": "Bihar",
+    "lon": 85.78099999999996,
+    "lat": 25.126200000000008
+  },
+  "sheohar|bihar": {
+    "name": "Sheohar",
+    "state": "Bihar",
+    "lon": 85.29520833333335,
+    "lat": 26.456458333333316
+  },
+  "sheohar": {
+    "name": "Sheohar",
+    "state": "Bihar",
+    "lon": 85.29520833333335,
+    "lat": 26.456458333333316
+  },
+  "sitamarhi|bihar": {
+    "name": "Sitamarhi",
+    "state": "Bihar",
+    "lon": 85.57354609929077,
+    "lat": 26.537588652482274
+  },
+  "sitamarhi": {
+    "name": "Sitamarhi",
+    "state": "Bihar",
+    "lon": 85.57354609929077,
+    "lat": 26.537588652482274
+  },
+  "siwan|bihar": {
+    "name": "Siwan",
+    "state": "Bihar",
+    "lon": 84.34121621621621,
+    "lat": 26.173648648648633
+  },
+  "siwan": {
+    "name": "Siwan",
+    "state": "Bihar",
+    "lon": 84.34121621621621,
+    "lat": 26.173648648648633
+  },
+  "supaul|bihar": {
+    "name": "Supaul",
+    "state": "Bihar",
+    "lon": 86.78782608695651,
+    "lat": 26.284275362318827
+  },
+  "supaul": {
+    "name": "Supaul",
+    "state": "Bihar",
+    "lon": 86.78782608695651,
+    "lat": 26.284275362318827
+  },
+  "vaishali|bihar": {
+    "name": "Vaishali",
+    "state": "Bihar",
+    "lon": 85.38611111111112,
+    "lat": 25.81652777777777
+  },
+  "vaishali": {
+    "name": "Vaishali",
+    "state": "Bihar",
+    "lon": 85.38611111111112,
+    "lat": 25.81652777777777
+  },
+  "chandigarh|chandigarh": {
+    "name": "Chandigarh",
+    "state": "Chandigarh",
+    "lon": 76.76315789473684,
+    "lat": 30.742105263157907
+  },
+  "chandigarh": {
+    "name": "Chandigarh",
+    "state": "Chandigarh",
+    "lon": 76.76315789473684,
+    "lat": 30.742105263157907
+  },
+  "bastar|chhattisgarh": {
+    "name": "Bastar",
+    "state": "Chhattisgarh",
+    "lon": 81.52939393939391,
+    "lat": 19.397373737373734
+  },
+  "bastar": {
+    "name": "Bastar",
+    "state": "Chhattisgarh",
+    "lon": 81.52939393939391,
+    "lat": 19.397373737373734
+  },
+  "bilaspur|chhattisgarh": {
+    "name": "Bilaspur",
+    "state": "Chhattisgarh",
+    "lon": 81.9744047619048,
+    "lat": 22.363928571428566
+  },
+  "bilaspur": {
+    "name": "Bilaspur",
+    "state": "Himachal Pradesh",
+    "lon": 76.65431034482756,
+    "lat": 31.38275862068966
+  },
+  "dantewada|chhattisgarh": {
+    "name": "Dantewada",
+    "state": "Chhattisgarh",
+    "lon": 81.06995215311001,
+    "lat": 18.65703349282296
+  },
+  "dantewada": {
+    "name": "Dantewada",
+    "state": "Chhattisgarh",
+    "lon": 81.06995215311001,
+    "lat": 18.65703349282296
+  },
+  "dhamtari|chhattisgarh": {
+    "name": "Dhamtari",
+    "state": "Chhattisgarh",
+    "lon": 81.75556451612904,
+    "lat": 20.55911290322579
+  },
+  "dhamtari": {
+    "name": "Dhamtari",
+    "state": "Chhattisgarh",
+    "lon": 81.75556451612904,
+    "lat": 20.55911290322579
+  },
+  "durg|chhattisgarh": {
+    "name": "Durg",
+    "state": "Chhattisgarh",
+    "lon": 81.33364372469634,
+    "lat": 21.199635627530363
+  },
+  "durg": {
+    "name": "Durg",
+    "state": "Chhattisgarh",
+    "lon": 81.33364372469634,
+    "lat": 21.199635627530363
+  },
+  "janjgir-champa|chhattisgarh": {
+    "name": "Janjgir-Champa",
+    "state": "Chhattisgarh",
+    "lon": 82.80361904761905,
+    "lat": 21.96371428571429
+  },
+  "janjgir-champa": {
+    "name": "Janjgir-Champa",
+    "state": "Chhattisgarh",
+    "lon": 82.80361904761905,
+    "lat": 21.96371428571429
+  },
+  "jashpur|chhattisgarh": {
+    "name": "Jashpur",
+    "state": "Chhattisgarh",
+    "lon": 83.87023809523811,
+    "lat": 22.775952380952365
+  },
+  "jashpur": {
+    "name": "Jashpur",
+    "state": "Chhattisgarh",
+    "lon": 83.87023809523811,
+    "lat": 22.775952380952365
+  },
+  "kanker|chhattisgarh": {
+    "name": "Kanker",
+    "state": "Chhattisgarh",
+    "lon": 81.07130718954245,
+    "lat": 20.14294117647058
+  },
+  "kanker": {
+    "name": "Kanker",
+    "state": "Chhattisgarh",
+    "lon": 81.07130718954245,
+    "lat": 20.14294117647058
+  },
+  "kawardha|chhattisgarh": {
+    "name": "Kawardha",
+    "state": "Chhattisgarh",
+    "lon": 81.1640157480315,
+    "lat": 22.05055118110236
+  },
+  "kawardha": {
+    "name": "Kawardha",
+    "state": "Chhattisgarh",
+    "lon": 81.1640157480315,
+    "lat": 22.05055118110236
+  },
+  "korba|chhattisgarh": {
+    "name": "Korba",
+    "state": "Chhattisgarh",
+    "lon": 82.57526717557252,
+    "lat": 22.49541984732824
+  },
+  "korba": {
+    "name": "Korba",
+    "state": "Chhattisgarh",
+    "lon": 82.57526717557252,
+    "lat": 22.49541984732824
+  },
+  "koriya|chhattisgarh": {
+    "name": "Koriya",
+    "state": "Chhattisgarh",
+    "lon": 82.12256578947367,
+    "lat": 23.506250000000012
+  },
+  "koriya": {
+    "name": "Koriya",
+    "state": "Chhattisgarh",
+    "lon": 82.12256578947367,
+    "lat": 23.506250000000012
+  },
+  "mahasamund|chhattisgarh": {
+    "name": "Mahasamund",
+    "state": "Chhattisgarh",
+    "lon": 82.66165354330711,
+    "lat": 21.226771653543313
+  },
+  "mahasamund": {
+    "name": "Mahasamund",
+    "state": "Chhattisgarh",
+    "lon": 82.66165354330711,
+    "lat": 21.226771653543313
+  },
+  "raigarh|chhattisgarh": {
+    "name": "Raigarh",
+    "state": "Chhattisgarh",
+    "lon": 83.27760869565218,
+    "lat": 22.013967391304337
+  },
+  "raigarh": {
+    "name": "Raigarh",
+    "state": "Maharashtra",
+    "lon": 73.01346083788768,
+    "lat": 18.433583788706777
+  },
+  "raipur|chhattisgarh": {
+    "name": "Raipur",
+    "state": "Chhattisgarh",
+    "lon": 82.19992337164754,
+    "lat": 20.88984674329503
+  },
+  "raipur": {
+    "name": "Raipur",
+    "state": "Chhattisgarh",
+    "lon": 82.19992337164754,
+    "lat": 20.88984674329503
+  },
+  "raj nandgaon|chhattisgarh": {
+    "name": "Raj Nandgaon",
+    "state": "Chhattisgarh",
+    "lon": 80.78551971326169,
+    "lat": 21.060609318996413
+  },
+  "raj nandgaon": {
+    "name": "Raj Nandgaon",
+    "state": "Chhattisgarh",
+    "lon": 80.78551971326169,
+    "lat": 21.060609318996413
+  },
+  "surguja|chhattisgarh": {
+    "name": "Surguja",
+    "state": "Chhattisgarh",
+    "lon": 83.23655339805823,
+    "lat": 23.332427184466034
+  },
+  "surguja": {
+    "name": "Surguja",
+    "state": "Chhattisgarh",
+    "lon": 83.23655339805823,
+    "lat": 23.332427184466034
+  },
+  "dadra and nagar haveli|dadra and nagar haveli": {
+    "name": "Dadra and Nagar Haveli",
+    "state": "Dadra and Nagar Haveli",
+    "lon": 73.09212121212121,
+    "lat": 20.216969696969702
+  },
+  "dadra and nagar haveli": {
+    "name": "Dadra and Nagar Haveli",
+    "state": "Dadra and Nagar Haveli",
+    "lon": 73.09212121212121,
+    "lat": 20.216969696969702
+  },
+  "daman|daman and diu": {
+    "name": "Daman",
+    "state": "Daman and Diu",
+    "lon": 72.83905882352944,
+    "lat": 20.430823529411793
+  },
+  "daman": {
+    "name": "Daman",
+    "state": "Daman and Diu",
+    "lon": 72.83905882352944,
+    "lat": 20.430823529411793
+  },
+  "junagadh|daman and diu": {
+    "name": "Junagadh",
+    "state": "Daman and Diu",
+    "lon": 70.7854681647939,
+    "lat": 20.73329588014975
+  },
+  "junagadh": {
+    "name": "Junagadh",
+    "state": "Gujarat",
+    "lon": 70.53813257305772,
+    "lat": 20.93545972915184
+  },
+  "delhi|delhi": {
+    "name": "Delhi",
+    "state": "Delhi",
+    "lon": 77.13017241379309,
+    "lat": 28.649655172413787
+  },
+  "delhi": {
+    "name": "Delhi",
+    "state": "Delhi",
+    "lon": 77.13017241379309,
+    "lat": 28.649655172413787
+  },
+  "north goa|goa": {
+    "name": "North Goa",
+    "state": "Goa",
+    "lon": 73.80697286012541,
+    "lat": 15.54901878914404
+  },
+  "north goa": {
+    "name": "North Goa",
+    "state": "Goa",
+    "lon": 73.80697286012541,
+    "lat": 15.54901878914404
+  },
+  "south goa|goa": {
+    "name": "South Goa",
+    "state": "Goa",
+    "lon": 73.95354114713206,
+    "lat": 15.18205735660849
+  },
+  "south goa": {
+    "name": "South Goa",
+    "state": "Goa",
+    "lon": 73.95354114713206,
+    "lat": 15.18205735660849
+  },
+  "ahmadabad|gujarat": {
+    "name": "Ahmadabad",
+    "state": "Gujarat",
+    "lon": 72.23833802816887,
+    "lat": 22.608197183098618
+  },
+  "ahmadabad": {
+    "name": "Ahmadabad",
+    "state": "Gujarat",
+    "lon": 72.23833802816887,
+    "lat": 22.608197183098618
+  },
+  "amreli|gujarat": {
+    "name": "Amreli",
+    "state": "Gujarat",
+    "lon": 71.4129505300354,
+    "lat": 21.066590106007038
+  },
+  "amreli": {
+    "name": "Amreli",
+    "state": "Gujarat",
+    "lon": 71.4129505300354,
+    "lat": 21.066590106007038
+  },
+  "anand|gujarat": {
+    "name": "Anand",
+    "state": "Gujarat",
+    "lon": 72.60095990279495,
+    "lat": 22.290704738760628
+  },
+  "anand": {
+    "name": "Anand",
+    "state": "Gujarat",
+    "lon": 72.60095990279495,
+    "lat": 22.290704738760628
+  },
+  "banas kantha|gujarat": {
+    "name": "Banas Kantha",
+    "state": "Gujarat",
+    "lon": 71.9326940639269,
+    "lat": 24.261004566210044
+  },
+  "banas kantha": {
+    "name": "Banas Kantha",
+    "state": "Gujarat",
+    "lon": 71.9326940639269,
+    "lat": 24.261004566210044
+  },
+  "bharuch|gujarat": {
+    "name": "Bharuch",
+    "state": "Gujarat",
+    "lon": 72.67631578947372,
+    "lat": 21.77694862155381
+  },
+  "bharuch": {
+    "name": "Bharuch",
+    "state": "Gujarat",
+    "lon": 72.67631578947372,
+    "lat": 21.77694862155381
+  },
+  "bhavnagar|gujarat": {
+    "name": "Bhavnagar",
+    "state": "Gujarat",
+    "lon": 72.08012288786487,
+    "lat": 21.50666666666654
+  },
+  "bhavnagar": {
+    "name": "Bhavnagar",
+    "state": "Gujarat",
+    "lon": 72.08012288786487,
+    "lat": 21.50666666666654
+  },
+  "dahod|gujarat": {
+    "name": "Dahod",
+    "state": "Gujarat",
+    "lon": 73.98992857142858,
+    "lat": 22.90357142857142
+  },
+  "dahod": {
+    "name": "Dahod",
+    "state": "Gujarat",
+    "lon": 73.98992857142858,
+    "lat": 22.90357142857142
+  },
+  "gandhinagar|gujarat": {
+    "name": "Gandhinagar",
+    "state": "Gujarat",
+    "lon": 72.67114583333334,
+    "lat": 23.19489583333332
+  },
+  "gandhinagar": {
+    "name": "Gandhinagar",
+    "state": "Gujarat",
+    "lon": 72.67114583333334,
+    "lat": 23.19489583333332
+  },
+  "jamnagar|gujarat": {
+    "name": "Jamnagar",
+    "state": "Gujarat",
+    "lon": 69.61311320754706,
+    "lat": 22.381675915649378
+  },
+  "jamnagar": {
+    "name": "Jamnagar",
+    "state": "Gujarat",
+    "lon": 69.61311320754706,
+    "lat": 22.381675915649378
+  },
+  "junagadh|gujarat": {
+    "name": "Junagadh",
+    "state": "Gujarat",
+    "lon": 70.53813257305772,
+    "lat": 20.93545972915184
+  },
+  "kachchh|gujarat": {
+    "name": "Kachchh",
+    "state": "Gujarat",
+    "lon": 69.23075310400999,
+    "lat": 23.280097699979784
+  },
+  "kachchh": {
+    "name": "Kachchh",
+    "state": "Gujarat",
+    "lon": 69.23075310400999,
+    "lat": 23.280097699979784
+  },
+  "kheda|gujarat": {
+    "name": "Kheda",
+    "state": "Gujarat",
+    "lon": 73.02240310077522,
+    "lat": 22.89031007751937
+  },
+  "kheda": {
+    "name": "Kheda",
+    "state": "Gujarat",
+    "lon": 73.02240310077522,
+    "lat": 22.89031007751937
+  },
+  "mahesana|gujarat": {
+    "name": "Mahesana",
+    "state": "Gujarat",
+    "lon": 72.45720588235292,
+    "lat": 23.53198529411765
+  },
+  "mahesana": {
+    "name": "Mahesana",
+    "state": "Gujarat",
+    "lon": 72.45720588235292,
+    "lat": 23.53198529411765
+  },
+  "narmada|gujarat": {
+    "name": "Narmada",
+    "state": "Gujarat",
+    "lon": 73.68469135802466,
+    "lat": 21.708395061728407
+  },
+  "narmada": {
+    "name": "Narmada",
+    "state": "Gujarat",
+    "lon": 73.68469135802466,
+    "lat": 21.708395061728407
+  },
+  "navsari|gujarat": {
+    "name": "Navsari",
+    "state": "Gujarat",
+    "lon": 72.86283105022838,
+    "lat": 20.8732420091324
+  },
+  "navsari": {
+    "name": "Navsari",
+    "state": "Gujarat",
+    "lon": 72.86283105022838,
+    "lat": 20.8732420091324
+  },
+  "panch mahals|gujarat": {
+    "name": "Panch Mahals",
+    "state": "Gujarat",
+    "lon": 73.62074829931969,
+    "lat": 22.808027210884354
+  },
+  "panch mahals": {
+    "name": "Panch Mahals",
+    "state": "Gujarat",
+    "lon": 73.62074829931969,
+    "lat": 22.808027210884354
+  },
+  "patan|gujarat": {
+    "name": "Patan",
+    "state": "Gujarat",
+    "lon": 71.75418181818182,
+    "lat": 23.808363636363623
+  },
+  "patan": {
+    "name": "Patan",
+    "state": "Gujarat",
+    "lon": 71.75418181818182,
+    "lat": 23.808363636363623
+  },
+  "porbandar|gujarat": {
+    "name": "Porbandar",
+    "state": "Gujarat",
+    "lon": 69.71852300242115,
+    "lat": 21.549794188861956
+  },
+  "porbandar": {
+    "name": "Porbandar",
+    "state": "Gujarat",
+    "lon": 69.71852300242115,
+    "lat": 21.549794188861956
+  },
+  "rajkot|gujarat": {
+    "name": "Rajkot",
+    "state": "Gujarat",
+    "lon": 70.83793296089388,
+    "lat": 22.40871508379887
+  },
+  "rajkot": {
+    "name": "Rajkot",
+    "state": "Gujarat",
+    "lon": 70.83793296089388,
+    "lat": 22.40871508379887
+  },
+  "sabar kantha|gujarat": {
+    "name": "Sabar Kantha",
+    "state": "Gujarat",
+    "lon": 73.13601351351352,
+    "lat": 23.724121621621638
+  },
+  "sabar kantha": {
+    "name": "Sabar Kantha",
+    "state": "Gujarat",
+    "lon": 73.13601351351352,
+    "lat": 23.724121621621638
+  },
+  "surat|gujarat": {
+    "name": "Surat",
+    "state": "Gujarat",
+    "lon": 73.026626746507,
+    "lat": 21.268592814371306
+  },
+  "surat": {
+    "name": "Surat",
+    "state": "Gujarat",
+    "lon": 73.026626746507,
+    "lat": 21.268592814371306
+  },
+  "surendranagar|gujarat": {
+    "name": "Surendranagar",
+    "state": "Gujarat",
+    "lon": 71.48589090909083,
+    "lat": 22.82923636363639
+  },
+  "surendranagar": {
+    "name": "Surendranagar",
+    "state": "Gujarat",
+    "lon": 71.48589090909083,
+    "lat": 22.82923636363639
+  },
+  "the dangs|gujarat": {
+    "name": "The Dangs",
+    "state": "Gujarat",
+    "lon": 73.69129032258064,
+    "lat": 20.80258064516129
+  },
+  "the dangs": {
+    "name": "The Dangs",
+    "state": "Gujarat",
+    "lon": 73.69129032258064,
+    "lat": 20.80258064516129
+  },
+  "vadodara|gujarat": {
+    "name": "Vadodara",
+    "state": "Gujarat",
+    "lon": 73.49368600682587,
+    "lat": 22.26433447098975
+  },
+  "vadodara": {
+    "name": "Vadodara",
+    "state": "Gujarat",
+    "lon": 73.49368600682587,
+    "lat": 22.26433447098975
+  },
+  "valsad|gujarat": {
+    "name": "Valsad",
+    "state": "Gujarat",
+    "lon": 72.91480412371132,
+    "lat": 20.443298969072142
+  },
+  "valsad": {
+    "name": "Valsad",
+    "state": "Gujarat",
+    "lon": 72.91480412371132,
+    "lat": 20.443298969072142
+  },
+  "ambala|haryana": {
+    "name": "Ambala",
+    "state": "Haryana",
+    "lon": 76.95166666666667,
+    "lat": 30.354666666666663
+  },
+  "ambala": {
+    "name": "Ambala",
+    "state": "Haryana",
+    "lon": 76.95166666666667,
+    "lat": 30.354666666666663
+  },
+  "bhiwani|haryana": {
+    "name": "Bhiwani",
+    "state": "Haryana",
+    "lon": 76.02101265822787,
+    "lat": 28.735063291139255
+  },
+  "bhiwani": {
+    "name": "Bhiwani",
+    "state": "Haryana",
+    "lon": 76.02101265822787,
+    "lat": 28.735063291139255
+  },
+  "faridabad|haryana": {
+    "name": "Faridabad",
+    "state": "Haryana",
+    "lon": 77.32734939759037,
+    "lat": 28.153132530120477
+  },
+  "faridabad": {
+    "name": "Faridabad",
+    "state": "Haryana",
+    "lon": 77.32734939759037,
+    "lat": 28.153132530120477
+  },
+  "fatehabad|haryana": {
+    "name": "Fatehabad",
+    "state": "Haryana",
+    "lon": 75.55189655172417,
+    "lat": 29.580172413793097
+  },
+  "fatehabad": {
+    "name": "Fatehabad",
+    "state": "Haryana",
+    "lon": 75.55189655172417,
+    "lat": 29.580172413793097
+  },
+  "gurgaon|haryana": {
+    "name": "Gurgaon",
+    "state": "Haryana",
+    "lon": 77.01976190476188,
+    "lat": 28.049047619047606
+  },
+  "gurgaon": {
+    "name": "Gurgaon",
+    "state": "Haryana",
+    "lon": 77.01976190476188,
+    "lat": 28.049047619047606
+  },
+  "hisar|haryana": {
+    "name": "Hisar",
+    "state": "Haryana",
+    "lon": 75.84428571428573,
+    "lat": 29.242261904761904
+  },
+  "hisar": {
+    "name": "Hisar",
+    "state": "Haryana",
+    "lon": 75.84428571428573,
+    "lat": 29.242261904761904
+  },
+  "jhajjar|haryana": {
+    "name": "Jhajjar",
+    "state": "Haryana",
+    "lon": 76.61463768115945,
+    "lat": 28.600144927536217
+  },
+  "jhajjar": {
+    "name": "Jhajjar",
+    "state": "Haryana",
+    "lon": 76.61463768115945,
+    "lat": 28.600144927536217
+  },
+  "jind|haryana": {
+    "name": "Jind",
+    "state": "Haryana",
+    "lon": 76.29494117647056,
+    "lat": 29.45529411764706
+  },
+  "jind": {
+    "name": "Jind",
+    "state": "Haryana",
+    "lon": 76.29494117647056,
+    "lat": 29.45529411764706
+  },
+  "kaithal|haryana": {
+    "name": "Kaithal",
+    "state": "Haryana",
+    "lon": 76.3775609756097,
+    "lat": 29.9630081300813
+  },
+  "kaithal": {
+    "name": "Kaithal",
+    "state": "Haryana",
+    "lon": 76.3775609756097,
+    "lat": 29.9630081300813
+  },
+  "karnal|haryana": {
+    "name": "Karnal",
+    "state": "Haryana",
+    "lon": 76.87705128205127,
+    "lat": 29.705512820512812
+  },
+  "karnal": {
+    "name": "Karnal",
+    "state": "Haryana",
+    "lon": 76.87705128205127,
+    "lat": 29.705512820512812
+  },
+  "kurukshetra|haryana": {
+    "name": "Kurukshetra",
+    "state": "Haryana",
+    "lon": 76.78888888888889,
+    "lat": 30.05838383838385
+  },
+  "kurukshetra": {
+    "name": "Kurukshetra",
+    "state": "Haryana",
+    "lon": 76.78888888888889,
+    "lat": 30.05838383838385
+  },
+  "mahendragarh|haryana": {
+    "name": "Mahendragarh",
+    "state": "Haryana",
+    "lon": 76.14020618556698,
+    "lat": 28.13824742268038
+  },
+  "mahendragarh": {
+    "name": "Mahendragarh",
+    "state": "Haryana",
+    "lon": 76.14020618556698,
+    "lat": 28.13824742268038
+  },
+  "panchkula|haryana": {
+    "name": "Panchkula",
+    "state": "Haryana",
+    "lon": 76.96703703703704,
+    "lat": 30.707037037037043
+  },
+  "panchkula": {
+    "name": "Panchkula",
+    "state": "Haryana",
+    "lon": 76.96703703703704,
+    "lat": 30.707037037037043
+  },
+  "panipat|haryana": {
+    "name": "Panipat",
+    "state": "Haryana",
+    "lon": 76.92642857142857,
+    "lat": 29.346666666666682
+  },
+  "panipat": {
+    "name": "Panipat",
+    "state": "Haryana",
+    "lon": 76.92642857142857,
+    "lat": 29.346666666666682
+  },
+  "rewari|haryana": {
+    "name": "Rewari",
+    "state": "Haryana",
+    "lon": 76.56194029850747,
+    "lat": 28.195522388059697
+  },
+  "rewari": {
+    "name": "Rewari",
+    "state": "Haryana",
+    "lon": 76.56194029850747,
+    "lat": 28.195522388059697
+  },
+  "rohtak|haryana": {
+    "name": "Rohtak",
+    "state": "Haryana",
+    "lon": 76.53211538461538,
+    "lat": 28.895769230769222
+  },
+  "rohtak": {
+    "name": "Rohtak",
+    "state": "Haryana",
+    "lon": 76.53211538461538,
+    "lat": 28.895769230769222
+  },
+  "sirsa|haryana": {
+    "name": "Sirsa",
+    "state": "Haryana",
+    "lon": 74.90822222222224,
+    "lat": 29.641888888888868
+  },
+  "sirsa": {
+    "name": "Sirsa",
+    "state": "Haryana",
+    "lon": 74.90822222222224,
+    "lat": 29.641888888888868
+  },
+  "sonepat|haryana": {
+    "name": "Sonepat",
+    "state": "Haryana",
+    "lon": 76.85086206896553,
+    "lat": 29.063793103448276
+  },
+  "sonepat": {
+    "name": "Sonepat",
+    "state": "Haryana",
+    "lon": 76.85086206896553,
+    "lat": 29.063793103448276
+  },
+  "yamuna nagar|haryana": {
+    "name": "Yamuna Nagar",
+    "state": "Haryana",
+    "lon": 77.31721311475413,
+    "lat": 30.267213114754096
+  },
+  "yamuna nagar": {
+    "name": "Yamuna Nagar",
+    "state": "Haryana",
+    "lon": 77.31721311475413,
+    "lat": 30.267213114754096
+  },
+  "bilaspur|himachal pradesh": {
+    "name": "Bilaspur",
+    "state": "Himachal Pradesh",
+    "lon": 76.65431034482756,
+    "lat": 31.38275862068966
+  },
+  "chamba|himachal pradesh": {
+    "name": "Chamba",
+    "state": "Himachal Pradesh",
+    "lon": 76.39531250000005,
+    "lat": 32.67195312500001
+  },
+  "chamba": {
+    "name": "Chamba",
+    "state": "Himachal Pradesh",
+    "lon": 76.39531250000005,
+    "lat": 32.67195312500001
+  },
+  "hamirpur|himachal pradesh": {
+    "name": "Hamirpur",
+    "state": "Himachal Pradesh",
+    "lon": 76.50048780487806,
+    "lat": 31.68146341463413
+  },
+  "hamirpur": {
+    "name": "Hamirpur",
+    "state": "Uttar Pradesh",
+    "lon": 79.82741379310346,
+    "lat": 25.74005747126435
+  },
+  "kangra|himachal pradesh": {
+    "name": "Kangra",
+    "state": "Himachal Pradesh",
+    "lon": 76.41767999999998,
+    "lat": 32.14528
+  },
+  "kangra": {
+    "name": "Kangra",
+    "state": "Himachal Pradesh",
+    "lon": 76.41767999999998,
+    "lat": 32.14528
+  },
+  "kinnaur|himachal pradesh": {
+    "name": "Kinnaur",
+    "state": "Himachal Pradesh",
+    "lon": 78.51721311475407,
+    "lat": 31.60928961748633
+  },
+  "kinnaur": {
+    "name": "Kinnaur",
+    "state": "Himachal Pradesh",
+    "lon": 78.51721311475407,
+    "lat": 31.60928961748633
+  },
+  "kullu|himachal pradesh": {
+    "name": "Kullu",
+    "state": "Himachal Pradesh",
+    "lon": 77.4077319587629,
+    "lat": 31.91298969072165
+  },
+  "kullu": {
+    "name": "Kullu",
+    "state": "Himachal Pradesh",
+    "lon": 77.4077319587629,
+    "lat": 31.91298969072165
+  },
+  "lahul and spiti|himachal pradesh": {
+    "name": "Lahul and Spiti",
+    "state": "Himachal Pradesh",
+    "lon": 77.62160305343514,
+    "lat": 32.51984732824428
+  },
+  "lahul and spiti": {
+    "name": "Lahul and Spiti",
+    "state": "Himachal Pradesh",
+    "lon": 77.62160305343514,
+    "lat": 32.51984732824428
+  },
+  "mandi|himachal pradesh": {
+    "name": "Mandi",
+    "state": "Himachal Pradesh",
+    "lon": 76.96298701298701,
+    "lat": 31.643506493506496
+  },
+  "mandi": {
+    "name": "Mandi",
+    "state": "Himachal Pradesh",
+    "lon": 76.96298701298701,
+    "lat": 31.643506493506496
+  },
+  "shimla|himachal pradesh": {
+    "name": "Shimla",
+    "state": "Himachal Pradesh",
+    "lon": 77.6262275449102,
+    "lat": 31.158862275449117
+  },
+  "shimla": {
+    "name": "Shimla",
+    "state": "Himachal Pradesh",
+    "lon": 77.6262275449102,
+    "lat": 31.158862275449117
+  },
+  "sirmaur|himachal pradesh": {
+    "name": "Sirmaur",
+    "state": "Himachal Pradesh",
+    "lon": 77.4316101694915,
+    "lat": 30.68542372881356
+  },
+  "sirmaur": {
+    "name": "Sirmaur",
+    "state": "Himachal Pradesh",
+    "lon": 77.4316101694915,
+    "lat": 30.68542372881356
+  },
+  "solan|himachal pradesh": {
+    "name": "Solan",
+    "state": "Himachal Pradesh",
+    "lon": 76.94409638554214,
+    "lat": 31.04301204819275
+  },
+  "solan": {
+    "name": "Solan",
+    "state": "Himachal Pradesh",
+    "lon": 76.94409638554214,
+    "lat": 31.04301204819275
+  },
+  "una|himachal pradesh": {
+    "name": "Una",
+    "state": "Himachal Pradesh",
+    "lon": 76.17924528301884,
+    "lat": 31.591509433962244
+  },
+  "una": {
+    "name": "Una",
+    "state": "Himachal Pradesh",
+    "lon": 76.17924528301884,
+    "lat": 31.591509433962244
+  },
+  "anantnag (kashmir south)|jammu and kashmir": {
+    "name": "Anantnag (Kashmir South)",
+    "state": "Jammu and Kashmir",
+    "lon": 75.31676470588236,
+    "lat": 33.77352941176471
+  },
+  "anantnag (kashmir south)": {
+    "name": "Anantnag (Kashmir South)",
+    "state": "Jammu and Kashmir",
+    "lon": 75.31676470588236,
+    "lat": 33.77352941176471
+  },
+  "bagdam|jammu and kashmir": {
+    "name": "Bagdam",
+    "state": "Jammu and Kashmir",
+    "lon": 74.80928571428572,
+    "lat": 33.93642857142857
+  },
+  "bagdam": {
+    "name": "Bagdam",
+    "state": "Jammu and Kashmir",
+    "lon": 74.80928571428572,
+    "lat": 33.93642857142857
+  },
+  "baramula (kashmir north)|jammu and kashmir": {
+    "name": "Baramula (Kashmir North)",
+    "state": "Jammu and Kashmir",
+    "lon": 74.76136363636364,
+    "lat": 34.387272727272716
+  },
+  "baramula (kashmir north)": {
+    "name": "Baramula (Kashmir North)",
+    "state": "Jammu and Kashmir",
+    "lon": 74.76136363636364,
+    "lat": 34.387272727272716
+  },
+  "doda|jammu and kashmir": {
+    "name": "Doda",
+    "state": "Jammu and Kashmir",
+    "lon": 76.0681081081081,
+    "lat": 33.368243243243256
+  },
+  "doda": {
+    "name": "Doda",
+    "state": "Jammu and Kashmir",
+    "lon": 76.0681081081081,
+    "lat": 33.368243243243256
+  },
+  "jammu|jammu and kashmir": {
+    "name": "Jammu",
+    "state": "Jammu and Kashmir",
+    "lon": 74.84553571428572,
+    "lat": 32.71660714285715
+  },
+  "jammu": {
+    "name": "Jammu",
+    "state": "Jammu and Kashmir",
+    "lon": 74.84553571428572,
+    "lat": 32.71660714285715
+  },
+  "kargil|jammu and kashmir": {
+    "name": "Kargil",
+    "state": "Jammu and Kashmir",
+    "lon": 76.6254761904762,
+    "lat": 33.575119047619054
+  },
+  "kargil": {
+    "name": "Kargil",
+    "state": "Jammu and Kashmir",
+    "lon": 76.6254761904762,
+    "lat": 33.575119047619054
+  },
+  "kathua|jammu and kashmir": {
+    "name": "Kathua",
+    "state": "Jammu and Kashmir",
+    "lon": 75.5991891891892,
+    "lat": 32.52243243243244
+  },
+  "kathua": {
+    "name": "Kathua",
+    "state": "Jammu and Kashmir",
+    "lon": 75.5991891891892,
+    "lat": 32.52243243243244
+  },
+  "kupwara (muzaffarabad)|jammu and kashmir": {
+    "name": "Kupwara (Muzaffarabad)",
+    "state": "Jammu and Kashmir",
+    "lon": 74.194,
+    "lat": 34.5884
+  },
+  "kupwara (muzaffarabad)": {
+    "name": "Kupwara (Muzaffarabad)",
+    "state": "Jammu and Kashmir",
+    "lon": 74.194,
+    "lat": 34.5884
+  },
+  "ladakh (leh)|jammu and kashmir": {
+    "name": "Ladakh (Leh)",
+    "state": "Jammu and Kashmir",
+    "lon": 78.30561576354683,
+    "lat": 33.594285714285704
+  },
+  "ladakh (leh)": {
+    "name": "Ladakh (Leh)",
+    "state": "Jammu and Kashmir",
+    "lon": 78.30561576354683,
+    "lat": 33.594285714285704
+  },
+  "pulwama|jammu and kashmir": {
+    "name": "Pulwama",
+    "state": "Jammu and Kashmir",
+    "lon": 75.03416666666666,
+    "lat": 33.9025
+  },
+  "pulwama": {
+    "name": "Pulwama",
+    "state": "Jammu and Kashmir",
+    "lon": 75.03416666666666,
+    "lat": 33.9025
+  },
+  "punch|jammu and kashmir": {
+    "name": "Punch",
+    "state": "Jammu and Kashmir",
+    "lon": 74.28275,
+    "lat": 33.79874999999999
+  },
+  "punch": {
+    "name": "Punch",
+    "state": "Jammu and Kashmir",
+    "lon": 74.28275,
+    "lat": 33.79874999999999
+  },
+  "rajauri|jammu and kashmir": {
+    "name": "Rajauri",
+    "state": "Jammu and Kashmir",
+    "lon": 74.41583333333334,
+    "lat": 33.277222222222214
+  },
+  "rajauri": {
+    "name": "Rajauri",
+    "state": "Jammu and Kashmir",
+    "lon": 74.41583333333334,
+    "lat": 33.277222222222214
+  },
+  "srinagar|jammu and kashmir": {
+    "name": "Srinagar",
+    "state": "Jammu and Kashmir",
+    "lon": 75.12777777777777,
+    "lat": 34.27777777777778
+  },
+  "srinagar": {
+    "name": "Srinagar",
+    "state": "Jammu and Kashmir",
+    "lon": 75.12777777777777,
+    "lat": 34.27777777777778
+  },
+  "udhampur|jammu and kashmir": {
+    "name": "Udhampur",
+    "state": "Jammu and Kashmir",
+    "lon": 75.14690476190475,
+    "lat": 33.05880952380952
+  },
+  "udhampur": {
+    "name": "Udhampur",
+    "state": "Jammu and Kashmir",
+    "lon": 75.14690476190475,
+    "lat": 33.05880952380952
+  },
+  "bokaro|jharkhand": {
+    "name": "Bokaro",
+    "state": "Jharkhand",
+    "lon": 85.98222222222222,
+    "lat": 23.683680555555565
+  },
+  "bokaro": {
+    "name": "Bokaro",
+    "state": "Jharkhand",
+    "lon": 85.98222222222222,
+    "lat": 23.683680555555565
+  },
+  "chatra|jharkhand": {
+    "name": "Chatra",
+    "state": "Jharkhand",
+    "lon": 84.93345323741005,
+    "lat": 24.11726618705036
+  },
+  "chatra": {
+    "name": "Chatra",
+    "state": "Jharkhand",
+    "lon": 84.93345323741005,
+    "lat": 24.11726618705036
+  },
+  "deoghar|jharkhand": {
+    "name": "Deoghar",
+    "state": "Jharkhand",
+    "lon": 86.7565,
+    "lat": 24.332800000000006
+  },
+  "deoghar": {
+    "name": "Deoghar",
+    "state": "Jharkhand",
+    "lon": 86.7565,
+    "lat": 24.332800000000006
+  },
+  "dhanbad|jharkhand": {
+    "name": "Dhanbad",
+    "state": "Jharkhand",
+    "lon": 86.40390625,
+    "lat": 23.856250000000006
+  },
+  "dhanbad": {
+    "name": "Dhanbad",
+    "state": "Jharkhand",
+    "lon": 86.40390625,
+    "lat": 23.856250000000006
+  },
+  "dumka|jharkhand": {
+    "name": "Dumka",
+    "state": "Jharkhand",
+    "lon": 87.27536585365851,
+    "lat": 24.276463414634147
+  },
+  "dumka": {
+    "name": "Dumka",
+    "state": "Jharkhand",
+    "lon": 87.27536585365851,
+    "lat": 24.276463414634147
+  },
+  "garhwa|jharkhand": {
+    "name": "Garhwa",
+    "state": "Jharkhand",
+    "lon": 83.69066666666669,
+    "lat": 24.089111111111112
+  },
+  "garhwa": {
+    "name": "Garhwa",
+    "state": "Jharkhand",
+    "lon": 83.69066666666669,
+    "lat": 24.089111111111112
+  },
+  "giridih|jharkhand": {
+    "name": "Giridih",
+    "state": "Jharkhand",
+    "lon": 86.08657142857143,
+    "lat": 24.308428571428575
+  },
+  "giridih": {
+    "name": "Giridih",
+    "state": "Jharkhand",
+    "lon": 86.08657142857143,
+    "lat": 24.308428571428575
+  },
+  "godda|jharkhand": {
+    "name": "Godda",
+    "state": "Jharkhand",
+    "lon": 87.29538461538458,
+    "lat": 24.82162393162393
+  },
+  "godda": {
+    "name": "Godda",
+    "state": "Jharkhand",
+    "lon": 87.29538461538458,
+    "lat": 24.82162393162393
+  },
+  "gumla|jharkhand": {
+    "name": "Gumla",
+    "state": "Jharkhand",
+    "lon": 84.54908496732024,
+    "lat": 23.08300653594771
+  },
+  "gumla": {
+    "name": "Gumla",
+    "state": "Jharkhand",
+    "lon": 84.54908496732024,
+    "lat": 23.08300653594771
+  },
+  "hazaribag|jharkhand": {
+    "name": "Hazaribag",
+    "state": "Jharkhand",
+    "lon": 85.49387931034485,
+    "lat": 23.947284482758615
+  },
+  "hazaribag": {
+    "name": "Hazaribag",
+    "state": "Jharkhand",
+    "lon": 85.49387931034485,
+    "lat": 23.947284482758615
+  },
+  "jamtara|jharkhand": {
+    "name": "Jamtara",
+    "state": "Jharkhand",
+    "lon": 86.95272727272729,
+    "lat": 23.979909090909075
+  },
+  "jamtara": {
+    "name": "Jamtara",
+    "state": "Jharkhand",
+    "lon": 86.95272727272729,
+    "lat": 23.979909090909075
+  },
+  "koderma|jharkhand": {
+    "name": "Koderma",
+    "state": "Jharkhand",
+    "lon": 85.7197222222222,
+    "lat": 24.560416666666654
+  },
+  "koderma": {
+    "name": "Koderma",
+    "state": "Jharkhand",
+    "lon": 85.7197222222222,
+    "lat": 24.560416666666654
+  },
+  "latehar|jharkhand": {
+    "name": "Latehar",
+    "state": "Jharkhand",
+    "lon": 84.48295774647886,
+    "lat": 23.726408450704213
+  },
+  "latehar": {
+    "name": "Latehar",
+    "state": "Jharkhand",
+    "lon": 84.48295774647886,
+    "lat": 23.726408450704213
+  },
+  "lohardaga|jharkhand": {
+    "name": "Lohardaga",
+    "state": "Jharkhand",
+    "lon": 84.65464788732395,
+    "lat": 23.490422535211252
+  },
+  "lohardaga": {
+    "name": "Lohardaga",
+    "state": "Jharkhand",
+    "lon": 84.65464788732395,
+    "lat": 23.490422535211252
+  },
+  "pakur|jharkhand": {
+    "name": "Pakur",
+    "state": "Jharkhand",
+    "lon": 87.69775510204084,
+    "lat": 24.57333333333335
+  },
+  "pakur": {
+    "name": "Pakur",
+    "state": "Jharkhand",
+    "lon": 87.69775510204084,
+    "lat": 24.57333333333335
+  },
+  "palamu|jharkhand": {
+    "name": "Palamu",
+    "state": "Jharkhand",
+    "lon": 84.19963963963967,
+    "lat": 24.200990990991006
+  },
+  "palamu": {
+    "name": "Palamu",
+    "state": "Jharkhand",
+    "lon": 84.19963963963967,
+    "lat": 24.200990990991006
+  },
+  "pashchim singhbhum|jharkhand": {
+    "name": "Pashchim Singhbhum",
+    "state": "Jharkhand",
+    "lon": 85.53969325153376,
+    "lat": 22.402269938650306
+  },
+  "pashchim singhbhum": {
+    "name": "Pashchim Singhbhum",
+    "state": "Jharkhand",
+    "lon": 85.53969325153376,
+    "lat": 22.402269938650306
+  },
+  "purba singhbhum|jharkhand": {
+    "name": "Purba Singhbhum",
+    "state": "Jharkhand",
+    "lon": 86.50961832061067,
+    "lat": 22.592213740457996
+  },
+  "purba singhbhum": {
+    "name": "Purba Singhbhum",
+    "state": "Jharkhand",
+    "lon": 86.50961832061067,
+    "lat": 22.592213740457996
+  },
+  "ranchi|jharkhand": {
+    "name": "Ranchi",
+    "state": "Jharkhand",
+    "lon": 85.31695652173907,
+    "lat": 23.18635869565219
+  },
+  "ranchi": {
+    "name": "Ranchi",
+    "state": "Jharkhand",
+    "lon": 85.31695652173907,
+    "lat": 23.18635869565219
+  },
+  "sahibganj|jharkhand": {
+    "name": "Sahibganj",
+    "state": "Jharkhand",
+    "lon": 87.68397959183676,
+    "lat": 24.93938775510204
+  },
+  "sahibganj": {
+    "name": "Sahibganj",
+    "state": "Jharkhand",
+    "lon": 87.68397959183676,
+    "lat": 24.93938775510204
+  },
+  "saraikela kharsawan|jharkhand": {
+    "name": "Saraikela Kharsawan",
+    "state": "Jharkhand",
+    "lon": 85.8994495412844,
+    "lat": 22.857247706422022
+  },
+  "saraikela kharsawan": {
+    "name": "Saraikela Kharsawan",
+    "state": "Jharkhand",
+    "lon": 85.8994495412844,
+    "lat": 22.857247706422022
+  },
+  "simdega|jharkhand": {
+    "name": "Simdega",
+    "state": "Jharkhand",
+    "lon": 84.59466019417474,
+    "lat": 22.610097087378637
+  },
+  "simdega": {
+    "name": "Simdega",
+    "state": "Jharkhand",
+    "lon": 84.59466019417474,
+    "lat": 22.610097087378637
+  },
+  "alappuzha|kerala": {
+    "name": "Alappuzha",
+    "state": "Kerala",
+    "lon": 76.37983722576105,
+    "lat": 9.516114649681533
+  },
+  "alappuzha": {
+    "name": "Alappuzha",
+    "state": "Kerala",
+    "lon": 76.37983722576105,
+    "lat": 9.516114649681533
+  },
+  "ernakulam|kerala": {
+    "name": "Ernakulam",
+    "state": "Kerala",
+    "lon": 76.26697836706272,
+    "lat": 10.036601535240768
+  },
+  "ernakulam": {
+    "name": "Ernakulam",
+    "state": "Kerala",
+    "lon": 76.26697836706272,
+    "lat": 10.036601535240768
+  },
+  "idukki|kerala": {
+    "name": "Idukki",
+    "state": "Kerala",
+    "lon": 77.04646706586831,
+    "lat": 9.807664670658683
+  },
+  "idukki": {
+    "name": "Idukki",
+    "state": "Kerala",
+    "lon": 77.04646706586831,
+    "lat": 9.807664670658683
+  },
+  "kannur|kerala": {
+    "name": "Kannur",
+    "state": "Kerala",
+    "lon": 75.35549792531114,
+    "lat": 11.938858921161872
+  },
+  "kannur": {
+    "name": "Kannur",
+    "state": "Kerala",
+    "lon": 75.35549792531114,
+    "lat": 11.938858921161872
+  },
+  "kasaragod|kerala": {
+    "name": "Kasaragod",
+    "state": "Kerala",
+    "lon": 75.04135443037995,
+    "lat": 12.430607594936687
+  },
+  "kasaragod": {
+    "name": "Kasaragod",
+    "state": "Kerala",
+    "lon": 75.04135443037995,
+    "lat": 12.430607594936687
+  },
+  "kollam|kerala": {
+    "name": "Kollam",
+    "state": "Kerala",
+    "lon": 76.63669642857147,
+    "lat": 8.929910714285706
+  },
+  "kollam": {
+    "name": "Kollam",
+    "state": "Kerala",
+    "lon": 76.63669642857147,
+    "lat": 8.929910714285706
+  },
+  "kottayam|kerala": {
+    "name": "Kottayam",
+    "state": "Kerala",
+    "lon": 76.46328888888877,
+    "lat": 9.646977777777748
+  },
+  "kottayam": {
+    "name": "Kottayam",
+    "state": "Kerala",
+    "lon": 76.46328888888877,
+    "lat": 9.646977777777748
+  },
+  "kozhikode|kerala": {
+    "name": "Kozhikode",
+    "state": "Kerala",
+    "lon": 75.7083106267027,
+    "lat": 11.401130790190749
+  },
+  "kozhikode": {
+    "name": "Kozhikode",
+    "state": "Kerala",
+    "lon": 75.7083106267027,
+    "lat": 11.401130790190749
+  },
+  "malappuram|kerala": {
+    "name": "Malappuram",
+    "state": "Kerala",
+    "lon": 75.93971631205667,
+    "lat": 10.974089834515386
+  },
+  "malappuram": {
+    "name": "Malappuram",
+    "state": "Kerala",
+    "lon": 75.93971631205667,
+    "lat": 10.974089834515386
+  },
+  "palakkad|kerala": {
+    "name": "Palakkad",
+    "state": "Kerala",
+    "lon": 76.50208053691276,
+    "lat": 10.788993288590614
+  },
+  "palakkad": {
+    "name": "Palakkad",
+    "state": "Kerala",
+    "lon": 76.50208053691276,
+    "lat": 10.788993288590614
+  },
+  "pattanamtitta|kerala": {
+    "name": "Pattanamtitta",
+    "state": "Kerala",
+    "lon": 76.86644067796612,
+    "lat": 9.292627118644077
+  },
+  "pattanamtitta": {
+    "name": "Pattanamtitta",
+    "state": "Kerala",
+    "lon": 76.86644067796612,
+    "lat": 9.292627118644077
+  },
+  "thiruvananthapuram|kerala": {
+    "name": "Thiruvananthapuram",
+    "state": "Kerala",
+    "lon": 76.88696183206105,
+    "lat": 8.537618320610694
+  },
+  "thiruvananthapuram": {
+    "name": "Thiruvananthapuram",
+    "state": "Kerala",
+    "lon": 76.88696183206105,
+    "lat": 8.537618320610694
+  },
+  "thrissur|kerala": {
+    "name": "Thrissur",
+    "state": "Kerala",
+    "lon": 76.1242982456142,
+    "lat": 10.458245614035112
+  },
+  "thrissur": {
+    "name": "Thrissur",
+    "state": "Kerala",
+    "lon": 76.1242982456142,
+    "lat": 10.458245614035112
+  },
+  "wayanad|kerala": {
+    "name": "Wayanad",
+    "state": "Kerala",
+    "lon": 76.07611111111112,
+    "lat": 11.718333333333337
+  },
+  "wayanad": {
+    "name": "Wayanad",
+    "state": "Kerala",
+    "lon": 76.07611111111112,
+    "lat": 11.718333333333337
+  },
+  "kavaratti|lakshadweep": {
+    "name": "Kavaratti",
+    "state": "Lakshadweep",
+    "lon": 73.05680555555558,
+    "lat": 8.292569444444418
+  },
+  "kavaratti": {
+    "name": "Kavaratti",
+    "state": "Lakshadweep",
+    "lon": 73.05680555555558,
+    "lat": 8.292569444444418
+  },
+  "anuppur|madhya pradesh": {
+    "name": "Anuppur",
+    "state": "Madhya Pradesh",
+    "lon": 81.86851063829789,
+    "lat": 23.18117021276596
+  },
+  "anuppur": {
+    "name": "Anuppur",
+    "state": "Madhya Pradesh",
+    "lon": 81.86851063829789,
+    "lat": 23.18117021276596
+  },
+  "ashoknagar|madhya pradesh": {
+    "name": "Ashoknagar",
+    "state": "Madhya Pradesh",
+    "lon": 77.83071999999999,
+    "lat": 24.635599999999997
+  },
+  "ashoknagar": {
+    "name": "Ashoknagar",
+    "state": "Madhya Pradesh",
+    "lon": 77.83071999999999,
+    "lat": 24.635599999999997
+  },
+  "balaghat|madhya pradesh": {
+    "name": "Balaghat",
+    "state": "Madhya Pradesh",
+    "lon": 80.42297872340428,
+    "lat": 21.80209219858158
+  },
+  "balaghat": {
+    "name": "Balaghat",
+    "state": "Madhya Pradesh",
+    "lon": 80.42297872340428,
+    "lat": 21.80209219858158
+  },
+  "barwani|madhya pradesh": {
+    "name": "Barwani",
+    "state": "Madhya Pradesh",
+    "lon": 74.91233812949633,
+    "lat": 21.704532374100737
+  },
+  "barwani": {
+    "name": "Barwani",
+    "state": "Madhya Pradesh",
+    "lon": 74.91233812949633,
+    "lat": 21.704532374100737
+  },
+  "betul|madhya pradesh": {
+    "name": "Betul",
+    "state": "Madhya Pradesh",
+    "lon": 77.78882562277582,
+    "lat": 21.96576512455515
+  },
+  "betul": {
+    "name": "Betul",
+    "state": "Madhya Pradesh",
+    "lon": 77.78882562277582,
+    "lat": 21.96576512455515
+  },
+  "bhind|madhya pradesh": {
+    "name": "Bhind",
+    "state": "Madhya Pradesh",
+    "lon": 78.76183783783786,
+    "lat": 26.361513513513504
+  },
+  "bhind": {
+    "name": "Bhind",
+    "state": "Madhya Pradesh",
+    "lon": 78.76183783783786,
+    "lat": 26.361513513513504
+  },
+  "bhopal|madhya pradesh": {
+    "name": "Bhopal",
+    "state": "Madhya Pradesh",
+    "lon": 77.39025862068965,
+    "lat": 23.484913793103445
+  },
+  "bhopal": {
+    "name": "Bhopal",
+    "state": "Madhya Pradesh",
+    "lon": 77.39025862068965,
+    "lat": 23.484913793103445
+  },
+  "burhanpur|madhya pradesh": {
+    "name": "Burhanpur",
+    "state": "Madhya Pradesh",
+    "lon": 76.24859999999998,
+    "lat": 21.366200000000013
+  },
+  "burhanpur": {
+    "name": "Burhanpur",
+    "state": "Madhya Pradesh",
+    "lon": 76.24859999999998,
+    "lat": 21.366200000000013
+  },
+  "chhatarpur|madhya pradesh": {
+    "name": "Chhatarpur",
+    "state": "Madhya Pradesh",
+    "lon": 79.56634408602145,
+    "lat": 24.81494623655916
+  },
+  "chhatarpur": {
+    "name": "Chhatarpur",
+    "state": "Madhya Pradesh",
+    "lon": 79.56634408602145,
+    "lat": 24.81494623655916
+  },
+  "chhindwara|madhya pradesh": {
+    "name": "Chhindwara",
+    "state": "Madhya Pradesh",
+    "lon": 78.76635761589404,
+    "lat": 22.23076158940396
+  },
+  "chhindwara": {
+    "name": "Chhindwara",
+    "state": "Madhya Pradesh",
+    "lon": 78.76635761589404,
+    "lat": 22.23076158940396
+  },
+  "damoh|madhya pradesh": {
+    "name": "Damoh",
+    "state": "Madhya Pradesh",
+    "lon": 79.47087301587298,
+    "lat": 23.76825396825396
+  },
+  "damoh": {
+    "name": "Damoh",
+    "state": "Madhya Pradesh",
+    "lon": 79.47087301587298,
+    "lat": 23.76825396825396
+  },
+  "datia|madhya pradesh": {
+    "name": "Datia",
+    "state": "Madhya Pradesh",
+    "lon": 78.64095652173916,
+    "lat": 25.906086956521733
+  },
+  "datia": {
+    "name": "Datia",
+    "state": "Madhya Pradesh",
+    "lon": 78.64095652173916,
+    "lat": 25.906086956521733
+  },
+  "dewas|madhya pradesh": {
+    "name": "Dewas",
+    "state": "Madhya Pradesh",
+    "lon": 76.46030664395222,
+    "lat": 22.78586030664396
+  },
+  "dewas": {
+    "name": "Dewas",
+    "state": "Madhya Pradesh",
+    "lon": 76.46030664395222,
+    "lat": 22.78586030664396
+  },
+  "dhar|madhya pradesh": {
+    "name": "Dhar",
+    "state": "Madhya Pradesh",
+    "lon": 75.11114130434783,
+    "lat": 22.57472826086957
+  },
+  "dhar": {
+    "name": "Dhar",
+    "state": "Madhya Pradesh",
+    "lon": 75.11114130434783,
+    "lat": 22.57472826086957
+  },
+  "dindori|madhya pradesh": {
+    "name": "Dindori",
+    "state": "Madhya Pradesh",
+    "lon": 81.04385057471262,
+    "lat": 22.839942528735634
+  },
+  "dindori": {
+    "name": "Dindori",
+    "state": "Madhya Pradesh",
+    "lon": 81.04385057471262,
+    "lat": 22.839942528735634
+  },
+  "east nimar|madhya pradesh": {
+    "name": "East Nimar",
+    "state": "Madhya Pradesh",
+    "lon": 76.55788732394366,
+    "lat": 22.099894366197205
+  },
+  "east nimar": {
+    "name": "East Nimar",
+    "state": "Madhya Pradesh",
+    "lon": 76.55788732394366,
+    "lat": 22.099894366197205
+  },
+  "guna|madhya pradesh": {
+    "name": "Guna",
+    "state": "Madhya Pradesh",
+    "lon": 77.2238860103627,
+    "lat": 24.49233160621762
+  },
+  "guna": {
+    "name": "Guna",
+    "state": "Madhya Pradesh",
+    "lon": 77.2238860103627,
+    "lat": 24.49233160621762
+  },
+  "gwalior|madhya pradesh": {
+    "name": "Gwalior",
+    "state": "Madhya Pradesh",
+    "lon": 78.12964601769906,
+    "lat": 26.043628318584073
+  },
+  "gwalior": {
+    "name": "Gwalior",
+    "state": "Madhya Pradesh",
+    "lon": 78.12964601769906,
+    "lat": 26.043628318584073
+  },
+  "harda|madhya pradesh": {
+    "name": "Harda",
+    "state": "Madhya Pradesh",
+    "lon": 77.07125000000009,
+    "lat": 22.230217391304347
+  },
+  "harda": {
+    "name": "Harda",
+    "state": "Madhya Pradesh",
+    "lon": 77.07125000000009,
+    "lat": 22.230217391304347
+  },
+  "hoshangabad|madhya pradesh": {
+    "name": "Hoshangabad",
+    "state": "Madhya Pradesh",
+    "lon": 78.02344370860925,
+    "lat": 22.59701986754968
+  },
+  "hoshangabad": {
+    "name": "Hoshangabad",
+    "state": "Madhya Pradesh",
+    "lon": 78.02344370860925,
+    "lat": 22.59701986754968
+  },
+  "indore|madhya pradesh": {
+    "name": "Indore",
+    "state": "Madhya Pradesh",
+    "lon": 75.91275471698113,
+    "lat": 22.68083018867927
+  },
+  "indore": {
+    "name": "Indore",
+    "state": "Madhya Pradesh",
+    "lon": 75.91275471698113,
+    "lat": 22.68083018867927
+  },
+  "jabalpur|madhya pradesh": {
+    "name": "Jabalpur",
+    "state": "Madhya Pradesh",
+    "lon": 79.98270000000004,
+    "lat": 23.187100000000015
+  },
+  "jabalpur": {
+    "name": "Jabalpur",
+    "state": "Madhya Pradesh",
+    "lon": 79.98270000000004,
+    "lat": 23.187100000000015
+  },
+  "jhabua|madhya pradesh": {
+    "name": "Jhabua",
+    "state": "Madhya Pradesh",
+    "lon": 74.41037542662113,
+    "lat": 22.42139931740611
+  },
+  "jhabua": {
+    "name": "Jhabua",
+    "state": "Madhya Pradesh",
+    "lon": 74.41037542662113,
+    "lat": 22.42139931740611
+  },
+  "katni|madhya pradesh": {
+    "name": "Katni",
+    "state": "Madhya Pradesh",
+    "lon": 80.34056872037915,
+    "lat": 23.727203791469186
+  },
+  "katni": {
+    "name": "Katni",
+    "state": "Madhya Pradesh",
+    "lon": 80.34056872037915,
+    "lat": 23.727203791469186
+  },
+  "mandla|madhya pradesh": {
+    "name": "Mandla",
+    "state": "Madhya Pradesh",
+    "lon": 80.3819540229885,
+    "lat": 22.70833333333334
+  },
+  "mandla": {
+    "name": "Mandla",
+    "state": "Madhya Pradesh",
+    "lon": 80.3819540229885,
+    "lat": 22.70833333333334
+  },
+  "mandsaur|madhya pradesh": {
+    "name": "Mandsaur",
+    "state": "Madhya Pradesh",
+    "lon": 75.43840764331209,
+    "lat": 24.197197452229304
+  },
+  "mandsaur": {
+    "name": "Mandsaur",
+    "state": "Madhya Pradesh",
+    "lon": 75.43840764331209,
+    "lat": 24.197197452229304
+  },
+  "morena|madhya pradesh": {
+    "name": "Morena",
+    "state": "Madhya Pradesh",
+    "lon": 77.88862275449104,
+    "lat": 26.377425149700585
+  },
+  "morena": {
+    "name": "Morena",
+    "state": "Madhya Pradesh",
+    "lon": 77.88862275449104,
+    "lat": 26.377425149700585
+  },
+  "narsinghpur|madhya pradesh": {
+    "name": "Narsinghpur",
+    "state": "Madhya Pradesh",
+    "lon": 79.00097560975611,
+    "lat": 22.953130081300806
+  },
+  "narsinghpur": {
+    "name": "Narsinghpur",
+    "state": "Madhya Pradesh",
+    "lon": 79.00097560975611,
+    "lat": 22.953130081300806
+  },
+  "neemuch|madhya pradesh": {
+    "name": "Neemuch",
+    "state": "Madhya Pradesh",
+    "lon": 75.06671957671959,
+    "lat": 24.70624338624337
+  },
+  "neemuch": {
+    "name": "Neemuch",
+    "state": "Madhya Pradesh",
+    "lon": 75.06671957671959,
+    "lat": 24.70624338624337
+  },
+  "panna|madhya pradesh": {
+    "name": "Panna",
+    "state": "Madhya Pradesh",
+    "lon": 80.21285714285712,
+    "lat": 24.455161290322575
+  },
+  "panna": {
+    "name": "Panna",
+    "state": "Madhya Pradesh",
+    "lon": 80.21285714285712,
+    "lat": 24.455161290322575
+  },
+  "raisen|madhya pradesh": {
+    "name": "Raisen",
+    "state": "Madhya Pradesh",
+    "lon": 78.16365853658543,
+    "lat": 23.293739837398366
+  },
+  "raisen": {
+    "name": "Raisen",
+    "state": "Madhya Pradesh",
+    "lon": 78.16365853658543,
+    "lat": 23.293739837398366
+  },
+  "rajgarh|madhya pradesh": {
+    "name": "Rajgarh",
+    "state": "Madhya Pradesh",
+    "lon": 76.66436464088399,
+    "lat": 23.789226519337017
+  },
+  "rajgarh": {
+    "name": "Rajgarh",
+    "state": "Madhya Pradesh",
+    "lon": 76.66436464088399,
+    "lat": 23.789226519337017
+  },
+  "ratlam|madhya pradesh": {
+    "name": "Ratlam",
+    "state": "Madhya Pradesh",
+    "lon": 75.15111111111113,
+    "lat": 23.505944444444438
+  },
+  "ratlam": {
+    "name": "Ratlam",
+    "state": "Madhya Pradesh",
+    "lon": 75.15111111111113,
+    "lat": 23.505944444444438
+  },
+  "rewa|madhya pradesh": {
+    "name": "Rewa",
+    "state": "Madhya Pradesh",
+    "lon": 81.57601010101004,
+    "lat": 24.86323232323231
+  },
+  "rewa": {
+    "name": "Rewa",
+    "state": "Madhya Pradesh",
+    "lon": 81.57601010101004,
+    "lat": 24.86323232323231
+  },
+  "sagar|madhya pradesh": {
+    "name": "Sagar",
+    "state": "Madhya Pradesh",
+    "lon": 78.71880562060879,
+    "lat": 23.80086651053862
+  },
+  "sagar": {
+    "name": "Sagar",
+    "state": "Madhya Pradesh",
+    "lon": 78.71880562060879,
+    "lat": 23.80086651053862
+  },
+  "satna|madhya pradesh": {
+    "name": "Satna",
+    "state": "Madhya Pradesh",
+    "lon": 80.75631178707224,
+    "lat": 24.630228136882135
+  },
+  "satna": {
+    "name": "Satna",
+    "state": "Madhya Pradesh",
+    "lon": 80.75631178707224,
+    "lat": 24.630228136882135
+  },
+  "sehore|madhya pradesh": {
+    "name": "Sehore",
+    "state": "Madhya Pradesh",
+    "lon": 77.0681663113006,
+    "lat": 22.93102345415779
+  },
+  "sehore": {
+    "name": "Sehore",
+    "state": "Madhya Pradesh",
+    "lon": 77.0681663113006,
+    "lat": 22.93102345415779
+  },
+  "seoni|madhya pradesh": {
+    "name": "Seoni",
+    "state": "Madhya Pradesh",
+    "lon": 79.66056122448983,
+    "lat": 22.33622448979591
+  },
+  "seoni": {
+    "name": "Seoni",
+    "state": "Madhya Pradesh",
+    "lon": 79.66056122448983,
+    "lat": 22.33622448979591
+  },
+  "shahdol|madhya pradesh": {
+    "name": "Shahdol",
+    "state": "Madhya Pradesh",
+    "lon": 81.46031390134536,
+    "lat": 23.45403587443947
+  },
+  "shahdol": {
+    "name": "Shahdol",
+    "state": "Madhya Pradesh",
+    "lon": 81.46031390134536,
+    "lat": 23.45403587443947
+  },
+  "shajapur|madhya pradesh": {
+    "name": "Shajapur",
+    "state": "Madhya Pradesh",
+    "lon": 76.33572289156628,
+    "lat": 23.568162650602407
+  },
+  "shajapur": {
+    "name": "Shajapur",
+    "state": "Madhya Pradesh",
+    "lon": 76.33572289156628,
+    "lat": 23.568162650602407
+  },
+  "sheopur|madhya pradesh": {
+    "name": "Sheopur",
+    "state": "Madhya Pradesh",
+    "lon": 77.16870748299321,
+    "lat": 25.78469387755102
+  },
+  "sheopur": {
+    "name": "Sheopur",
+    "state": "Madhya Pradesh",
+    "lon": 77.16870748299321,
+    "lat": 25.78469387755102
+  },
+  "shivpuri|madhya pradesh": {
+    "name": "Shivpuri",
+    "state": "Madhya Pradesh",
+    "lon": 77.74842741935485,
+    "lat": 25.38064516129032
+  },
+  "shivpuri": {
+    "name": "Shivpuri",
+    "state": "Madhya Pradesh",
+    "lon": 77.74842741935485,
+    "lat": 25.38064516129032
+  },
+  "sidhi|madhya pradesh": {
+    "name": "Sidhi",
+    "state": "Madhya Pradesh",
+    "lon": 82.10681249999999,
+    "lat": 24.17806249999999
+  },
+  "sidhi": {
+    "name": "Sidhi",
+    "state": "Madhya Pradesh",
+    "lon": 82.10681249999999,
+    "lat": 24.17806249999999
+  },
+  "tikamgarh|madhya pradesh": {
+    "name": "Tikamgarh",
+    "state": "Madhya Pradesh",
+    "lon": 78.89384615384617,
+    "lat": 25.143438914027158
+  },
+  "tikamgarh": {
+    "name": "Tikamgarh",
+    "state": "Madhya Pradesh",
+    "lon": 78.89384615384617,
+    "lat": 25.143438914027158
+  },
+  "ujjain|madhya pradesh": {
+    "name": "Ujjain",
+    "state": "Madhya Pradesh",
+    "lon": 75.80349999999991,
+    "lat": 23.32112499999999
+  },
+  "ujjain": {
+    "name": "Ujjain",
+    "state": "Madhya Pradesh",
+    "lon": 75.80349999999991,
+    "lat": 23.32112499999999
+  },
+  "umaria|madhya pradesh": {
+    "name": "Umaria",
+    "state": "Madhya Pradesh",
+    "lon": 80.90985714285713,
+    "lat": 23.600214285714284
+  },
+  "umaria": {
+    "name": "Umaria",
+    "state": "Madhya Pradesh",
+    "lon": 80.90985714285713,
+    "lat": 23.600214285714284
+  },
+  "vidisha|madhya pradesh": {
+    "name": "Vidisha",
+    "state": "Madhya Pradesh",
+    "lon": 77.8993560606061,
+    "lat": 23.82943181818182
+  },
+  "vidisha": {
+    "name": "Vidisha",
+    "state": "Madhya Pradesh",
+    "lon": 77.8993560606061,
+    "lat": 23.82943181818182
+  },
+  "west nimar|madhya pradesh": {
+    "name": "West Nimar",
+    "state": "Madhya Pradesh",
+    "lon": 75.87407534246574,
+    "lat": 22.02821917808216
+  },
+  "west nimar": {
+    "name": "West Nimar",
+    "state": "Madhya Pradesh",
+    "lon": 75.87407534246574,
+    "lat": 22.02821917808216
+  },
+  "ahmednagar|maharashtra": {
+    "name": "Ahmednagar",
+    "state": "Maharashtra",
+    "lon": 74.69151335311574,
+    "lat": 19.220415430267057
+  },
+  "ahmednagar": {
+    "name": "Ahmednagar",
+    "state": "Maharashtra",
+    "lon": 74.69151335311574,
+    "lat": 19.220415430267057
+  },
+  "akola|maharashtra": {
+    "name": "Akola",
+    "state": "Maharashtra",
+    "lon": 77.121130952381,
+    "lat": 20.748988095238094
+  },
+  "akola": {
+    "name": "Akola",
+    "state": "Maharashtra",
+    "lon": 77.121130952381,
+    "lat": 20.748988095238094
+  },
+  "amravati|maharashtra": {
+    "name": "Amravati",
+    "state": "Maharashtra",
+    "lon": 77.6751086956521,
+    "lat": 21.167789855072463
+  },
+  "amravati": {
+    "name": "Amravati",
+    "state": "Maharashtra",
+    "lon": 77.6751086956521,
+    "lat": 21.167789855072463
+  },
+  "aurangabad|maharashtra": {
+    "name": "Aurangabad",
+    "state": "Maharashtra",
+    "lon": 75.32363636363635,
+    "lat": 20.101681818181817
+  },
+  "bhandara|maharashtra": {
+    "name": "Bhandara",
+    "state": "Maharashtra",
+    "lon": 80.4281294964029,
+    "lat": 21.319928057553962
+  },
+  "bhandara": {
+    "name": "Bhandara",
+    "state": "Maharashtra",
+    "lon": 80.4281294964029,
+    "lat": 21.319928057553962
+  },
+  "bid|maharashtra": {
+    "name": "Bid",
+    "state": "Maharashtra",
+    "lon": 75.69254032258065,
+    "lat": 18.95431451612903
+  },
+  "bid": {
+    "name": "Bid",
+    "state": "Maharashtra",
+    "lon": 75.69254032258065,
+    "lat": 18.95431451612903
+  },
+  "buldana|maharashtra": {
+    "name": "Buldana",
+    "state": "Maharashtra",
+    "lon": 76.39139896373058,
+    "lat": 20.56953367875648
+  },
+  "buldana": {
+    "name": "Buldana",
+    "state": "Maharashtra",
+    "lon": 76.39139896373058,
+    "lat": 20.56953367875648
+  },
+  "chandrapur|maharashtra": {
+    "name": "Chandrapur",
+    "state": "Maharashtra",
+    "lon": 79.32073333333331,
+    "lat": 20.101733333333318
+  },
+  "chandrapur": {
+    "name": "Chandrapur",
+    "state": "Maharashtra",
+    "lon": 79.32073333333331,
+    "lat": 20.101733333333318
+  },
+  "dhule|maharashtra": {
+    "name": "Dhule",
+    "state": "Maharashtra",
+    "lon": 74.58766497461916,
+    "lat": 21.274695431472033
+  },
+  "dhule": {
+    "name": "Dhule",
+    "state": "Maharashtra",
+    "lon": 74.58766497461916,
+    "lat": 21.274695431472033
+  },
+  "garhchiroli|maharashtra": {
+    "name": "Garhchiroli",
+    "state": "Maharashtra",
+    "lon": 80.31177339901483,
+    "lat": 19.801724137931018
+  },
+  "garhchiroli": {
+    "name": "Garhchiroli",
+    "state": "Maharashtra",
+    "lon": 80.31177339901483,
+    "lat": 19.801724137931018
+  },
+  "gondiya|maharashtra": {
+    "name": "Gondiya",
+    "state": "Maharashtra",
+    "lon": 80.17567441860464,
+    "lat": 21.226744186046513
+  },
+  "gondiya": {
+    "name": "Gondiya",
+    "state": "Maharashtra",
+    "lon": 80.17567441860464,
+    "lat": 21.226744186046513
+  },
+  "greater bombay|maharashtra": {
+    "name": "Greater Bombay",
+    "state": "Maharashtra",
+    "lon": 72.84296538821319,
+    "lat": 19.085107577174874
+  },
+  "greater bombay": {
+    "name": "Greater Bombay",
+    "state": "Maharashtra",
+    "lon": 72.84296538821319,
+    "lat": 19.085107577174874
+  },
+  "hingoli|maharashtra": {
+    "name": "Hingoli",
+    "state": "Maharashtra",
+    "lon": 77.09178082191785,
+    "lat": 19.599315068493137
+  },
+  "hingoli": {
+    "name": "Hingoli",
+    "state": "Maharashtra",
+    "lon": 77.09178082191785,
+    "lat": 19.599315068493137
+  },
+  "jalgaon|maharashtra": {
+    "name": "Jalgaon",
+    "state": "Maharashtra",
+    "lon": 75.55036885245902,
+    "lat": 20.885081967213104
+  },
+  "jalgaon": {
+    "name": "Jalgaon",
+    "state": "Maharashtra",
+    "lon": 75.55036885245902,
+    "lat": 20.885081967213104
+  },
+  "jalna|maharashtra": {
+    "name": "Jalna",
+    "state": "Maharashtra",
+    "lon": 75.98502762430942,
+    "lat": 19.990110497237573
+  },
+  "jalna": {
+    "name": "Jalna",
+    "state": "Maharashtra",
+    "lon": 75.98502762430942,
+    "lat": 19.990110497237573
+  },
+  "kolhapur|maharashtra": {
+    "name": "Kolhapur",
+    "state": "Maharashtra",
+    "lon": 74.12784810126583,
+    "lat": 16.45091772151899
+  },
+  "kolhapur": {
+    "name": "Kolhapur",
+    "state": "Maharashtra",
+    "lon": 74.12784810126583,
+    "lat": 16.45091772151899
+  },
+  "latur|maharashtra": {
+    "name": "Latur",
+    "state": "Maharashtra",
+    "lon": 76.76105691056911,
+    "lat": 18.352926829268295
+  },
+  "latur": {
+    "name": "Latur",
+    "state": "Maharashtra",
+    "lon": 76.76105691056911,
+    "lat": 18.352926829268295
+  },
+  "nagpur|maharashtra": {
+    "name": "Nagpur",
+    "state": "Maharashtra",
+    "lon": 79.02372222222226,
+    "lat": 21.200777777777763
+  },
+  "nagpur": {
+    "name": "Nagpur",
+    "state": "Maharashtra",
+    "lon": 79.02372222222226,
+    "lat": 21.200777777777763
+  },
+  "nanded|maharashtra": {
+    "name": "Nanded",
+    "state": "Maharashtra",
+    "lon": 77.68402390438243,
+    "lat": 19.211035856573695
+  },
+  "nanded": {
+    "name": "Nanded",
+    "state": "Maharashtra",
+    "lon": 77.68402390438243,
+    "lat": 19.211035856573695
+  },
+  "nandurbar|maharashtra": {
+    "name": "Nandurbar",
+    "state": "Maharashtra",
+    "lon": 74.32649762282101,
+    "lat": 21.524183835182217
+  },
+  "nandurbar": {
+    "name": "Nandurbar",
+    "state": "Maharashtra",
+    "lon": 74.32649762282101,
+    "lat": 21.524183835182217
+  },
+  "nashik|maharashtra": {
+    "name": "Nashik",
+    "state": "Maharashtra",
+    "lon": 74.03897637795279,
+    "lat": 20.270393700787388
+  },
+  "nashik": {
+    "name": "Nashik",
+    "state": "Maharashtra",
+    "lon": 74.03897637795279,
+    "lat": 20.270393700787388
+  },
+  "osmanabad|maharashtra": {
+    "name": "Osmanabad",
+    "state": "Maharashtra",
+    "lon": 75.99395833333334,
+    "lat": 18.19620833333334
+  },
+  "osmanabad": {
+    "name": "Osmanabad",
+    "state": "Maharashtra",
+    "lon": 75.99395833333334,
+    "lat": 18.19620833333334
+  },
+  "parbhani|maharashtra": {
+    "name": "Parbhani",
+    "state": "Maharashtra",
+    "lon": 76.70118421052628,
+    "lat": 19.315723684210525
+  },
+  "parbhani": {
+    "name": "Parbhani",
+    "state": "Maharashtra",
+    "lon": 76.70118421052628,
+    "lat": 19.315723684210525
+  },
+  "pune|maharashtra": {
+    "name": "Pune",
+    "state": "Maharashtra",
+    "lon": 74.12820846905534,
+    "lat": 18.51899022801303
+  },
+  "pune": {
+    "name": "Pune",
+    "state": "Maharashtra",
+    "lon": 74.12820846905534,
+    "lat": 18.51899022801303
+  },
+  "raigarh|maharashtra": {
+    "name": "Raigarh",
+    "state": "Maharashtra",
+    "lon": 73.01346083788768,
+    "lat": 18.433583788706777
+  },
+  "ratnagiri|maharashtra": {
+    "name": "Ratnagiri",
+    "state": "Maharashtra",
+    "lon": 73.25802437999117,
+    "lat": 17.207894073139958
+  },
+  "ratnagiri": {
+    "name": "Ratnagiri",
+    "state": "Maharashtra",
+    "lon": 73.25802437999117,
+    "lat": 17.207894073139958
+  },
+  "sangli|maharashtra": {
+    "name": "Sangli",
+    "state": "Maharashtra",
+    "lon": 74.70863999999999,
+    "lat": 17.157840000000007
+  },
+  "sangli": {
+    "name": "Sangli",
+    "state": "Maharashtra",
+    "lon": 74.70863999999999,
+    "lat": 17.157840000000007
+  },
+  "satara|maharashtra": {
+    "name": "Satara",
+    "state": "Maharashtra",
+    "lon": 74.17959183673464,
+    "lat": 17.67663265306123
+  },
+  "satara": {
+    "name": "Satara",
+    "state": "Maharashtra",
+    "lon": 74.17959183673464,
+    "lat": 17.67663265306123
+  },
+  "sindhudurg|maharashtra": {
+    "name": "Sindhudurg",
+    "state": "Maharashtra",
+    "lon": 73.51526396327493,
+    "lat": 16.177222647283816
+  },
+  "sindhudurg": {
+    "name": "Sindhudurg",
+    "state": "Maharashtra",
+    "lon": 73.51526396327493,
+    "lat": 16.177222647283816
+  },
+  "solapur|maharashtra": {
+    "name": "Solapur",
+    "state": "Maharashtra",
+    "lon": 75.42308108108105,
+    "lat": 17.840297297297294
+  },
+  "solapur": {
+    "name": "Solapur",
+    "state": "Maharashtra",
+    "lon": 75.42308108108105,
+    "lat": 17.840297297297294
+  },
+  "thane|maharashtra": {
+    "name": "Thane",
+    "state": "Maharashtra",
+    "lon": 72.80081918081963,
+    "lat": 19.705484515484464
+  },
+  "thane": {
+    "name": "Thane",
+    "state": "Maharashtra",
+    "lon": 72.80081918081963,
+    "lat": 19.705484515484464
+  },
+  "wardha|maharashtra": {
+    "name": "Wardha",
+    "state": "Maharashtra",
+    "lon": 78.56838709677416,
+    "lat": 20.812064516129038
+  },
+  "wardha": {
+    "name": "Wardha",
+    "state": "Maharashtra",
+    "lon": 78.56838709677416,
+    "lat": 20.812064516129038
+  },
+  "washim|maharashtra": {
+    "name": "Washim",
+    "state": "Maharashtra",
+    "lon": 77.25793296089384,
+    "lat": 20.28597765363129
+  },
+  "washim": {
+    "name": "Washim",
+    "state": "Maharashtra",
+    "lon": 77.25793296089384,
+    "lat": 20.28597765363129
+  },
+  "yavatmal|maharashtra": {
+    "name": "Yavatmal",
+    "state": "Maharashtra",
+    "lon": 78.05423487544486,
+    "lat": 20.045587188612085
+  },
+  "yavatmal": {
+    "name": "Yavatmal",
+    "state": "Maharashtra",
+    "lon": 78.05423487544486,
+    "lat": 20.045587188612085
+  },
+  "bishnupur|manipur": {
+    "name": "Bishnupur",
+    "state": "Manipur",
+    "lon": 93.82487804878048,
+    "lat": 24.51121951219512
+  },
+  "bishnupur": {
+    "name": "Bishnupur",
+    "state": "Manipur",
+    "lon": 93.82487804878048,
+    "lat": 24.51121951219512
+  },
+  "chandel|manipur": {
+    "name": "Chandel",
+    "state": "Manipur",
+    "lon": 94.09556701030928,
+    "lat": 24.266701030927848
+  },
+  "chandel": {
+    "name": "Chandel",
+    "state": "Manipur",
+    "lon": 94.09556701030928,
+    "lat": 24.266701030927848
+  },
+  "churachandpur|manipur": {
+    "name": "Churachandpur",
+    "state": "Manipur",
+    "lon": 93.38412698412702,
+    "lat": 24.307936507936514
+  },
+  "churachandpur": {
+    "name": "Churachandpur",
+    "state": "Manipur",
+    "lon": 93.38412698412702,
+    "lat": 24.307936507936514
+  },
+  "east imphal|manipur": {
+    "name": "East Imphal",
+    "state": "Manipur",
+    "lon": 94.03079365079367,
+    "lat": 24.87793650793652
+  },
+  "east imphal": {
+    "name": "East Imphal",
+    "state": "Manipur",
+    "lon": 94.03079365079367,
+    "lat": 24.87793650793652
+  },
+  "senapati|manipur": {
+    "name": "Senapati",
+    "state": "Manipur",
+    "lon": 94.0364851485148,
+    "lat": 25.088168316831695
+  },
+  "senapati": {
+    "name": "Senapati",
+    "state": "Manipur",
+    "lon": 94.0364851485148,
+    "lat": 25.088168316831695
+  },
+  "tamenglong|manipur": {
+    "name": "Tamenglong",
+    "state": "Manipur",
+    "lon": 93.49764285714285,
+    "lat": 24.98778571428571
+  },
+  "tamenglong": {
+    "name": "Tamenglong",
+    "state": "Manipur",
+    "lon": 93.49764285714285,
+    "lat": 24.98778571428571
+  },
+  "thoubal|manipur": {
+    "name": "Thoubal",
+    "state": "Manipur",
+    "lon": 93.97916666666667,
+    "lat": 24.54902777777778
+  },
+  "thoubal": {
+    "name": "Thoubal",
+    "state": "Manipur",
+    "lon": 93.97916666666667,
+    "lat": 24.54902777777778
+  },
+  "ukhrul|manipur": {
+    "name": "Ukhrul",
+    "state": "Manipur",
+    "lon": 94.44312499999994,
+    "lat": 25.063515624999994
+  },
+  "ukhrul": {
+    "name": "Ukhrul",
+    "state": "Manipur",
+    "lon": 94.44312499999994,
+    "lat": 25.063515624999994
+  },
+  "west imphal|manipur": {
+    "name": "West Imphal",
+    "state": "Manipur",
+    "lon": 93.88782608695651,
+    "lat": 24.8
+  },
+  "west imphal": {
+    "name": "West Imphal",
+    "state": "Manipur",
+    "lon": 93.88782608695651,
+    "lat": 24.8
+  },
+  "east garo hills|meghalaya": {
+    "name": "East Garo Hills",
+    "state": "Meghalaya",
+    "lon": 90.64214285714284,
+    "lat": 25.828928571428577
+  },
+  "east garo hills": {
+    "name": "East Garo Hills",
+    "state": "Meghalaya",
+    "lon": 90.64214285714284,
+    "lat": 25.828928571428577
+  },
+  "east khasi hills|meghalaya": {
+    "name": "East Khasi Hills",
+    "state": "Meghalaya",
+    "lon": 91.75992125984247,
+    "lat": 25.306771653543333
+  },
+  "east khasi hills": {
+    "name": "East Khasi Hills",
+    "state": "Meghalaya",
+    "lon": 91.75992125984247,
+    "lat": 25.306771653543333
+  },
+  "jaintia hills|meghalaya": {
+    "name": "Jaintia Hills",
+    "state": "Meghalaya",
+    "lon": 92.3740540540541,
+    "lat": 25.34202702702703
+  },
+  "jaintia hills": {
+    "name": "Jaintia Hills",
+    "state": "Meghalaya",
+    "lon": 92.3740540540541,
+    "lat": 25.34202702702703
+  },
+  "ri-bhoi|meghalaya": {
+    "name": "Ri-Bhoi",
+    "state": "Meghalaya",
+    "lon": 91.84824561403511,
+    "lat": 25.89833333333334
+  },
+  "ri-bhoi": {
+    "name": "Ri-Bhoi",
+    "state": "Meghalaya",
+    "lon": 91.84824561403511,
+    "lat": 25.89833333333334
+  },
+  "south garo hills|meghalaya": {
+    "name": "South Garo Hills",
+    "state": "Meghalaya",
+    "lon": 90.64316831683169,
+    "lat": 25.241485148514865
+  },
+  "south garo hills": {
+    "name": "South Garo Hills",
+    "state": "Meghalaya",
+    "lon": 90.64316831683169,
+    "lat": 25.241485148514865
+  },
+  "west garo hills|meghalaya": {
+    "name": "West Garo Hills",
+    "state": "Meghalaya",
+    "lon": 90.03458333333339,
+    "lat": 25.495416666666657
+  },
+  "west garo hills": {
+    "name": "West Garo Hills",
+    "state": "Meghalaya",
+    "lon": 90.03458333333339,
+    "lat": 25.495416666666657
+  },
+  "west khasi hills|meghalaya": {
+    "name": "West Khasi Hills",
+    "state": "Meghalaya",
+    "lon": 91.2544202898551,
+    "lat": 25.505000000000013
+  },
+  "west khasi hills": {
+    "name": "West Khasi Hills",
+    "state": "Meghalaya",
+    "lon": 91.2544202898551,
+    "lat": 25.505000000000013
+  },
+  "aizawl|mizoram": {
+    "name": "Aizawl",
+    "state": "Mizoram",
+    "lon": 92.85424050632909,
+    "lat": 23.910253164556956
+  },
+  "aizawl": {
+    "name": "Aizawl",
+    "state": "Mizoram",
+    "lon": 92.85424050632909,
+    "lat": 23.910253164556956
+  },
+  "champhai|mizoram": {
+    "name": "Champhai",
+    "state": "Mizoram",
+    "lon": 93.24397959183672,
+    "lat": 23.545306122448984
+  },
+  "champhai": {
+    "name": "Champhai",
+    "state": "Mizoram",
+    "lon": 93.24397959183672,
+    "lat": 23.545306122448984
+  },
+  "kolasib|mizoram": {
+    "name": "Kolasib",
+    "state": "Mizoram",
+    "lon": 92.73612068965517,
+    "lat": 24.203448275862062
+  },
+  "kolasib": {
+    "name": "Kolasib",
+    "state": "Mizoram",
+    "lon": 92.73612068965517,
+    "lat": 24.203448275862062
+  },
+  "lawngtlai|mizoram": {
+    "name": "Lawngtlai",
+    "state": "Mizoram",
+    "lon": 92.66821705426361,
+    "lat": 22.36527131782945
+  },
+  "lawngtlai": {
+    "name": "Lawngtlai",
+    "state": "Mizoram",
+    "lon": 92.66821705426361,
+    "lat": 22.36527131782945
+  },
+  "lunglei|mizoram": {
+    "name": "Lunglei",
+    "state": "Mizoram",
+    "lon": 92.63556074766353,
+    "lat": 23.010140186915887
+  },
+  "lunglei": {
+    "name": "Lunglei",
+    "state": "Mizoram",
+    "lon": 92.63556074766353,
+    "lat": 23.010140186915887
+  },
+  "mamit|mizoram": {
+    "name": "Mamit",
+    "state": "Mizoram",
+    "lon": 92.43307692307707,
+    "lat": 23.74556561085974
+  },
+  "mamit": {
+    "name": "Mamit",
+    "state": "Mizoram",
+    "lon": 92.43307692307707,
+    "lat": 23.74556561085974
+  },
+  "saiha|mizoram": {
+    "name": "Saiha",
+    "state": "Mizoram",
+    "lon": 93.02947368421054,
+    "lat": 22.36126315789474
+  },
+  "saiha": {
+    "name": "Saiha",
+    "state": "Mizoram",
+    "lon": 93.02947368421054,
+    "lat": 22.36126315789474
+  },
+  "serchhip|mizoram": {
+    "name": "Serchhip",
+    "state": "Mizoram",
+    "lon": 92.91589743589738,
+    "lat": 23.26833333333333
+  },
+  "serchhip": {
+    "name": "Serchhip",
+    "state": "Mizoram",
+    "lon": 92.91589743589738,
+    "lat": 23.26833333333333
+  },
+  "dimapur|nagaland": {
+    "name": "Dimapur",
+    "state": "Nagaland",
+    "lon": 93.75509433962263,
+    "lat": 25.816981132075473
+  },
+  "dimapur": {
+    "name": "Dimapur",
+    "state": "Nagaland",
+    "lon": 93.75509433962263,
+    "lat": 25.816981132075473
+  },
+  "kohima|nagaland": {
+    "name": "Kohima",
+    "state": "Nagaland",
+    "lon": 93.78936936936933,
+    "lat": 25.606036036036027
+  },
+  "kohima": {
+    "name": "Kohima",
+    "state": "Nagaland",
+    "lon": 93.78936936936933,
+    "lat": 25.606036036036027
+  },
+  "mokokchung|nagaland": {
+    "name": "Mokokchung",
+    "state": "Nagaland",
+    "lon": 94.52634146341465,
+    "lat": 26.483902439024398
+  },
+  "mokokchung": {
+    "name": "Mokokchung",
+    "state": "Nagaland",
+    "lon": 94.52634146341465,
+    "lat": 26.483902439024398
+  },
+  "mon|nagaland": {
+    "name": "Mon",
+    "state": "Nagaland",
+    "lon": 95.03274725274731,
+    "lat": 26.698131868131867
+  },
+  "mon": {
+    "name": "Mon",
+    "state": "Nagaland",
+    "lon": 95.03274725274731,
+    "lat": 26.698131868131867
+  },
+  "phek|nagaland": {
+    "name": "Phek",
+    "state": "Nagaland",
+    "lon": 94.57118421052634,
+    "lat": 25.635657894736834
+  },
+  "phek": {
+    "name": "Phek",
+    "state": "Nagaland",
+    "lon": 94.57118421052634,
+    "lat": 25.635657894736834
+  },
+  "tuensang|nagaland": {
+    "name": "Tuensang",
+    "state": "Nagaland",
+    "lon": 94.8573228346457,
+    "lat": 26.21685039370079
+  },
+  "tuensang": {
+    "name": "Tuensang",
+    "state": "Nagaland",
+    "lon": 94.8573228346457,
+    "lat": 26.21685039370079
+  },
+  "wokha|nagaland": {
+    "name": "Wokha",
+    "state": "Nagaland",
+    "lon": 94.20103896103896,
+    "lat": 26.2064935064935
+  },
+  "wokha": {
+    "name": "Wokha",
+    "state": "Nagaland",
+    "lon": 94.20103896103896,
+    "lat": 26.2064935064935
+  },
+  "zunheboto|nagaland": {
+    "name": "Zunheboto",
+    "state": "Nagaland",
+    "lon": 94.50266666666667,
+    "lat": 26.033333333333335
+  },
+  "zunheboto": {
+    "name": "Zunheboto",
+    "state": "Nagaland",
+    "lon": 94.50266666666667,
+    "lat": 26.033333333333335
+  },
+  "angul|orissa": {
+    "name": "Angul",
+    "state": "Orissa",
+    "lon": 84.99960000000002,
+    "lat": 21.123666666666654
+  },
+  "angul": {
+    "name": "Angul",
+    "state": "Orissa",
+    "lon": 84.99960000000002,
+    "lat": 21.123666666666654
+  },
+  "baleshwar|orissa": {
+    "name": "Baleshwar",
+    "state": "Orissa",
+    "lon": 87.08036206896534,
+    "lat": 21.485999999999994
+  },
+  "baleshwar": {
+    "name": "Baleshwar",
+    "state": "Orissa",
+    "lon": 87.08036206896534,
+    "lat": 21.485999999999994
+  },
+  "baragarh|orissa": {
+    "name": "Baragarh",
+    "state": "Orissa",
+    "lon": 83.26787671232879,
+    "lat": 21.1358904109589
+  },
+  "baragarh": {
+    "name": "Baragarh",
+    "state": "Orissa",
+    "lon": 83.26787671232879,
+    "lat": 21.1358904109589
+  },
+  "bhadrak|orissa": {
+    "name": "Bhadrak",
+    "state": "Orissa",
+    "lon": 86.80302387267896,
+    "lat": 20.962068965517233
+  },
+  "bhadrak": {
+    "name": "Bhadrak",
+    "state": "Orissa",
+    "lon": 86.80302387267896,
+    "lat": 20.962068965517233
+  },
+  "bolangir|orissa": {
+    "name": "Bolangir",
+    "state": "Orissa",
+    "lon": 83.21674556213016,
+    "lat": 20.62053254437869
+  },
+  "bolangir": {
+    "name": "Bolangir",
+    "state": "Orissa",
+    "lon": 83.21674556213016,
+    "lat": 20.62053254437869
+  },
+  "boudh|orissa": {
+    "name": "Boudh",
+    "state": "Orissa",
+    "lon": 84.13364583333333,
+    "lat": 20.583437500000002
+  },
+  "boudh": {
+    "name": "Boudh",
+    "state": "Orissa",
+    "lon": 84.13364583333333,
+    "lat": 20.583437500000002
+  },
+  "cuttack|orissa": {
+    "name": "Cuttack",
+    "state": "Orissa",
+    "lon": 85.7791443850267,
+    "lat": 20.40951871657755
+  },
+  "cuttack": {
+    "name": "Cuttack",
+    "state": "Orissa",
+    "lon": 85.7791443850267,
+    "lat": 20.40951871657755
+  },
+  "deogarh|orissa": {
+    "name": "Deogarh",
+    "state": "Orissa",
+    "lon": 84.81857142857139,
+    "lat": 21.433367346938784
+  },
+  "deogarh": {
+    "name": "Deogarh",
+    "state": "Orissa",
+    "lon": 84.81857142857139,
+    "lat": 21.433367346938784
+  },
+  "dhenkanal|orissa": {
+    "name": "Dhenkanal",
+    "state": "Orissa",
+    "lon": 85.53311926605505,
+    "lat": 20.801926605504576
+  },
+  "dhenkanal": {
+    "name": "Dhenkanal",
+    "state": "Orissa",
+    "lon": 85.53311926605505,
+    "lat": 20.801926605504576
+  },
+  "gajapati|orissa": {
+    "name": "Gajapati",
+    "state": "Orissa",
+    "lon": 84.13999999999997,
+    "lat": 19.12503649635036
+  },
+  "gajapati": {
+    "name": "Gajapati",
+    "state": "Orissa",
+    "lon": 84.13999999999997,
+    "lat": 19.12503649635036
+  },
+  "ganjam|orissa": {
+    "name": "Ganjam",
+    "state": "Orissa",
+    "lon": 84.81030463576161,
+    "lat": 19.29463576158948
+  },
+  "ganjam": {
+    "name": "Ganjam",
+    "state": "Orissa",
+    "lon": 84.81030463576161,
+    "lat": 19.29463576158948
+  },
+  "jagatsinghpur|orissa": {
+    "name": "Jagatsinghpur",
+    "state": "Orissa",
+    "lon": 86.46249275362347,
+    "lat": 20.140376811594166
+  },
+  "jagatsinghpur": {
+    "name": "Jagatsinghpur",
+    "state": "Orissa",
+    "lon": 86.46249275362347,
+    "lat": 20.140376811594166
+  },
+  "jajpur|orissa": {
+    "name": "Jajpur",
+    "state": "Orissa",
+    "lon": 86.15079136690649,
+    "lat": 20.855179856115107
+  },
+  "jajpur": {
+    "name": "Jajpur",
+    "state": "Orissa",
+    "lon": 86.15079136690649,
+    "lat": 20.855179856115107
+  },
+  "jharsuguda|orissa": {
+    "name": "Jharsuguda",
+    "state": "Orissa",
+    "lon": 83.93827160493827,
+    "lat": 21.829259259259263
+  },
+  "jharsuguda": {
+    "name": "Jharsuguda",
+    "state": "Orissa",
+    "lon": 83.93827160493827,
+    "lat": 21.829259259259263
+  },
+  "kalahandi|orissa": {
+    "name": "Kalahandi",
+    "state": "Orissa",
+    "lon": 83.11441025641024,
+    "lat": 19.787538461538464
+  },
+  "kalahandi": {
+    "name": "Kalahandi",
+    "state": "Orissa",
+    "lon": 83.11441025641024,
+    "lat": 19.787538461538464
+  },
+  "kandhamal|orissa": {
+    "name": "Kandhamal",
+    "state": "Orissa",
+    "lon": 84.02333333333333,
+    "lat": 20.095595238095235
+  },
+  "kandhamal": {
+    "name": "Kandhamal",
+    "state": "Orissa",
+    "lon": 84.02333333333333,
+    "lat": 20.095595238095235
+  },
+  "kendrapara|orissa": {
+    "name": "Kendrapara",
+    "state": "Orissa",
+    "lon": 86.79307270233176,
+    "lat": 20.56204389574756
+  },
+  "kendrapara": {
+    "name": "Kendrapara",
+    "state": "Orissa",
+    "lon": 86.79307270233176,
+    "lat": 20.56204389574756
+  },
+  "keonjhar|orissa": {
+    "name": "Keonjhar",
+    "state": "Orissa",
+    "lon": 85.76051546391757,
+    "lat": 21.49711340206185
+  },
+  "keonjhar": {
+    "name": "Keonjhar",
+    "state": "Orissa",
+    "lon": 85.76051546391757,
+    "lat": 21.49711340206185
+  },
+  "khordha|orissa": {
+    "name": "Khordha",
+    "state": "Orissa",
+    "lon": 85.52330188679248,
+    "lat": 20.055801886792462
+  },
+  "khordha": {
+    "name": "Khordha",
+    "state": "Orissa",
+    "lon": 85.52330188679248,
+    "lat": 20.055801886792462
+  },
+  "koraput|orissa": {
+    "name": "Koraput",
+    "state": "Orissa",
+    "lon": 82.81032258064518,
+    "lat": 18.827992831541213
+  },
+  "koraput": {
+    "name": "Koraput",
+    "state": "Orissa",
+    "lon": 82.81032258064518,
+    "lat": 18.827992831541213
+  },
+  "malkangiri|orissa": {
+    "name": "Malkangiri",
+    "state": "Orissa",
+    "lon": 81.98384615384613,
+    "lat": 18.255076923076906
+  },
+  "malkangiri": {
+    "name": "Malkangiri",
+    "state": "Orissa",
+    "lon": 81.98384615384613,
+    "lat": 18.255076923076906
+  },
+  "mayurbhanj|orissa": {
+    "name": "Mayurbhanj",
+    "state": "Orissa",
+    "lon": 86.40151515151516,
+    "lat": 21.90138528138529
+  },
+  "mayurbhanj": {
+    "name": "Mayurbhanj",
+    "state": "Orissa",
+    "lon": 86.40151515151516,
+    "lat": 21.90138528138529
+  },
+  "nabarangpur|orissa": {
+    "name": "Nabarangpur",
+    "state": "Orissa",
+    "lon": 82.41878048780485,
+    "lat": 19.51548780487805
+  },
+  "nabarangpur": {
+    "name": "Nabarangpur",
+    "state": "Orissa",
+    "lon": 82.41878048780485,
+    "lat": 19.51548780487805
+  },
+  "nayagarh|orissa": {
+    "name": "Nayagarh",
+    "state": "Orissa",
+    "lon": 85.05263636363641,
+    "lat": 20.1989090909091
+  },
+  "nayagarh": {
+    "name": "Nayagarh",
+    "state": "Orissa",
+    "lon": 85.05263636363641,
+    "lat": 20.1989090909091
+  },
+  "nuapada|orissa": {
+    "name": "Nuapada",
+    "state": "Orissa",
+    "lon": 82.5926923076923,
+    "lat": 20.480576923076917
+  },
+  "nuapada": {
+    "name": "Nuapada",
+    "state": "Orissa",
+    "lon": 82.5926923076923,
+    "lat": 20.480576923076917
+  },
+  "puri|orissa": {
+    "name": "Puri",
+    "state": "Orissa",
+    "lon": 85.80062666666663,
+    "lat": 19.808666666666625
+  },
+  "puri": {
+    "name": "Puri",
+    "state": "Orissa",
+    "lon": 85.80062666666663,
+    "lat": 19.808666666666625
+  },
+  "rayagada|orissa": {
+    "name": "Rayagada",
+    "state": "Orissa",
+    "lon": 83.45843999999992,
+    "lat": 19.294520000000016
+  },
+  "rayagada": {
+    "name": "Rayagada",
+    "state": "Orissa",
+    "lon": 83.45843999999992,
+    "lat": 19.294520000000016
+  },
+  "sambalpur|orissa": {
+    "name": "Sambalpur",
+    "state": "Orissa",
+    "lon": 84.3507692307692,
+    "lat": 21.521118881118895
+  },
+  "sambalpur": {
+    "name": "Sambalpur",
+    "state": "Orissa",
+    "lon": 84.3507692307692,
+    "lat": 21.521118881118895
+  },
+  "sonepur|orissa": {
+    "name": "Sonepur",
+    "state": "Orissa",
+    "lon": 83.77176470588235,
+    "lat": 20.89541176470588
+  },
+  "sonepur": {
+    "name": "Sonepur",
+    "state": "Orissa",
+    "lon": 83.77176470588235,
+    "lat": 20.89541176470588
+  },
+  "sundargarh|orissa": {
+    "name": "Sundargarh",
+    "state": "Orissa",
+    "lon": 84.50105263157897,
+    "lat": 22.066985645933006
+  },
+  "sundargarh": {
+    "name": "Sundargarh",
+    "state": "Orissa",
+    "lon": 84.50105263157897,
+    "lat": 22.066985645933006
+  },
+  "karaikal|puducherry": {
+    "name": "Karaikal",
+    "state": "Puducherry",
+    "lon": 79.82047999999998,
+    "lat": 10.880320000000019
+  },
+  "karaikal": {
+    "name": "Karaikal",
+    "state": "Puducherry",
+    "lon": 79.82047999999998,
+    "lat": 10.880320000000019
+  },
+  "mahe|puducherry": {
+    "name": "Mahe",
+    "state": "Puducherry",
+    "lon": 75.2822680412372,
+    "lat": 12.006872852233656
+  },
+  "mahe": {
+    "name": "Mahe",
+    "state": "Puducherry",
+    "lon": 75.2822680412372,
+    "lat": 12.006872852233656
+  },
+  "puducherry|puducherry": {
+    "name": "Puducherry",
+    "state": "Puducherry",
+    "lon": 79.79754166666649,
+    "lat": 11.887791666666658
+  },
+  "puducherry": {
+    "name": "Puducherry",
+    "state": "Puducherry",
+    "lon": 79.79754166666649,
+    "lat": 11.887791666666658
+  },
+  "yanam|puducherry": {
+    "name": "Yanam",
+    "state": "Puducherry",
+    "lon": 82.2587323943662,
+    "lat": 16.710563380281705
+  },
+  "yanam": {
+    "name": "Yanam",
+    "state": "Puducherry",
+    "lon": 82.2587323943662,
+    "lat": 16.710563380281705
+  },
+  "amritsar|punjab": {
+    "name": "Amritsar",
+    "state": "Punjab",
+    "lon": 74.79904761904766,
+    "lat": 31.551369047619044
+  },
+  "amritsar": {
+    "name": "Amritsar",
+    "state": "Punjab",
+    "lon": 74.79904761904766,
+    "lat": 31.551369047619044
+  },
+  "bathinda|punjab": {
+    "name": "Bathinda",
+    "state": "Punjab",
+    "lon": 75.05807017543859,
+    "lat": 30.194912280701754
+  },
+  "bathinda": {
+    "name": "Bathinda",
+    "state": "Punjab",
+    "lon": 75.05807017543859,
+    "lat": 30.194912280701754
+  },
+  "faridkot|punjab": {
+    "name": "Faridkot",
+    "state": "Punjab",
+    "lon": 74.79953125000002,
+    "lat": 30.594531249999992
+  },
+  "faridkot": {
+    "name": "Faridkot",
+    "state": "Punjab",
+    "lon": 74.79953125000002,
+    "lat": 30.594531249999992
+  },
+  "fatehgarh sahib|punjab": {
+    "name": "Fatehgarh Sahib",
+    "state": "Punjab",
+    "lon": 76.36187500000001,
+    "lat": 30.644999999999996
+  },
+  "fatehgarh sahib": {
+    "name": "Fatehgarh Sahib",
+    "state": "Punjab",
+    "lon": 76.36187500000001,
+    "lat": 30.644999999999996
+  },
+  "firozpur|punjab": {
+    "name": "Firozpur",
+    "state": "Punjab",
+    "lon": 74.40815642458105,
+    "lat": 30.637877094972094
+  },
+  "firozpur": {
+    "name": "Firozpur",
+    "state": "Punjab",
+    "lon": 74.40815642458105,
+    "lat": 30.637877094972094
+  },
+  "gurdaspur|punjab": {
+    "name": "Gurdaspur",
+    "state": "Punjab",
+    "lon": 75.32398496240603,
+    "lat": 32.04631578947368
+  },
+  "gurdaspur": {
+    "name": "Gurdaspur",
+    "state": "Punjab",
+    "lon": 75.32398496240603,
+    "lat": 32.04631578947368
+  },
+  "hoshiarpur|punjab": {
+    "name": "Hoshiarpur",
+    "state": "Punjab",
+    "lon": 75.84500000000004,
+    "lat": 31.555416666666655
+  },
+  "hoshiarpur": {
+    "name": "Hoshiarpur",
+    "state": "Punjab",
+    "lon": 75.84500000000004,
+    "lat": 31.555416666666655
+  },
+  "jalandhar|punjab": {
+    "name": "Jalandhar",
+    "state": "Punjab",
+    "lon": 75.54418032786883,
+    "lat": 31.252868852459027
+  },
+  "jalandhar": {
+    "name": "Jalandhar",
+    "state": "Punjab",
+    "lon": 75.54418032786883,
+    "lat": 31.252868852459027
+  },
+  "kapurthala|punjab": {
+    "name": "Kapurthala",
+    "state": "Punjab",
+    "lon": 75.31062499999999,
+    "lat": 31.37137500000001
+  },
+  "kapurthala": {
+    "name": "Kapurthala",
+    "state": "Punjab",
+    "lon": 75.31062499999999,
+    "lat": 31.37137500000001
+  },
+  "ludhiana|punjab": {
+    "name": "Ludhiana",
+    "state": "Punjab",
+    "lon": 75.83258620689656,
+    "lat": 30.76862068965516
+  },
+  "ludhiana": {
+    "name": "Ludhiana",
+    "state": "Punjab",
+    "lon": 75.83258620689656,
+    "lat": 30.76862068965516
+  },
+  "mansa|punjab": {
+    "name": "Mansa",
+    "state": "Punjab",
+    "lon": 75.43303370786519,
+    "lat": 29.923146067415733
+  },
+  "mansa": {
+    "name": "Mansa",
+    "state": "Punjab",
+    "lon": 75.43303370786519,
+    "lat": 29.923146067415733
+  },
+  "moga|punjab": {
+    "name": "Moga",
+    "state": "Punjab",
+    "lon": 75.16186666666665,
+    "lat": 30.758933333333335
+  },
+  "moga": {
+    "name": "Moga",
+    "state": "Punjab",
+    "lon": 75.16186666666665,
+    "lat": 30.758933333333335
+  },
+  "muktsar|punjab": {
+    "name": "Muktsar",
+    "state": "Punjab",
+    "lon": 74.55154761904764,
+    "lat": 30.31642857142857
+  },
+  "muktsar": {
+    "name": "Muktsar",
+    "state": "Punjab",
+    "lon": 74.55154761904764,
+    "lat": 30.31642857142857
+  },
+  "nawan shehar|punjab": {
+    "name": "Nawan Shehar",
+    "state": "Punjab",
+    "lon": 76.09728571428572,
+    "lat": 31.1367142857143
+  },
+  "nawan shehar": {
+    "name": "Nawan Shehar",
+    "state": "Punjab",
+    "lon": 76.09728571428572,
+    "lat": 31.1367142857143
+  },
+  "patiala|punjab": {
+    "name": "Patiala",
+    "state": "Punjab",
+    "lon": 76.27701897018984,
+    "lat": 30.216287262872633
+  },
+  "patiala": {
+    "name": "Patiala",
+    "state": "Punjab",
+    "lon": 76.27701897018984,
+    "lat": 30.216287262872633
+  },
+  "rupnagar|punjab": {
+    "name": "Rupnagar",
+    "state": "Punjab",
+    "lon": 76.53669230769229,
+    "lat": 30.913999999999998
+  },
+  "rupnagar": {
+    "name": "Rupnagar",
+    "state": "Punjab",
+    "lon": 76.53669230769229,
+    "lat": 30.913999999999998
+  },
+  "sangrur|punjab": {
+    "name": "Sangrur",
+    "state": "Punjab",
+    "lon": 75.89415282392031,
+    "lat": 30.187242524916957
+  },
+  "sangrur": {
+    "name": "Sangrur",
+    "state": "Punjab",
+    "lon": 75.89415282392031,
+    "lat": 30.187242524916957
+  },
+  "ajmer|rajasthan": {
+    "name": "Ajmer",
+    "state": "Rajasthan",
+    "lon": 74.77372222222225,
+    "lat": 26.248499999999993
+  },
+  "ajmer": {
+    "name": "Ajmer",
+    "state": "Rajasthan",
+    "lon": 74.77372222222225,
+    "lat": 26.248499999999993
+  },
+  "alwar|rajasthan": {
+    "name": "Alwar",
+    "state": "Rajasthan",
+    "lon": 76.65471571906355,
+    "lat": 27.555585284280944
+  },
+  "alwar": {
+    "name": "Alwar",
+    "state": "Rajasthan",
+    "lon": 76.65471571906355,
+    "lat": 27.555585284280944
+  },
+  "banswara|rajasthan": {
+    "name": "Banswara",
+    "state": "Rajasthan",
+    "lon": 74.44380434782607,
+    "lat": 23.4591304347826
+  },
+  "banswara": {
+    "name": "Banswara",
+    "state": "Rajasthan",
+    "lon": 74.44380434782607,
+    "lat": 23.4591304347826
+  },
+  "baran|rajasthan": {
+    "name": "Baran",
+    "state": "Rajasthan",
+    "lon": 76.86069620253166,
+    "lat": 24.98246835443036
+  },
+  "baran": {
+    "name": "Baran",
+    "state": "Rajasthan",
+    "lon": 76.86069620253166,
+    "lat": 24.98246835443036
+  },
+  "barmer|rajasthan": {
+    "name": "Barmer",
+    "state": "Rajasthan",
+    "lon": 71.5029680365297,
+    "lat": 25.77529680365296
+  },
+  "barmer": {
+    "name": "Barmer",
+    "state": "Rajasthan",
+    "lon": 71.5029680365297,
+    "lat": 25.77529680365296
+  },
+  "bharatpur|rajasthan": {
+    "name": "Bharatpur",
+    "state": "Rajasthan",
+    "lon": 77.21738589211617,
+    "lat": 27.32734439834026
+  },
+  "bharatpur": {
+    "name": "Bharatpur",
+    "state": "Rajasthan",
+    "lon": 77.21738589211617,
+    "lat": 27.32734439834026
+  },
+  "bhilwara|rajasthan": {
+    "name": "Bhilwara",
+    "state": "Rajasthan",
+    "lon": 74.63798913043483,
+    "lat": 25.453967391304342
+  },
+  "bhilwara": {
+    "name": "Bhilwara",
+    "state": "Rajasthan",
+    "lon": 74.63798913043483,
+    "lat": 25.453967391304342
+  },
+  "bikaner|rajasthan": {
+    "name": "Bikaner",
+    "state": "Rajasthan",
+    "lon": 73.27205761316877,
+    "lat": 28.130658436213977
+  },
+  "bikaner": {
+    "name": "Bikaner",
+    "state": "Rajasthan",
+    "lon": 73.27205761316877,
+    "lat": 28.130658436213977
+  },
+  "bundi|rajasthan": {
+    "name": "Bundi",
+    "state": "Rajasthan",
+    "lon": 75.80117647058825,
+    "lat": 25.4886274509804
+  },
+  "bundi": {
+    "name": "Bundi",
+    "state": "Rajasthan",
+    "lon": 75.80117647058825,
+    "lat": 25.4886274509804
+  },
+  "chittaurgarh|rajasthan": {
+    "name": "Chittaurgarh",
+    "state": "Rajasthan",
+    "lon": 74.6655985915493,
+    "lat": 24.576725352112668
+  },
+  "chittaurgarh": {
+    "name": "Chittaurgarh",
+    "state": "Rajasthan",
+    "lon": 74.6655985915493,
+    "lat": 24.576725352112668
+  },
+  "churu|rajasthan": {
+    "name": "Churu",
+    "state": "Rajasthan",
+    "lon": 74.66175213675213,
+    "lat": 28.29594017094016
+  },
+  "churu": {
+    "name": "Churu",
+    "state": "Rajasthan",
+    "lon": 74.66175213675213,
+    "lat": 28.29594017094016
+  },
+  "dausa|rajasthan": {
+    "name": "Dausa",
+    "state": "Rajasthan",
+    "lon": 76.57656626506017,
+    "lat": 26.915180722891563
+  },
+  "dausa": {
+    "name": "Dausa",
+    "state": "Rajasthan",
+    "lon": 76.57656626506017,
+    "lat": 26.915180722891563
+  },
+  "dhaulpur|rajasthan": {
+    "name": "Dhaulpur",
+    "state": "Rajasthan",
+    "lon": 77.74939130434782,
+    "lat": 26.72591304347826
+  },
+  "dhaulpur": {
+    "name": "Dhaulpur",
+    "state": "Rajasthan",
+    "lon": 77.74939130434782,
+    "lat": 26.72591304347826
+  },
+  "dungarpur|rajasthan": {
+    "name": "Dungarpur",
+    "state": "Rajasthan",
+    "lon": 73.85227848101268,
+    "lat": 23.754936708860768
+  },
+  "dungarpur": {
+    "name": "Dungarpur",
+    "state": "Rajasthan",
+    "lon": 73.85227848101268,
+    "lat": 23.754936708860768
+  },
+  "ganganagar|rajasthan": {
+    "name": "Ganganagar",
+    "state": "Rajasthan",
+    "lon": 73.56366412213737,
+    "lat": 29.26137404580153
+  },
+  "ganganagar": {
+    "name": "Ganganagar",
+    "state": "Rajasthan",
+    "lon": 73.56366412213737,
+    "lat": 29.26137404580153
+  },
+  "hanumangarh|rajasthan": {
+    "name": "Hanumangarh",
+    "state": "Rajasthan",
+    "lon": 74.74258064516131,
+    "lat": 29.188709677419354
+  },
+  "hanumangarh": {
+    "name": "Hanumangarh",
+    "state": "Rajasthan",
+    "lon": 74.74258064516131,
+    "lat": 29.188709677419354
+  },
+  "jaipur|rajasthan": {
+    "name": "Jaipur",
+    "state": "Rajasthan",
+    "lon": 75.77390041493773,
+    "lat": 27.03804979253112
+  },
+  "jaipur": {
+    "name": "Jaipur",
+    "state": "Rajasthan",
+    "lon": 75.77390041493773,
+    "lat": 27.03804979253112
+  },
+  "jaisalmer|rajasthan": {
+    "name": "Jaisalmer",
+    "state": "Rajasthan",
+    "lon": 71.18203980099503,
+    "lat": 26.87452736318408
+  },
+  "jaisalmer": {
+    "name": "Jaisalmer",
+    "state": "Rajasthan",
+    "lon": 71.18203980099503,
+    "lat": 26.87452736318408
+  },
+  "jalor|rajasthan": {
+    "name": "Jalor",
+    "state": "Rajasthan",
+    "lon": 72.18867469879518,
+    "lat": 25.07855421686746
+  },
+  "jalor": {
+    "name": "Jalor",
+    "state": "Rajasthan",
+    "lon": 72.18867469879518,
+    "lat": 25.07855421686746
+  },
+  "jhalawar|rajasthan": {
+    "name": "Jhalawar",
+    "state": "Rajasthan",
+    "lon": 76.1136697247706,
+    "lat": 24.250366972477067
+  },
+  "jhalawar": {
+    "name": "Jhalawar",
+    "state": "Rajasthan",
+    "lon": 76.1136697247706,
+    "lat": 24.250366972477067
+  },
+  "jhunjhunun|rajasthan": {
+    "name": "Jhunjhunun",
+    "state": "Rajasthan",
+    "lon": 75.52925619834708,
+    "lat": 28.137851239669423
+  },
+  "jhunjhunun": {
+    "name": "Jhunjhunun",
+    "state": "Rajasthan",
+    "lon": 75.52925619834708,
+    "lat": 28.137851239669423
+  },
+  "jodhpur|rajasthan": {
+    "name": "Jodhpur",
+    "state": "Rajasthan",
+    "lon": 73.00323843416376,
+    "lat": 26.68145907473312
+  },
+  "jodhpur": {
+    "name": "Jodhpur",
+    "state": "Rajasthan",
+    "lon": 73.00323843416376,
+    "lat": 26.68145907473312
+  },
+  "karauli|rajasthan": {
+    "name": "Karauli",
+    "state": "Rajasthan",
+    "lon": 76.96136,
+    "lat": 26.52248000000001
+  },
+  "karauli": {
+    "name": "Karauli",
+    "state": "Rajasthan",
+    "lon": 76.96136,
+    "lat": 26.52248000000001
+  },
+  "kota|rajasthan": {
+    "name": "Kota",
+    "state": "Rajasthan",
+    "lon": 76.18808917197451,
+    "lat": 25.178598726114647
+  },
+  "kota": {
+    "name": "Kota",
+    "state": "Rajasthan",
+    "lon": 76.18808917197451,
+    "lat": 25.178598726114647
+  },
+  "nagaur|rajasthan": {
+    "name": "Nagaur",
+    "state": "Rajasthan",
+    "lon": 74.14432000000005,
+    "lat": 27.07988000000001
+  },
+  "nagaur": {
+    "name": "Nagaur",
+    "state": "Rajasthan",
+    "lon": 74.14432000000005,
+    "lat": 27.07988000000001
+  },
+  "pali|rajasthan": {
+    "name": "Pali",
+    "state": "Rajasthan",
+    "lon": 73.55614457831324,
+    "lat": 25.80767068273094
+  },
+  "pali": {
+    "name": "Pali",
+    "state": "Rajasthan",
+    "lon": 73.55614457831324,
+    "lat": 25.80767068273094
+  },
+  "rajsamand|rajasthan": {
+    "name": "Rajsamand",
+    "state": "Rajasthan",
+    "lon": 73.9671710526316,
+    "lat": 25.255328947368422
+  },
+  "rajsamand": {
+    "name": "Rajsamand",
+    "state": "Rajasthan",
+    "lon": 73.9671710526316,
+    "lat": 25.255328947368422
+  },
+  "sawai madhopur|rajasthan": {
+    "name": "Sawai Madhopur",
+    "state": "Rajasthan",
+    "lon": 76.42651898734175,
+    "lat": 26.253734177215197
+  },
+  "sawai madhopur": {
+    "name": "Sawai Madhopur",
+    "state": "Rajasthan",
+    "lon": 76.42651898734175,
+    "lat": 26.253734177215197
+  },
+  "sikar|rajasthan": {
+    "name": "Sikar",
+    "state": "Rajasthan",
+    "lon": 75.29134969325156,
+    "lat": 27.649386503067465
+  },
+  "sikar": {
+    "name": "Sikar",
+    "state": "Rajasthan",
+    "lon": 75.29134969325156,
+    "lat": 27.649386503067465
+  },
+  "sirohi|rajasthan": {
+    "name": "Sirohi",
+    "state": "Rajasthan",
+    "lon": 72.75395833333334,
+    "lat": 24.802291666666665
+  },
+  "sirohi": {
+    "name": "Sirohi",
+    "state": "Rajasthan",
+    "lon": 72.75395833333334,
+    "lat": 24.802291666666665
+  },
+  "tonk|rajasthan": {
+    "name": "Tonk",
+    "state": "Rajasthan",
+    "lon": 75.78865284974091,
+    "lat": 26.156476683937832
+  },
+  "tonk": {
+    "name": "Tonk",
+    "state": "Rajasthan",
+    "lon": 75.78865284974091,
+    "lat": 26.156476683937832
+  },
+  "udaipur|rajasthan": {
+    "name": "Udaipur",
+    "state": "Rajasthan",
+    "lon": 73.8389361702128,
+    "lat": 24.444085106382982
+  },
+  "udaipur": {
+    "name": "Udaipur",
+    "state": "Rajasthan",
+    "lon": 73.8389361702128,
+    "lat": 24.444085106382982
+  },
+  "east|sikkim": {
+    "name": "East",
+    "state": "Sikkim",
+    "lon": 88.75030769230773,
+    "lat": 27.298153846153866
+  },
+  "east": {
+    "name": "East",
+    "state": "Sikkim",
+    "lon": 88.75030769230773,
+    "lat": 27.298153846153866
+  },
+  "north sikkim|sikkim": {
+    "name": "North Sikkim",
+    "state": "Sikkim",
+    "lon": 88.5426875,
+    "lat": 27.815687499999996
+  },
+  "north sikkim": {
+    "name": "North Sikkim",
+    "state": "Sikkim",
+    "lon": 88.5426875,
+    "lat": 27.815687499999996
+  },
+  "south sikkim|sikkim": {
+    "name": "South Sikkim",
+    "state": "Sikkim",
+    "lon": 88.37702127659576,
+    "lat": 27.279574468085112
+  },
+  "south sikkim": {
+    "name": "South Sikkim",
+    "state": "Sikkim",
+    "lon": 88.37702127659576,
+    "lat": 27.279574468085112
+  },
+  "west sikkim|sikkim": {
+    "name": "West Sikkim",
+    "state": "Sikkim",
+    "lon": 88.16046875000005,
+    "lat": 27.337656250000002
+  },
+  "west sikkim": {
+    "name": "West Sikkim",
+    "state": "Sikkim",
+    "lon": 88.16046875000005,
+    "lat": 27.337656250000002
+  },
+  "ariyalur|tamil nadu": {
+    "name": "Ariyalur",
+    "state": "Tamil Nadu",
+    "lon": 79.22294117647061,
+    "lat": 11.191882352941178
+  },
+  "ariyalur": {
+    "name": "Ariyalur",
+    "state": "Tamil Nadu",
+    "lon": 79.22294117647061,
+    "lat": 11.191882352941178
+  },
+  "chennai|tamil nadu": {
+    "name": "Chennai",
+    "state": "Tamil Nadu",
+    "lon": 80.28076086956544,
+    "lat": 13.05847826086956
+  },
+  "chennai": {
+    "name": "Chennai",
+    "state": "Tamil Nadu",
+    "lon": 80.28076086956544,
+    "lat": 13.05847826086956
+  },
+  "coimbatore|tamil nadu": {
+    "name": "Coimbatore",
+    "state": "Tamil Nadu",
+    "lon": 77.07650537634406,
+    "lat": 10.87510752688172
+  },
+  "coimbatore": {
+    "name": "Coimbatore",
+    "state": "Tamil Nadu",
+    "lon": 77.07650537634406,
+    "lat": 10.87510752688172
+  },
+  "cuddalore|tamil nadu": {
+    "name": "Cuddalore",
+    "state": "Tamil Nadu",
+    "lon": 79.63019021739146,
+    "lat": 11.576847826086944
+  },
+  "cuddalore": {
+    "name": "Cuddalore",
+    "state": "Tamil Nadu",
+    "lon": 79.63019021739146,
+    "lat": 11.576847826086944
+  },
+  "dharmapuri|tamil nadu": {
+    "name": "Dharmapuri",
+    "state": "Tamil Nadu",
+    "lon": 78.11391534391537,
+    "lat": 12.3046560846561
+  },
+  "dharmapuri": {
+    "name": "Dharmapuri",
+    "state": "Tamil Nadu",
+    "lon": 78.11391534391537,
+    "lat": 12.3046560846561
+  },
+  "dindigul|tamil nadu": {
+    "name": "Dindigul",
+    "state": "Tamil Nadu",
+    "lon": 77.78220994475136,
+    "lat": 10.380662983425418
+  },
+  "dindigul": {
+    "name": "Dindigul",
+    "state": "Tamil Nadu",
+    "lon": 77.78220994475136,
+    "lat": 10.380662983425418
+  },
+  "erode|tamil nadu": {
+    "name": "Erode",
+    "state": "Tamil Nadu",
+    "lon": 77.42150684931505,
+    "lat": 11.27018264840183
+  },
+  "erode": {
+    "name": "Erode",
+    "state": "Tamil Nadu",
+    "lon": 77.42150684931505,
+    "lat": 11.27018264840183
+  },
+  "kancheepuram|tamil nadu": {
+    "name": "Kancheepuram",
+    "state": "Tamil Nadu",
+    "lon": 80.09048059149686,
+    "lat": 12.502763401109075
+  },
+  "kancheepuram": {
+    "name": "Kancheepuram",
+    "state": "Tamil Nadu",
+    "lon": 80.09048059149686,
+    "lat": 12.502763401109075
+  },
+  "kanniyakumari|tamil nadu": {
+    "name": "Kanniyakumari",
+    "state": "Tamil Nadu",
+    "lon": 77.31747104247103,
+    "lat": 8.185617760617749
+  },
+  "kanniyakumari": {
+    "name": "Kanniyakumari",
+    "state": "Tamil Nadu",
+    "lon": 77.31747104247103,
+    "lat": 8.185617760617749
+  },
+  "karur|tamil nadu": {
+    "name": "Karur",
+    "state": "Tamil Nadu",
+    "lon": 78.08694214876034,
+    "lat": 10.797851239669413
+  },
+  "karur": {
+    "name": "Karur",
+    "state": "Tamil Nadu",
+    "lon": 78.08694214876034,
+    "lat": 10.797851239669413
+  },
+  "madurai|tamil nadu": {
+    "name": "Madurai",
+    "state": "Tamil Nadu",
+    "lon": 78.01569536423843,
+    "lat": 9.907086092715225
+  },
+  "madurai": {
+    "name": "Madurai",
+    "state": "Tamil Nadu",
+    "lon": 78.01569536423843,
+    "lat": 9.907086092715225
+  },
+  "nagapattinam|tamil nadu": {
+    "name": "Nagapattinam",
+    "state": "Tamil Nadu",
+    "lon": 79.79002304147447,
+    "lat": 10.418870967741967
+  },
+  "nagapattinam": {
+    "name": "Nagapattinam",
+    "state": "Tamil Nadu",
+    "lon": 79.79002304147447,
+    "lat": 10.418870967741967
+  },
+  "namakkal|tamil nadu": {
+    "name": "Namakkal",
+    "state": "Tamil Nadu",
+    "lon": 78.14823529411767,
+    "lat": 11.339159663865537
+  },
+  "namakkal": {
+    "name": "Namakkal",
+    "state": "Tamil Nadu",
+    "lon": 78.14823529411767,
+    "lat": 11.339159663865537
+  },
+  "nilgiris|tamil nadu": {
+    "name": "Nilgiris",
+    "state": "Tamil Nadu",
+    "lon": 76.660253164557,
+    "lat": 11.445063291139244
+  },
+  "nilgiris": {
+    "name": "Nilgiris",
+    "state": "Tamil Nadu",
+    "lon": 76.660253164557,
+    "lat": 11.445063291139244
+  },
+  "perambalur|tamil nadu": {
+    "name": "Perambalur",
+    "state": "Tamil Nadu",
+    "lon": 78.8605813953488,
+    "lat": 11.26348837209302
+  },
+  "perambalur": {
+    "name": "Perambalur",
+    "state": "Tamil Nadu",
+    "lon": 78.8605813953488,
+    "lat": 11.26348837209302
+  },
+  "pudukkottai|tamil nadu": {
+    "name": "Pudukkottai",
+    "state": "Tamil Nadu",
+    "lon": 79.05356020942405,
+    "lat": 10.13151832460732
+  },
+  "pudukkottai": {
+    "name": "Pudukkottai",
+    "state": "Tamil Nadu",
+    "lon": 79.05356020942405,
+    "lat": 10.13151832460732
+  },
+  "ramanathapuram|tamil nadu": {
+    "name": "Ramanathapuram",
+    "state": "Tamil Nadu",
+    "lon": 78.83854814814812,
+    "lat": 9.381170370370361
+  },
+  "ramanathapuram": {
+    "name": "Ramanathapuram",
+    "state": "Tamil Nadu",
+    "lon": 78.83854814814812,
+    "lat": 9.381170370370361
+  },
+  "salem|tamil nadu": {
+    "name": "Salem",
+    "state": "Tamil Nadu",
+    "lon": 78.24708994708993,
+    "lat": 11.630634920634924
+  },
+  "salem": {
+    "name": "Salem",
+    "state": "Tamil Nadu",
+    "lon": 78.24708994708993,
+    "lat": 11.630634920634924
+  },
+  "sivaganga|tamil nadu": {
+    "name": "Sivaganga",
+    "state": "Tamil Nadu",
+    "lon": 78.5645128205128,
+    "lat": 9.963025641025629
+  },
+  "sivaganga": {
+    "name": "Sivaganga",
+    "state": "Tamil Nadu",
+    "lon": 78.5645128205128,
+    "lat": 9.963025641025629
+  },
+  "thanjavur|tamil nadu": {
+    "name": "Thanjavur",
+    "state": "Tamil Nadu",
+    "lon": 79.31890202702705,
+    "lat": 10.388192567567563
+  },
+  "thanjavur": {
+    "name": "Thanjavur",
+    "state": "Tamil Nadu",
+    "lon": 79.31890202702705,
+    "lat": 10.388192567567563
+  },
+  "theni|tamil nadu": {
+    "name": "Theni",
+    "state": "Tamil Nadu",
+    "lon": 77.43650943396227,
+    "lat": 9.926792452830188
+  },
+  "theni": {
+    "name": "Theni",
+    "state": "Tamil Nadu",
+    "lon": 77.43650943396227,
+    "lat": 9.926792452830188
+  },
+  "thiruvallur|tamil nadu": {
+    "name": "Thiruvallur",
+    "state": "Tamil Nadu",
+    "lon": 80.1954844290659,
+    "lat": 13.274083044982694
+  },
+  "thiruvallur": {
+    "name": "Thiruvallur",
+    "state": "Tamil Nadu",
+    "lon": 80.1954844290659,
+    "lat": 13.274083044982694
+  },
+  "thiruvarur|tamil nadu": {
+    "name": "Thiruvarur",
+    "state": "Tamil Nadu",
+    "lon": 79.58529411764694,
+    "lat": 10.386224350205213
+  },
+  "thiruvarur": {
+    "name": "Thiruvarur",
+    "state": "Tamil Nadu",
+    "lon": 79.58529411764694,
+    "lat": 10.386224350205213
+  },
+  "thoothukudi|tamil nadu": {
+    "name": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "lon": 78.1379773691656,
+    "lat": 8.72522630834514
+  },
+  "thoothukudi": {
+    "name": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "lon": 78.1379773691656,
+    "lat": 8.72522630834514
+  },
+  "tiruchchirappalli|tamil nadu": {
+    "name": "Tiruchchirappalli",
+    "state": "Tamil Nadu",
+    "lon": 78.5471120689655,
+    "lat": 10.840948275862077
+  },
+  "tiruchchirappalli": {
+    "name": "Tiruchchirappalli",
+    "state": "Tamil Nadu",
+    "lon": 78.5471120689655,
+    "lat": 10.840948275862077
+  },
+  "tirunelveli kattabo|tamil nadu": {
+    "name": "Tirunelveli Kattabo",
+    "state": "Tamil Nadu",
+    "lon": 77.70540642722119,
+    "lat": 8.457372400756142
+  },
+  "tirunelveli kattabo": {
+    "name": "Tirunelveli Kattabo",
+    "state": "Tamil Nadu",
+    "lon": 77.70540642722119,
+    "lat": 8.457372400756142
+  },
+  "tiruvannamalai|tamil nadu": {
+    "name": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "lon": 79.23413612565443,
+    "lat": 12.421832460732976
+  },
+  "tiruvannamalai": {
+    "name": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "lon": 79.23413612565443,
+    "lat": 12.421832460732976
+  },
+  "vellore|tamil nadu": {
+    "name": "Vellore",
+    "state": "Tamil Nadu",
+    "lon": 79.0289189189189,
+    "lat": 12.786432432432434
+  },
+  "vellore": {
+    "name": "Vellore",
+    "state": "Tamil Nadu",
+    "lon": 79.0289189189189,
+    "lat": 12.786432432432434
+  },
+  "villupuram|tamil nadu": {
+    "name": "Villupuram",
+    "state": "Tamil Nadu",
+    "lon": 79.6888235294116,
+    "lat": 12.066013071895435
+  },
+  "villupuram": {
+    "name": "Villupuram",
+    "state": "Tamil Nadu",
+    "lon": 79.6888235294116,
+    "lat": 12.066013071895435
+  },
+  "virudhunagar|tamil nadu": {
+    "name": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "lon": 77.87748427672953,
+    "lat": 9.470314465408821
+  },
+  "virudhunagar": {
+    "name": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "lon": 77.87748427672953,
+    "lat": 9.470314465408821
+  },
+  "dhalai|tripura": {
+    "name": "Dhalai",
+    "state": "Tripura",
+    "lon": 91.9449635036497,
+    "lat": 23.784379562043792
+  },
+  "dhalai": {
+    "name": "Dhalai",
+    "state": "Tripura",
+    "lon": 91.9449635036497,
+    "lat": 23.784379562043792
+  },
+  "north tripura|tripura": {
+    "name": "North Tripura",
+    "state": "Tripura",
+    "lon": 92.17878787878783,
+    "lat": 24.12563636363637
+  },
+  "north tripura": {
+    "name": "North Tripura",
+    "state": "Tripura",
+    "lon": 92.17878787878783,
+    "lat": 24.12563636363637
+  },
+  "south tripura|tripura": {
+    "name": "South Tripura",
+    "state": "Tripura",
+    "lon": 91.6066420664207,
+    "lat": 23.213210332103316
+  },
+  "south tripura": {
+    "name": "South Tripura",
+    "state": "Tripura",
+    "lon": 91.6066420664207,
+    "lat": 23.213210332103316
+  },
+  "west tripura|tripura": {
+    "name": "West Tripura",
+    "state": "Tripura",
+    "lon": 91.41506912442392,
+    "lat": 23.782949308755757
+  },
+  "west tripura": {
+    "name": "West Tripura",
+    "state": "Tripura",
+    "lon": 91.41506912442392,
+    "lat": 23.782949308755757
+  },
+  "agra|uttar pradesh": {
+    "name": "Agra",
+    "state": "Uttar Pradesh",
+    "lon": 78.05190476190477,
+    "lat": 26.996047619047626
+  },
+  "agra": {
+    "name": "Agra",
+    "state": "Uttar Pradesh",
+    "lon": 78.05190476190477,
+    "lat": 26.996047619047626
+  },
+  "aligarh|uttar pradesh": {
+    "name": "Aligarh",
+    "state": "Uttar Pradesh",
+    "lon": 78.0002255639098,
+    "lat": 27.939924812030068
+  },
+  "aligarh": {
+    "name": "Aligarh",
+    "state": "Uttar Pradesh",
+    "lon": 78.0002255639098,
+    "lat": 27.939924812030068
+  },
+  "allahabad|uttar pradesh": {
+    "name": "Allahabad",
+    "state": "Uttar Pradesh",
+    "lon": 82.05094155844154,
+    "lat": 25.393733766233762
+  },
+  "allahabad": {
+    "name": "Allahabad",
+    "state": "Uttar Pradesh",
+    "lon": 82.05094155844154,
+    "lat": 25.393733766233762
+  },
+  "ambedkar nagar|uttar pradesh": {
+    "name": "Ambedkar Nagar",
+    "state": "Uttar Pradesh",
+    "lon": 82.68128205128203,
+    "lat": 26.393931623931635
+  },
+  "ambedkar nagar": {
+    "name": "Ambedkar Nagar",
+    "state": "Uttar Pradesh",
+    "lon": 82.68128205128203,
+    "lat": 26.393931623931635
+  },
+  "auraiya|uttar pradesh": {
+    "name": "Auraiya",
+    "state": "Uttar Pradesh",
+    "lon": 79.4258415841584,
+    "lat": 26.670792079207924
+  },
+  "auraiya": {
+    "name": "Auraiya",
+    "state": "Uttar Pradesh",
+    "lon": 79.4258415841584,
+    "lat": 26.670792079207924
+  },
+  "azamgarh|uttar pradesh": {
+    "name": "Azamgarh",
+    "state": "Uttar Pradesh",
+    "lon": 83.01195000000001,
+    "lat": 26.010599999999997
+  },
+  "azamgarh": {
+    "name": "Azamgarh",
+    "state": "Uttar Pradesh",
+    "lon": 83.01195000000001,
+    "lat": 26.010599999999997
+  },
+  "badaun|uttar pradesh": {
+    "name": "Badaun",
+    "state": "Uttar Pradesh",
+    "lon": 78.99589928057554,
+    "lat": 28.09079136690647
+  },
+  "badaun": {
+    "name": "Badaun",
+    "state": "Uttar Pradesh",
+    "lon": 78.99589928057554,
+    "lat": 28.09079136690647
+  },
+  "baghpat|uttar pradesh": {
+    "name": "Baghpat",
+    "state": "Uttar Pradesh",
+    "lon": 77.30607843137253,
+    "lat": 29.04901960784314
+  },
+  "baghpat": {
+    "name": "Baghpat",
+    "state": "Uttar Pradesh",
+    "lon": 77.30607843137253,
+    "lat": 29.04901960784314
+  },
+  "bahraich|uttar pradesh": {
+    "name": "Bahraich",
+    "state": "Uttar Pradesh",
+    "lon": 81.445900621118,
+    "lat": 27.672546583850934
+  },
+  "bahraich": {
+    "name": "Bahraich",
+    "state": "Uttar Pradesh",
+    "lon": 81.445900621118,
+    "lat": 27.672546583850934
+  },
+  "ballia|uttar pradesh": {
+    "name": "Ballia",
+    "state": "Uttar Pradesh",
+    "lon": 84.0341176470588,
+    "lat": 25.865042016806736
+  },
+  "ballia": {
+    "name": "Ballia",
+    "state": "Uttar Pradesh",
+    "lon": 84.0341176470588,
+    "lat": 25.865042016806736
+  },
+  "balrampur|uttar pradesh": {
+    "name": "Balrampur",
+    "state": "Uttar Pradesh",
+    "lon": 82.4703409090909,
+    "lat": 27.45164772727272
+  },
+  "balrampur": {
+    "name": "Balrampur",
+    "state": "Uttar Pradesh",
+    "lon": 82.4703409090909,
+    "lat": 27.45164772727272
+  },
+  "banda|uttar pradesh": {
+    "name": "Banda",
+    "state": "Uttar Pradesh",
+    "lon": 80.52534031413613,
+    "lat": 25.35544502617801
+  },
+  "banda": {
+    "name": "Banda",
+    "state": "Uttar Pradesh",
+    "lon": 80.52534031413613,
+    "lat": 25.35544502617801
+  },
+  "bara banki|uttar pradesh": {
+    "name": "Bara Banki",
+    "state": "Uttar Pradesh",
+    "lon": 81.35740740740742,
+    "lat": 26.92465608465609
+  },
+  "bara banki": {
+    "name": "Bara Banki",
+    "state": "Uttar Pradesh",
+    "lon": 81.35740740740742,
+    "lat": 26.92465608465609
+  },
+  "bareilly|uttar pradesh": {
+    "name": "Bareilly",
+    "state": "Uttar Pradesh",
+    "lon": 79.43235294117643,
+    "lat": 28.512679738562085
+  },
+  "bareilly": {
+    "name": "Bareilly",
+    "state": "Uttar Pradesh",
+    "lon": 79.43235294117643,
+    "lat": 28.512679738562085
+  },
+  "basti|uttar pradesh": {
+    "name": "Basti",
+    "state": "Uttar Pradesh",
+    "lon": 82.69783783783787,
+    "lat": 26.83576576576576
+  },
+  "basti": {
+    "name": "Basti",
+    "state": "Uttar Pradesh",
+    "lon": 82.69783783783787,
+    "lat": 26.83576576576576
+  },
+  "bijnor|uttar pradesh": {
+    "name": "Bijnor",
+    "state": "Uttar Pradesh",
+    "lon": 78.45063063063064,
+    "lat": 29.31891891891891
+  },
+  "bijnor": {
+    "name": "Bijnor",
+    "state": "Uttar Pradesh",
+    "lon": 78.45063063063064,
+    "lat": 29.31891891891891
+  },
+  "bulandshahr|uttar pradesh": {
+    "name": "Bulandshahr",
+    "state": "Uttar Pradesh",
+    "lon": 78.01022727272729,
+    "lat": 28.35261363636364
+  },
+  "bulandshahr": {
+    "name": "Bulandshahr",
+    "state": "Uttar Pradesh",
+    "lon": 78.01022727272729,
+    "lat": 28.35261363636364
+  },
+  "chandauli|uttar pradesh": {
+    "name": "Chandauli",
+    "state": "Uttar Pradesh",
+    "lon": 83.2526495726496,
+    "lat": 25.12264957264958
+  },
+  "chandauli": {
+    "name": "Chandauli",
+    "state": "Uttar Pradesh",
+    "lon": 83.2526495726496,
+    "lat": 25.12264957264958
+  },
+  "chitrakoot|uttar pradesh": {
+    "name": "Chitrakoot",
+    "state": "Uttar Pradesh",
+    "lon": 81.07652173913047,
+    "lat": 25.162554347826084
+  },
+  "chitrakoot": {
+    "name": "Chitrakoot",
+    "state": "Uttar Pradesh",
+    "lon": 81.07652173913047,
+    "lat": 25.162554347826084
+  },
+  "deoria|uttar pradesh": {
+    "name": "Deoria",
+    "state": "Uttar Pradesh",
+    "lon": 83.8242975206612,
+    "lat": 26.423884297520665
+  },
+  "deoria": {
+    "name": "Deoria",
+    "state": "Uttar Pradesh",
+    "lon": 83.8242975206612,
+    "lat": 26.423884297520665
+  },
+  "etah|uttar pradesh": {
+    "name": "Etah",
+    "state": "Uttar Pradesh",
+    "lon": 78.69970760233917,
+    "lat": 27.594912280701767
+  },
+  "etah": {
+    "name": "Etah",
+    "state": "Uttar Pradesh",
+    "lon": 78.69970760233917,
+    "lat": 27.594912280701767
+  },
+  "etawah|uttar pradesh": {
+    "name": "Etawah",
+    "state": "Uttar Pradesh",
+    "lon": 79.07742268041237,
+    "lat": 26.791237113402047
+  },
+  "etawah": {
+    "name": "Etawah",
+    "state": "Uttar Pradesh",
+    "lon": 79.07742268041237,
+    "lat": 26.791237113402047
+  },
+  "faizabad|uttar pradesh": {
+    "name": "Faizabad",
+    "state": "Uttar Pradesh",
+    "lon": 82.00686274509805,
+    "lat": 26.60813725490196
+  },
+  "faizabad": {
+    "name": "Faizabad",
+    "state": "Uttar Pradesh",
+    "lon": 82.00686274509805,
+    "lat": 26.60813725490196
+  },
+  "farrukhabad|uttar pradesh": {
+    "name": "Farrukhabad",
+    "state": "Uttar Pradesh",
+    "lon": 79.43768421052631,
+    "lat": 27.452842105263166
+  },
+  "farrukhabad": {
+    "name": "Farrukhabad",
+    "state": "Uttar Pradesh",
+    "lon": 79.43768421052631,
+    "lat": 27.452842105263166
+  },
+  "fatehpur|uttar pradesh": {
+    "name": "Fatehpur",
+    "state": "Uttar Pradesh",
+    "lon": 80.8519298245614,
+    "lat": 25.839736842105264
+  },
+  "fatehpur": {
+    "name": "Fatehpur",
+    "state": "Uttar Pradesh",
+    "lon": 80.8519298245614,
+    "lat": 25.839736842105264
+  },
+  "firozabad|uttar pradesh": {
+    "name": "Firozabad",
+    "state": "Uttar Pradesh",
+    "lon": 78.4278620689655,
+    "lat": 27.21186206896551
+  },
+  "firozabad": {
+    "name": "Firozabad",
+    "state": "Uttar Pradesh",
+    "lon": 78.4278620689655,
+    "lat": 27.21186206896551
+  },
+  "gautam buddha nagar|uttar pradesh": {
+    "name": "Gautam Buddha Nagar",
+    "state": "Uttar Pradesh",
+    "lon": 77.5221794871795,
+    "lat": 28.397948717948704
+  },
+  "gautam buddha nagar": {
+    "name": "Gautam Buddha Nagar",
+    "state": "Uttar Pradesh",
+    "lon": 77.5221794871795,
+    "lat": 28.397948717948704
+  },
+  "ghaziabad|uttar pradesh": {
+    "name": "Ghaziabad",
+    "state": "Uttar Pradesh",
+    "lon": 77.67211009174311,
+    "lat": 28.75174311926606
+  },
+  "ghaziabad": {
+    "name": "Ghaziabad",
+    "state": "Uttar Pradesh",
+    "lon": 77.67211009174311,
+    "lat": 28.75174311926606
+  },
+  "ghazipur|uttar pradesh": {
+    "name": "Ghazipur",
+    "state": "Uttar Pradesh",
+    "lon": 83.53678571428566,
+    "lat": 25.625714285714313
+  },
+  "ghazipur": {
+    "name": "Ghazipur",
+    "state": "Uttar Pradesh",
+    "lon": 83.53678571428566,
+    "lat": 25.625714285714313
+  },
+  "gonda|uttar pradesh": {
+    "name": "Gonda",
+    "state": "Uttar Pradesh",
+    "lon": 82.02197530864198,
+    "lat": 27.159938271604943
+  },
+  "gonda": {
+    "name": "Gonda",
+    "state": "Uttar Pradesh",
+    "lon": 82.02197530864198,
+    "lat": 27.159938271604943
+  },
+  "gorakhpur|uttar pradesh": {
+    "name": "Gorakhpur",
+    "state": "Uttar Pradesh",
+    "lon": 83.35410447761197,
+    "lat": 26.63671641791043
+  },
+  "gorakhpur": {
+    "name": "Gorakhpur",
+    "state": "Uttar Pradesh",
+    "lon": 83.35410447761197,
+    "lat": 26.63671641791043
+  },
+  "hamirpur|uttar pradesh": {
+    "name": "Hamirpur",
+    "state": "Uttar Pradesh",
+    "lon": 79.82741379310346,
+    "lat": 25.74005747126435
+  },
+  "hardoi|uttar pradesh": {
+    "name": "Hardoi",
+    "state": "Uttar Pradesh",
+    "lon": 80.26356783919597,
+    "lat": 27.340100502512545
+  },
+  "hardoi": {
+    "name": "Hardoi",
+    "state": "Uttar Pradesh",
+    "lon": 80.26356783919597,
+    "lat": 27.340100502512545
+  },
+  "hathras|uttar pradesh": {
+    "name": "Hathras",
+    "state": "Uttar Pradesh",
+    "lon": 78.18526881720426,
+    "lat": 27.580215053763443
+  },
+  "hathras": {
+    "name": "Hathras",
+    "state": "Uttar Pradesh",
+    "lon": 78.18526881720426,
+    "lat": 27.580215053763443
+  },
+  "jalaun|uttar pradesh": {
+    "name": "Jalaun",
+    "state": "Uttar Pradesh",
+    "lon": 79.36690909090913,
+    "lat": 26.070848484848483
+  },
+  "jalaun": {
+    "name": "Jalaun",
+    "state": "Uttar Pradesh",
+    "lon": 79.36690909090913,
+    "lat": 26.070848484848483
+  },
+  "jaunpur|uttar pradesh": {
+    "name": "Jaunpur",
+    "state": "Uttar Pradesh",
+    "lon": 82.54344303797465,
+    "lat": 25.702202531645575
+  },
+  "jaunpur": {
+    "name": "Jaunpur",
+    "state": "Uttar Pradesh",
+    "lon": 82.54344303797465,
+    "lat": 25.702202531645575
+  },
+  "jhansi|uttar pradesh": {
+    "name": "Jhansi",
+    "state": "Uttar Pradesh",
+    "lon": 78.90010033444817,
+    "lat": 25.457458193979935
+  },
+  "jhansi": {
+    "name": "Jhansi",
+    "state": "Uttar Pradesh",
+    "lon": 78.90010033444817,
+    "lat": 25.457458193979935
+  },
+  "jyotiba phule nagar|uttar pradesh": {
+    "name": "Jyotiba Phule Nagar",
+    "state": "Uttar Pradesh",
+    "lon": 78.39369999999998,
+    "lat": 28.874900000000014
+  },
+  "jyotiba phule nagar": {
+    "name": "Jyotiba Phule Nagar",
+    "state": "Uttar Pradesh",
+    "lon": 78.39369999999998,
+    "lat": 28.874900000000014
+  },
+  "kannauj|uttar pradesh": {
+    "name": "Kannauj",
+    "state": "Uttar Pradesh",
+    "lon": 79.64215053763441,
+    "lat": 26.996344086021512
+  },
+  "kannauj": {
+    "name": "Kannauj",
+    "state": "Uttar Pradesh",
+    "lon": 79.64215053763441,
+    "lat": 26.996344086021512
+  },
+  "kanpur dehat|uttar pradesh": {
+    "name": "Kanpur Dehat",
+    "state": "Uttar Pradesh",
+    "lon": 79.9878947368421,
+    "lat": 26.435460526315783
+  },
+  "kanpur dehat": {
+    "name": "Kanpur Dehat",
+    "state": "Uttar Pradesh",
+    "lon": 79.9878947368421,
+    "lat": 26.435460526315783
+  },
+  "kanpur|uttar pradesh": {
+    "name": "Kanpur",
+    "state": "Uttar Pradesh",
+    "lon": 80.29222222222222,
+    "lat": 26.37460317460317
+  },
+  "kanpur": {
+    "name": "Kanpur",
+    "state": "Uttar Pradesh",
+    "lon": 80.29222222222222,
+    "lat": 26.37460317460317
+  },
+  "kaushambi|uttar pradesh": {
+    "name": "Kaushambi",
+    "state": "Uttar Pradesh",
+    "lon": 81.41696202531642,
+    "lat": 25.539746835443037
+  },
+  "kaushambi": {
+    "name": "Kaushambi",
+    "state": "Uttar Pradesh",
+    "lon": 81.41696202531642,
+    "lat": 25.539746835443037
+  },
+  "kushinagar|uttar pradesh": {
+    "name": "Kushinagar",
+    "state": "Uttar Pradesh",
+    "lon": 83.92248275862069,
+    "lat": 26.8946896551724
+  },
+  "kushinagar": {
+    "name": "Kushinagar",
+    "state": "Uttar Pradesh",
+    "lon": 83.92248275862069,
+    "lat": 26.8946896551724
+  },
+  "lakhimpur kheri|uttar pradesh": {
+    "name": "Lakhimpur Kheri",
+    "state": "Uttar Pradesh",
+    "lon": 80.6470124481328,
+    "lat": 28.09369294605812
+  },
+  "lakhimpur kheri": {
+    "name": "Lakhimpur Kheri",
+    "state": "Uttar Pradesh",
+    "lon": 80.6470124481328,
+    "lat": 28.09369294605812
+  },
+  "lalitpur|uttar pradesh": {
+    "name": "Lalitpur",
+    "state": "Uttar Pradesh",
+    "lon": 78.60058823529413,
+    "lat": 24.592941176470582
+  },
+  "lalitpur": {
+    "name": "Lalitpur",
+    "state": "Uttar Pradesh",
+    "lon": 78.60058823529413,
+    "lat": 24.592941176470582
+  },
+  "lucknow|uttar pradesh": {
+    "name": "Lucknow",
+    "state": "Uttar Pradesh",
+    "lon": 80.89717557251903,
+    "lat": 26.839999999999993
+  },
+  "lucknow": {
+    "name": "Lucknow",
+    "state": "Uttar Pradesh",
+    "lon": 80.89717557251903,
+    "lat": 26.839999999999993
+  },
+  "maharajganj|uttar pradesh": {
+    "name": "Maharajganj",
+    "state": "Uttar Pradesh",
+    "lon": 83.4624822695035,
+    "lat": 27.17929078014186
+  },
+  "maharajganj": {
+    "name": "Maharajganj",
+    "state": "Uttar Pradesh",
+    "lon": 83.4624822695035,
+    "lat": 27.17929078014186
+  },
+  "mahoba|uttar pradesh": {
+    "name": "Mahoba",
+    "state": "Uttar Pradesh",
+    "lon": 79.68055172413791,
+    "lat": 25.346896551724157
+  },
+  "mahoba": {
+    "name": "Mahoba",
+    "state": "Uttar Pradesh",
+    "lon": 79.68055172413791,
+    "lat": 25.346896551724157
+  },
+  "mainpuri|uttar pradesh": {
+    "name": "Mainpuri",
+    "state": "Uttar Pradesh",
+    "lon": 79.03375000000004,
+    "lat": 27.176607142857158
+  },
+  "mainpuri": {
+    "name": "Mainpuri",
+    "state": "Uttar Pradesh",
+    "lon": 79.03375000000004,
+    "lat": 27.176607142857158
+  },
+  "mathura|uttar pradesh": {
+    "name": "Mathura",
+    "state": "Uttar Pradesh",
+    "lon": 77.61577981651381,
+    "lat": 27.604128440366964
+  },
+  "mathura": {
+    "name": "Mathura",
+    "state": "Uttar Pradesh",
+    "lon": 77.61577981651381,
+    "lat": 27.604128440366964
+  },
+  "mau|uttar pradesh": {
+    "name": "Mau",
+    "state": "Uttar Pradesh",
+    "lon": 83.50700934579436,
+    "lat": 26.01429906542056
+  },
+  "mau": {
+    "name": "Mau",
+    "state": "Uttar Pradesh",
+    "lon": 83.50700934579436,
+    "lat": 26.01429906542056
+  },
+  "meerut|uttar pradesh": {
+    "name": "Meerut",
+    "state": "Uttar Pradesh",
+    "lon": 77.81032967032966,
+    "lat": 29.03439560439559
+  },
+  "meerut": {
+    "name": "Meerut",
+    "state": "Uttar Pradesh",
+    "lon": 77.81032967032966,
+    "lat": 29.03439560439559
+  },
+  "mirzapur|uttar pradesh": {
+    "name": "Mirzapur",
+    "state": "Uttar Pradesh",
+    "lon": 82.60048859934852,
+    "lat": 25.102768729641692
+  },
+  "mirzapur": {
+    "name": "Mirzapur",
+    "state": "Uttar Pradesh",
+    "lon": 82.60048859934852,
+    "lat": 25.102768729641692
+  },
+  "moradabad|uttar pradesh": {
+    "name": "Moradabad",
+    "state": "Uttar Pradesh",
+    "lon": 78.73584615384617,
+    "lat": 28.85407692307693
+  },
+  "moradabad": {
+    "name": "Moradabad",
+    "state": "Uttar Pradesh",
+    "lon": 78.73584615384617,
+    "lat": 28.85407692307693
+  },
+  "muzaffarnagar|uttar pradesh": {
+    "name": "Muzaffarnagar",
+    "state": "Uttar Pradesh",
+    "lon": 77.64264705882354,
+    "lat": 29.472941176470584
+  },
+  "muzaffarnagar": {
+    "name": "Muzaffarnagar",
+    "state": "Uttar Pradesh",
+    "lon": 77.64264705882354,
+    "lat": 29.472941176470584
+  },
+  "pilibhit|uttar pradesh": {
+    "name": "Pilibhit",
+    "state": "Uttar Pradesh",
+    "lon": 79.89999999999996,
+    "lat": 28.521428571428576
+  },
+  "pilibhit": {
+    "name": "Pilibhit",
+    "state": "Uttar Pradesh",
+    "lon": 79.89999999999996,
+    "lat": 28.521428571428576
+  },
+  "pratapgarh|uttar pradesh": {
+    "name": "Pratapgarh",
+    "state": "Uttar Pradesh",
+    "lon": 81.93416342412458,
+    "lat": 25.86579766536964
+  },
+  "pratapgarh": {
+    "name": "Pratapgarh",
+    "state": "Uttar Pradesh",
+    "lon": 81.93416342412458,
+    "lat": 25.86579766536964
+  },
+  "rae bareli|uttar pradesh": {
+    "name": "Rae Bareli",
+    "state": "Uttar Pradesh",
+    "lon": 81.22238095238097,
+    "lat": 26.25613095238097
+  },
+  "rae bareli": {
+    "name": "Rae Bareli",
+    "state": "Uttar Pradesh",
+    "lon": 81.22238095238097,
+    "lat": 26.25613095238097
+  },
+  "rampur|uttar pradesh": {
+    "name": "Rampur",
+    "state": "Uttar Pradesh",
+    "lon": 79.10904000000002,
+    "lat": 28.835520000000017
+  },
+  "rampur": {
+    "name": "Rampur",
+    "state": "Uttar Pradesh",
+    "lon": 79.10904000000002,
+    "lat": 28.835520000000017
+  },
+  "saharanpur|uttar pradesh": {
+    "name": "Saharanpur",
+    "state": "Uttar Pradesh",
+    "lon": 77.59882758620692,
+    "lat": 30.03696551724137
+  },
+  "saharanpur": {
+    "name": "Saharanpur",
+    "state": "Uttar Pradesh",
+    "lon": 77.59882758620692,
+    "lat": 30.03696551724137
+  },
+  "sant kabir nagar|uttar pradesh": {
+    "name": "Sant Kabir Nagar",
+    "state": "Uttar Pradesh",
+    "lon": 83.03943089430899,
+    "lat": 26.793333333333347
+  },
+  "sant kabir nagar": {
+    "name": "Sant Kabir Nagar",
+    "state": "Uttar Pradesh",
+    "lon": 83.03943089430899,
+    "lat": 26.793333333333347
+  },
+  "sant ravi das nagar|uttar pradesh": {
+    "name": "Sant Ravi Das Nagar",
+    "state": "Uttar Pradesh",
+    "lon": 82.43477941176474,
+    "lat": 25.365404411764725
+  },
+  "sant ravi das nagar": {
+    "name": "Sant Ravi Das Nagar",
+    "state": "Uttar Pradesh",
+    "lon": 82.43477941176474,
+    "lat": 25.365404411764725
+  },
+  "shahjahanpur|uttar pradesh": {
+    "name": "Shahjahanpur",
+    "state": "Uttar Pradesh",
+    "lon": 79.83407216494851,
+    "lat": 27.994845360824716
+  },
+  "shahjahanpur": {
+    "name": "Shahjahanpur",
+    "state": "Uttar Pradesh",
+    "lon": 79.83407216494851,
+    "lat": 27.994845360824716
+  },
+  "shravasti|uttar pradesh": {
+    "name": "Shravasti",
+    "state": "Uttar Pradesh",
+    "lon": 81.79350746268655,
+    "lat": 27.603880597014896
+  },
+  "shravasti": {
+    "name": "Shravasti",
+    "state": "Uttar Pradesh",
+    "lon": 81.79350746268655,
+    "lat": 27.603880597014896
+  },
+  "siddharth nagar|uttar pradesh": {
+    "name": "Siddharth Nagar",
+    "state": "Uttar Pradesh",
+    "lon": 82.7867682926829,
+    "lat": 27.20871951219513
+  },
+  "siddharth nagar": {
+    "name": "Siddharth Nagar",
+    "state": "Uttar Pradesh",
+    "lon": 82.7867682926829,
+    "lat": 27.20871951219513
+  },
+  "sitapur|uttar pradesh": {
+    "name": "Sitapur",
+    "state": "Uttar Pradesh",
+    "lon": 80.85357798165136,
+    "lat": 27.503990825688078
+  },
+  "sitapur": {
+    "name": "Sitapur",
+    "state": "Uttar Pradesh",
+    "lon": 80.85357798165136,
+    "lat": 27.503990825688078
+  },
+  "sonbhadra|uttar pradesh": {
+    "name": "Sonbhadra",
+    "state": "Uttar Pradesh",
+    "lon": 83.06838461538462,
+    "lat": 24.469
+  },
+  "sonbhadra": {
+    "name": "Sonbhadra",
+    "state": "Uttar Pradesh",
+    "lon": 83.06838461538462,
+    "lat": 24.469
+  },
+  "sultanpur|uttar pradesh": {
+    "name": "Sultanpur",
+    "state": "Uttar Pradesh",
+    "lon": 82.05387254901962,
+    "lat": 26.28725490196079
+  },
+  "sultanpur": {
+    "name": "Sultanpur",
+    "state": "Uttar Pradesh",
+    "lon": 82.05387254901962,
+    "lat": 26.28725490196079
+  },
+  "unnao|uttar pradesh": {
+    "name": "Unnao",
+    "state": "Uttar Pradesh",
+    "lon": 80.63427710843374,
+    "lat": 26.634638554216853
+  },
+  "unnao": {
+    "name": "Unnao",
+    "state": "Uttar Pradesh",
+    "lon": 80.63427710843374,
+    "lat": 26.634638554216853
+  },
+  "varanasi|uttar pradesh": {
+    "name": "Varanasi",
+    "state": "Uttar Pradesh",
+    "lon": 82.8265044247788,
+    "lat": 25.36154867256639
+  },
+  "varanasi": {
+    "name": "Varanasi",
+    "state": "Uttar Pradesh",
+    "lon": 82.8265044247788,
+    "lat": 25.36154867256639
+  },
+  "almora|uttaranchal": {
+    "name": "Almora",
+    "state": "Uttaranchal",
+    "lon": 79.5015306122449,
+    "lat": 29.685510204081613
+  },
+  "almora": {
+    "name": "Almora",
+    "state": "Uttaranchal",
+    "lon": 79.5015306122449,
+    "lat": 29.685510204081613
+  },
+  "bageshwar|uttaranchal": {
+    "name": "Bageshwar",
+    "state": "Uttaranchal",
+    "lon": 79.84047619047621,
+    "lat": 29.989047619047614
+  },
+  "bageshwar": {
+    "name": "Bageshwar",
+    "state": "Uttaranchal",
+    "lon": 79.84047619047621,
+    "lat": 29.989047619047614
+  },
+  "chamoli|uttaranchal": {
+    "name": "Chamoli",
+    "state": "Uttaranchal",
+    "lon": 79.5620304568528,
+    "lat": 30.585431472081233
+  },
+  "chamoli": {
+    "name": "Chamoli",
+    "state": "Uttaranchal",
+    "lon": 79.5620304568528,
+    "lat": 30.585431472081233
+  },
+  "champawat|uttaranchal": {
+    "name": "Champawat",
+    "state": "Uttaranchal",
+    "lon": 80.0782142857143,
+    "lat": 29.295119047619036
+  },
+  "champawat": {
+    "name": "Champawat",
+    "state": "Uttaranchal",
+    "lon": 80.0782142857143,
+    "lat": 29.295119047619036
+  },
+  "dehra dun|uttaranchal": {
+    "name": "Dehra Dun",
+    "state": "Uttaranchal",
+    "lon": 77.90907317073169,
+    "lat": 30.534975609756085
+  },
+  "dehra dun": {
+    "name": "Dehra Dun",
+    "state": "Uttaranchal",
+    "lon": 77.90907317073169,
+    "lat": 30.534975609756085
+  },
+  "haridwar|uttaranchal": {
+    "name": "Haridwar",
+    "state": "Uttaranchal",
+    "lon": 77.9304464285714,
+    "lat": 29.888125000000002
+  },
+  "haridwar": {
+    "name": "Haridwar",
+    "state": "Uttaranchal",
+    "lon": 77.9304464285714,
+    "lat": 29.888125000000002
+  },
+  "naini tal|uttaranchal": {
+    "name": "Naini Tal",
+    "state": "Uttaranchal",
+    "lon": 79.4983,
+    "lat": 29.338300000000014
+  },
+  "naini tal": {
+    "name": "Naini Tal",
+    "state": "Uttaranchal",
+    "lon": 79.4983,
+    "lat": 29.338300000000014
+  },
+  "pauri garhwal|uttaranchal": {
+    "name": "Pauri Garhwal",
+    "state": "Uttaranchal",
+    "lon": 78.77782258064514,
+    "lat": 29.981693548387096
+  },
+  "pauri garhwal": {
+    "name": "Pauri Garhwal",
+    "state": "Uttaranchal",
+    "lon": 78.77782258064514,
+    "lat": 29.981693548387096
+  },
+  "pithoragarh|uttaranchal": {
+    "name": "Pithoragarh",
+    "state": "Uttaranchal",
+    "lon": 80.34156934306573,
+    "lat": 30.14959854014597
+  },
+  "pithoragarh": {
+    "name": "Pithoragarh",
+    "state": "Uttaranchal",
+    "lon": 80.34156934306573,
+    "lat": 30.14959854014597
+  },
+  "rudra prayag|uttaranchal": {
+    "name": "Rudra Prayag",
+    "state": "Uttaranchal",
+    "lon": 79.09800000000003,
+    "lat": 30.560153846153852
+  },
+  "rudra prayag": {
+    "name": "Rudra Prayag",
+    "state": "Uttaranchal",
+    "lon": 79.09800000000003,
+    "lat": 30.560153846153852
+  },
+  "tehri garhwal|uttaranchal": {
+    "name": "Tehri Garhwal",
+    "state": "Uttaranchal",
+    "lon": 78.49109374999999,
+    "lat": 30.466927083333328
+  },
+  "tehri garhwal": {
+    "name": "Tehri Garhwal",
+    "state": "Uttaranchal",
+    "lon": 78.49109374999999,
+    "lat": 30.466927083333328
+  },
+  "udham singh nagar|uttaranchal": {
+    "name": "Udham Singh Nagar",
+    "state": "Uttaranchal",
+    "lon": 79.45125748502996,
+    "lat": 29.030718562874252
+  },
+  "udham singh nagar": {
+    "name": "Udham Singh Nagar",
+    "state": "Uttaranchal",
+    "lon": 79.45125748502996,
+    "lat": 29.030718562874252
+  },
+  "uttarkashi|uttaranchal": {
+    "name": "Uttarkashi",
+    "state": "Uttaranchal",
+    "lon": 78.57108303249098,
+    "lat": 30.970288808664236
+  },
+  "uttarkashi": {
+    "name": "Uttarkashi",
+    "state": "Uttaranchal",
+    "lon": 78.57108303249098,
+    "lat": 30.970288808664236
+  },
+  "bankura|west bengal": {
+    "name": "Bankura",
+    "state": "West Bengal",
+    "lon": 87.12468085106381,
+    "lat": 23.08553191489363
+  },
+  "bankura": {
+    "name": "Bankura",
+    "state": "West Bengal",
+    "lon": 87.12468085106381,
+    "lat": 23.08553191489363
+  },
+  "barddhaman|west bengal": {
+    "name": "Barddhaman",
+    "state": "West Bengal",
+    "lon": 87.81084070796464,
+    "lat": 23.44646017699115
+  },
+  "barddhaman": {
+    "name": "Barddhaman",
+    "state": "West Bengal",
+    "lon": 87.81084070796464,
+    "lat": 23.44646017699115
+  },
+  "birbhum|west bengal": {
+    "name": "Birbhum",
+    "state": "West Bengal",
+    "lon": 87.6521722846442,
+    "lat": 24.065468164794005
+  },
+  "birbhum": {
+    "name": "Birbhum",
+    "state": "West Bengal",
+    "lon": 87.6521722846442,
+    "lat": 24.065468164794005
+  },
+  "dakshin dinajpur|west bengal": {
+    "name": "Dakshin Dinajpur",
+    "state": "West Bengal",
+    "lon": 88.6968161434978,
+    "lat": 25.34367713004487
+  },
+  "dakshin dinajpur": {
+    "name": "Dakshin Dinajpur",
+    "state": "West Bengal",
+    "lon": 88.6968161434978,
+    "lat": 25.34367713004487
+  },
+  "darjiling|west bengal": {
+    "name": "Darjiling",
+    "state": "West Bengal",
+    "lon": 88.32962765957447,
+    "lat": 26.841914893617034
+  },
+  "darjiling": {
+    "name": "Darjiling",
+    "state": "West Bengal",
+    "lon": 88.32962765957447,
+    "lat": 26.841914893617034
+  },
+  "east midnapore|west bengal": {
+    "name": "East Midnapore",
+    "state": "West Bengal",
+    "lon": 87.89865217391304,
+    "lat": 21.985467391304432
+  },
+  "east midnapore": {
+    "name": "East Midnapore",
+    "state": "West Bengal",
+    "lon": 87.89865217391304,
+    "lat": 21.985467391304432
+  },
+  "haora|west bengal": {
+    "name": "Haora",
+    "state": "West Bengal",
+    "lon": 87.99917857142843,
+    "lat": 22.401321428571425
+  },
+  "haora": {
+    "name": "Haora",
+    "state": "West Bengal",
+    "lon": 87.99917857142843,
+    "lat": 22.401321428571425
+  },
+  "hugli|west bengal": {
+    "name": "Hugli",
+    "state": "West Bengal",
+    "lon": 88.00286549707602,
+    "lat": 22.881286549707596
+  },
+  "hugli": {
+    "name": "Hugli",
+    "state": "West Bengal",
+    "lon": 88.00286549707602,
+    "lat": 22.881286549707596
+  },
+  "jalpaiguri|west bengal": {
+    "name": "Jalpaiguri",
+    "state": "West Bengal",
+    "lon": 89.04108196721307,
+    "lat": 26.627704918032773
+  },
+  "jalpaiguri": {
+    "name": "Jalpaiguri",
+    "state": "West Bengal",
+    "lon": 89.04108196721307,
+    "lat": 26.627704918032773
+  },
+  "kochbihar|west bengal": {
+    "name": "Kochbihar",
+    "state": "West Bengal",
+    "lon": 89.3055791505791,
+    "lat": 26.251274131274155
+  },
+  "kochbihar": {
+    "name": "Kochbihar",
+    "state": "West Bengal",
+    "lon": 89.3055791505791,
+    "lat": 26.251274131274155
+  },
+  "kolkata|west bengal": {
+    "name": "Kolkata",
+    "state": "West Bengal",
+    "lon": 88.35733333333334,
+    "lat": 22.551333333333336
+  },
+  "kolkata": {
+    "name": "Kolkata",
+    "state": "West Bengal",
+    "lon": 88.35733333333334,
+    "lat": 22.551333333333336
+  },
+  "maldah|west bengal": {
+    "name": "Maldah",
+    "state": "West Bengal",
+    "lon": 88.17192307692306,
+    "lat": 25.08128205128205
+  },
+  "maldah": {
+    "name": "Maldah",
+    "state": "West Bengal",
+    "lon": 88.17192307692306,
+    "lat": 25.08128205128205
+  },
+  "murshidabad|west bengal": {
+    "name": "Murshidabad",
+    "state": "West Bengal",
+    "lon": 88.16421940928275,
+    "lat": 24.262742616033744
+  },
+  "murshidabad": {
+    "name": "Murshidabad",
+    "state": "West Bengal",
+    "lon": 88.16421940928275,
+    "lat": 24.262742616033744
+  },
+  "nadia|west bengal": {
+    "name": "Nadia",
+    "state": "West Bengal",
+    "lon": 88.58356877323422,
+    "lat": 23.566579925650544
+  },
+  "nadia": {
+    "name": "Nadia",
+    "state": "West Bengal",
+    "lon": 88.58356877323422,
+    "lat": 23.566579925650544
+  },
+  "north 24 parganas|west bengal": {
+    "name": "North 24 Parganas",
+    "state": "West Bengal",
+    "lon": 88.81398075240587,
+    "lat": 22.629361329833756
+  },
+  "north 24 parganas": {
+    "name": "North 24 Parganas",
+    "state": "West Bengal",
+    "lon": 88.81398075240587,
+    "lat": 22.629361329833756
+  },
+  "puruliya|west bengal": {
+    "name": "Puruliya",
+    "state": "West Bengal",
+    "lon": 86.40043478260874,
+    "lat": 23.25717391304348
+  },
+  "puruliya": {
+    "name": "Puruliya",
+    "state": "West Bengal",
+    "lon": 86.40043478260874,
+    "lat": 23.25717391304348
+  },
+  "south 24 parganas|west bengal": {
+    "name": "South 24 Parganas",
+    "state": "West Bengal",
+    "lon": 88.46251931330457,
+    "lat": 22.01602575107302
+  },
+  "south 24 parganas": {
+    "name": "South 24 Parganas",
+    "state": "West Bengal",
+    "lon": 88.46251931330457,
+    "lat": 22.01602575107302
+  },
+  "uttar dinajpur|west bengal": {
+    "name": "Uttar Dinajpur",
+    "state": "West Bengal",
+    "lon": 88.23590588235297,
+    "lat": 26.046729411764712
+  },
+  "uttar dinajpur": {
+    "name": "Uttar Dinajpur",
+    "state": "West Bengal",
+    "lon": 88.23590588235297,
+    "lat": 26.046729411764712
+  },
+  "west midnapore|west bengal": {
+    "name": "West Midnapore",
+    "state": "West Bengal",
+    "lon": 87.23157894736842,
+    "lat": 22.356754385964912
+  },
+  "west midnapore": {
+    "name": "West Midnapore",
+    "state": "West Bengal",
+    "lon": 87.23157894736842,
+    "lat": 22.356754385964912
+  }
+}

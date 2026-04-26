@@ -1,0 +1,703 @@
+{
+  "components": [
+    {
+      "code": "Economic",
+      "label": "Economic",
+      "tone": "econ"
+    },
+    {
+      "code": "Ecology",
+      "label": "Ecology",
+      "tone": "eco"
+    },
+    {
+      "code": "Social",
+      "label": "Social",
+      "tone": "soc"
+    }
+  ],
+  "indicators": [
+    {
+      "code": "distress-migration",
+      "label": "Distress Migration",
+      "component": "Economic"
+    },
+    {
+      "code": "export-import",
+      "label": "Export/Import",
+      "component": "Economic"
+    },
+    {
+      "code": "hh-income",
+      "label": "HH Income",
+      "component": "Economic"
+    },
+    {
+      "code": "livelihood-basket",
+      "label": "Livelihood Basket",
+      "component": "Economic"
+    },
+    {
+      "code": "youth-employment",
+      "label": "Youth Employment",
+      "component": "Economic"
+    },
+    {
+      "code": "agro-ecology",
+      "label": "Agro Ecology",
+      "component": "Ecology"
+    },
+    {
+      "code": "energy",
+      "label": "Energy",
+      "component": "Ecology"
+    },
+    {
+      "code": "forest",
+      "label": "Forest",
+      "component": "Ecology"
+    },
+    {
+      "code": "soil",
+      "label": "Soil",
+      "component": "Ecology"
+    },
+    {
+      "code": "water",
+      "label": "Water",
+      "component": "Ecology"
+    },
+    {
+      "code": "gender-inclusion",
+      "label": "Gender & Inclusion",
+      "component": "Social"
+    },
+    {
+      "code": "health-nutrition",
+      "label": "Health & Nutrition",
+      "component": "Social"
+    },
+    {
+      "code": "institution",
+      "label": "Institution",
+      "component": "Social"
+    },
+    {
+      "code": "wash",
+      "label": "WASH",
+      "component": "Social"
+    }
+  ],
+  "sub_indicators": [
+    {
+      "code": "nutrition-status",
+      "label": "Nutrition Status",
+      "indicator": "S-Health & Nutrition",
+      "indicator_code": "health-nutrition",
+      "component": "Social"
+    },
+    {
+      "code": "area-under-ra",
+      "label": "Area under RA",
+      "indicator": "Env- Agro Ecology",
+      "indicator_code": "agro-ecology",
+      "component": "Ecology"
+    },
+    {
+      "code": "area-where-rain-water-harvesting-and-water-conservation-measures-taken",
+      "label": "Area where Rain water Harvesting and Water Conservation measures taken",
+      "indicator": "Env-Water",
+      "indicator_code": "water",
+      "component": "Ecology"
+    },
+    {
+      "code": "area-with-irrigation",
+      "label": "Area with Irrigation",
+      "indicator": "Env-Water",
+      "indicator_code": "water",
+      "component": "Ecology"
+    },
+    {
+      "code": "addressing-basic-gender-concerns",
+      "label": "Addressing Basic Gender Concerns",
+      "indicator": "S-Gender & Inclusion",
+      "indicator_code": "gender-inclusion",
+      "component": "Social"
+    },
+    {
+      "code": "public-health-facilities",
+      "label": "Public Health Facilities",
+      "indicator": "S-Health & Nutrition",
+      "indicator_code": "health-nutrition",
+      "component": "Social"
+    },
+    {
+      "code": "women-s-access-control-ownership",
+      "label": "Women's Access Control & Ownership",
+      "indicator": "S-Gender & Inclusion",
+      "indicator_code": "gender-inclusion",
+      "component": "Social"
+    },
+    {
+      "code": "export-import-ratio",
+      "label": "Export/Import ratio",
+      "indicator": "Ec-Export import",
+      "indicator_code": "export-import",
+      "component": "Economic"
+    },
+    {
+      "code": "hh-having-access-to-irrigation",
+      "label": "HH having access to Irrigation",
+      "indicator": "Env-Water",
+      "indicator_code": "water",
+      "component": "Ecology"
+    },
+    {
+      "code": "hh-level-practice-related-to-ra",
+      "label": "HH level Practice related to RA",
+      "indicator": "Env- Agro Ecology",
+      "indicator_code": "agro-ecology",
+      "component": "Ecology"
+    },
+    {
+      "code": "access-to-safe-sufficient-drinking-water",
+      "label": "Access to Safe & Sufficient Drinking Water",
+      "indicator": "S-WASH",
+      "indicator_code": "wash",
+      "component": "Social"
+    },
+    {
+      "code": "inclusion-of-poor-and-vulnerable-hhs",
+      "label": "Inclusion of Poor and Vulnerable HHs",
+      "indicator": "S-Gender & Inclusion",
+      "indicator_code": "gender-inclusion",
+      "component": "Social"
+    },
+    {
+      "code": "vibrancy-of-cbos",
+      "label": "Vibrancy of CBOs",
+      "indicator": "S-Institution",
+      "indicator_code": "institution",
+      "component": "Social"
+    },
+    {
+      "code": "local-inputs-used-in-production-system",
+      "label": "Local Inputs used in Production System",
+      "indicator": "Env- Agro Ecology",
+      "indicator_code": "agro-ecology",
+      "component": "Ecology"
+    },
+    {
+      "code": "livelihood-basket",
+      "label": "Livelihood Basket",
+      "indicator": "Ec-Livelihood Basket",
+      "indicator_code": "livelihood-basket",
+      "component": "Economic"
+    },
+    {
+      "code": "hh-income",
+      "label": "HH Income",
+      "indicator": "Ec-HH Income",
+      "indicator_code": "hh-income",
+      "component": "Economic"
+    },
+    {
+      "code": "resistant-to-distress-migration",
+      "label": "Resistant to Distress Migration",
+      "indicator": "Ec- Arresting Distress Migration",
+      "indicator_code": "distress-migration",
+      "component": "Economic"
+    },
+    {
+      "code": "youth-employment",
+      "label": "Youth Employment",
+      "indicator": "Ec-Youth Employment",
+      "indicator_code": "youth-employment",
+      "component": "Economic"
+    },
+    {
+      "code": "no-of-families-accessing-renewable-energy-at-community-level",
+      "label": "No. of Families accessing Renewable energy at community level",
+      "indicator": "Env-Energy",
+      "indicator_code": "energy",
+      "component": "Ecology"
+    },
+    {
+      "code": "no-of-families-accessing-renewable-energy-at-hh-level",
+      "label": "No. of Families accessing Renewable energy at HH level",
+      "indicator": "Env-Energy",
+      "indicator_code": "energy",
+      "component": "Ecology"
+    },
+    {
+      "code": "ihl-and-its-use",
+      "label": "IHL and its Use",
+      "indicator": "S-WASH",
+      "indicator_code": "wash",
+      "component": "Social"
+    },
+    {
+      "code": "gender-responsive-women-collectives",
+      "label": "Gender Responsive Women Collectives",
+      "indicator": "S-Institution",
+      "indicator_code": "institution",
+      "component": "Social"
+    },
+    {
+      "code": "presence-of-forest-inside-revenue-boundary",
+      "label": "Presence of Forest inside Revenue Boundary",
+      "indicator": "Env-Forest",
+      "indicator_code": "forest",
+      "component": "Ecology"
+    },
+    {
+      "code": "presence-of-forest-outside-revenue-boundary",
+      "label": "Presence of Forest outside Revenue Boundary",
+      "indicator": "Env-Forest",
+      "indicator_code": "forest",
+      "component": "Ecology"
+    },
+    {
+      "code": "private-land-under-fruit-forest-private-forest",
+      "label": "Private Land under Fruit Forest/ Private Forest",
+      "indicator": "Env- Agro Ecology",
+      "indicator_code": "agro-ecology",
+      "component": "Ecology"
+    },
+    {
+      "code": "hh-involvement-in-cbos",
+      "label": "HH involvement in CBOs",
+      "indicator": "S-Institution",
+      "indicator_code": "institution",
+      "component": "Social"
+    },
+    {
+      "code": "quality-of-forest-health",
+      "label": "Quality of Forest Health",
+      "indicator": "Env-Forest",
+      "indicator_code": "forest",
+      "component": "Ecology"
+    },
+    {
+      "code": "soil-quality",
+      "label": "Soil Quality",
+      "indicator": "Env-Soil",
+      "indicator_code": "soil",
+      "component": "Ecology"
+    },
+    {
+      "code": "soil-type",
+      "label": "Soil type",
+      "indicator": "Env-Soil",
+      "indicator_code": "soil",
+      "component": "Ecology"
+    },
+    {
+      "code": "water-level-in-open-wells",
+      "label": "Water level in open wells",
+      "indicator": "Env-Water",
+      "indicator_code": "water",
+      "component": "Ecology"
+    },
+    {
+      "code": "women-as-producer-entrepreneur-value-chain-actor",
+      "label": "Women as producer /entrepreneur / value chain actor",
+      "indicator": "S-Gender & Inclusion",
+      "indicator_code": "gender-inclusion",
+      "component": "Social"
+    },
+    {
+      "code": "women-s-participation-in-public-spaces",
+      "label": "Women's Participation in Public Spaces",
+      "indicator": "S-Gender & Inclusion",
+      "indicator_code": "gender-inclusion",
+      "component": "Social"
+    }
+  ],
+  "parameters": [
+    {
+      "parameter_code": "anaemia-in-children",
+      "parameter_name": "Anaemia in Children",
+      "sub_indicator": "Nutrition Status",
+      "indicator": "S-Health & Nutrition",
+      "indicator_code": "health-nutrition",
+      "component": "Social"
+    },
+    {
+      "parameter_code": "anaemia-in-women-aged-19-to-49-years",
+      "parameter_name": "Anaemia in women aged 19 to 49 years",
+      "sub_indicator": "Nutrition Status",
+      "indicator": "S-Health & Nutrition",
+      "indicator_code": "health-nutrition",
+      "component": "Social"
+    },
+    {
+      "parameter_code": "area-under-ra",
+      "parameter_name": "Area under RA",
+      "sub_indicator": "Area under RA",
+      "indicator": "Env- Agro Ecology",
+      "indicator_code": "agro-ecology",
+      "component": "Ecology"
+    },
+    {
+      "parameter_code": "area-under-rain-water-harvesting-and-water-conservation-measures-taken",
+      "parameter_name": "Area under Rain water Harvesting and Water Conservation measures taken",
+      "sub_indicator": "Area where Rain water Harvesting and Water Conservation measures taken",
+      "indicator": "Env-Water",
+      "indicator_code": "water",
+      "component": "Ecology"
+    },
+    {
+      "parameter_code": "area-where-rain-water-harvesting-and-water-conservation-measures-taken",
+      "parameter_name": "Area where Rain water Harvesting and Water Conservation measures taken",
+      "sub_indicator": "Area where Rain water Harvesting and Water Conservation measures taken",
+      "indicator": "Env-Water",
+      "indicator_code": "water",
+      "component": "Ecology"
+    },
+    {
+      "parameter_code": "area-with-irrigation",
+      "parameter_name": "Area with Irrigation",
+      "sub_indicator": "Area with Irrigation",
+      "indicator": "Env-Water",
+      "indicator_code": "water",
+      "component": "Ecology"
+    },
+    {
+      "parameter_code": "arresting-girl-child-marriage",
+      "parameter_name": "Arresting girl child marriage",
+      "sub_indicator": "Addressing Basic Gender Concerns",
+      "indicator": "S-Gender & Inclusion",
+      "indicator_code": "gender-inclusion",
+      "component": "Social"
+    },
+    {
+      "parameter_code": "availability-of-basic-primary-health-services",
+      "parameter_name": "Availability of Basic primary Health Services",
+      "sub_indicator": "Public Health Facilities",
+      "indicator": "S-Health & Nutrition",
+      "indicator_code": "health-nutrition",
+      "component": "Social"
+    },
+    {
+      "parameter_code": "continuation-of-girls-education-after-high-school",
+      "parameter_name": "Continuation of Girls Education after High School",
+      "sub_indicator": "Addressing Basic Gender Concerns",
+      "indicator": "S-Gender & Inclusion",
+      "indicator_code": "gender-inclusion",
+      "component": "Social"
+    },
+    {
+      "parameter_code": "control-of-women-over-hh-income",
+      "parameter_name": "Control of women over HH Income",
+      "sub_indicator": "Women's Access Control & Ownership",
+      "indicator": "S-Gender & Inclusion",
+      "indicator_code": "gender-inclusion",
+      "component": "Social"
+    },
+    {
+      "parameter_code": "dietary-diversity-score-of-women",
+      "parameter_name": "Dietary Diversity Score  of Women",
+      "sub_indicator": "Nutrition Status",
+      "indicator": "S-Health & Nutrition",
+      "indicator_code": "health-nutrition",
+      "component": "Social"
+    },
+    {
+      "parameter_code": "export-import",
+      "parameter_name": "Export import",
+      "sub_indicator": "Export/Import ratio",
+      "indicator": "Ec-Export import",
+      "indicator_code": "export-import",
+      "component": "Economic"
+    },
+    {
+      "parameter_code": "export-import-ratio",
+      "parameter_name": "Export/Import ratio",
+      "sub_indicator": "Export/Import ratio",
+      "indicator": "Ec-Export import",
+      "indicator_code": "export-import",
+      "component": "Economic"
+    },
+    {
+      "parameter_code": "hh-having-access-to-irrigation",
+      "parameter_name": "HH having access to Irrigation",
+      "sub_indicator": "HH having access to Irrigation",
+      "indicator": "Env-Water",
+      "indicator_code": "water",
+      "component": "Ecology"
+    },
+    {
+      "parameter_code": "hh-level-practice-related-to-ra",
+      "parameter_name": "HH level Practice related to RA",
+      "sub_indicator": "HH level Practice related to RA",
+      "indicator": "Env- Agro Ecology",
+      "indicator_code": "agro-ecology",
+      "component": "Ecology"
+    },
+    {
+      "parameter_code": "hh-vegetable-availability-from-kitchen-garden",
+      "parameter_name": "HH vegetable availability from kitchen garden",
+      "sub_indicator": "Nutrition Status",
+      "indicator": "S-Health & Nutrition",
+      "indicator_code": "health-nutrition",
+      "component": "Social"
+    },
+    {
+      "parameter_code": "hh-with-access-to-safe-and-sufficient-drinking-water",
+      "parameter_name": "HH with access to safe and sufficient drinking water",
+      "sub_indicator": "Access to Safe & Sufficient Drinking Water",
+      "indicator": "S-WASH",
+      "indicator_code": "wash",
+      "component": "Social"
+    },
+    {
+      "parameter_code": "inclusion-support-to-ultra-poor-pop-vulnerable-hhs",
+      "parameter_name": "Inclusion & Support to ultra Poor/PoP & Vulnerable HHs",
+      "sub_indicator": "Inclusion of Poor and Vulnerable HHs",
+      "indicator": "S-Gender & Inclusion",
+      "indicator_code": "gender-inclusion",
+      "component": "Social"
+    },
+    {
+      "parameter_code": "livelihood-services-availed-by-members-of-fpo-fpc-cooperative",
+      "parameter_name": "Livelihood Services availed by members of FPO/FPC/Cooperative",
+      "sub_indicator": "Vibrancy of CBOs",
+      "indicator": "S-Institution",
+      "indicator_code": "institution",
+      "component": "Social"
+    },
+    {
+      "parameter_code": "local-inputs-used-in-production-system",
+      "parameter_name": "Local Inputs used in Production System",
+      "sub_indicator": "Local Inputs used in Production System",
+      "indicator": "Env- Agro Ecology",
+      "indicator_code": "agro-ecology",
+      "component": "Ecology"
+    },
+    {
+      "parameter_code": "no-of-household-in-different-livelihood-baskets",
+      "parameter_name": "No of Household in different Livelihood Baskets",
+      "sub_indicator": "Livelihood Basket",
+      "indicator": "Ec-Livelihood Basket",
+      "indicator_code": "livelihood-basket",
+      "component": "Economic"
+    },
+    {
+      "parameter_code": "no-of-household-in-each-income-slab",
+      "parameter_name": "No of Household in each Income slab",
+      "sub_indicator": "HH Income",
+      "indicator": "Ec-HH Income",
+      "indicator_code": "hh-income",
+      "component": "Economic"
+    },
+    {
+      "parameter_code": "no-of-household-involved-in-distress-migration",
+      "parameter_name": "No of Household involved in Distress Migration",
+      "sub_indicator": "Resistant to Distress Migration",
+      "indicator": "Ec- Arresting Distress Migration",
+      "indicator_code": "distress-migration",
+      "component": "Economic"
+    },
+    {
+      "parameter_code": "no-of-youth-engaged-in-entrepreneurship-micro-enterprise",
+      "parameter_name": "No of Youth engaged in entrepreneurship & micro enterprise",
+      "sub_indicator": "Youth Employment",
+      "indicator": "Ec-Youth Employment",
+      "indicator_code": "youth-employment",
+      "component": "Economic"
+    },
+    {
+      "parameter_code": "no-of-families-accessing-renewable-energy-at-community-level",
+      "parameter_name": "No. of Families accessing Renewable energy at community level",
+      "sub_indicator": "No. of Families accessing Renewable energy at community level",
+      "indicator": "Env-Energy",
+      "indicator_code": "energy",
+      "component": "Ecology"
+    },
+    {
+      "parameter_code": "no-of-families-accessing-renewable-energy-at-hh-level",
+      "parameter_name": "No. of Families accessing Renewable energy at HH level",
+      "sub_indicator": "No. of Families accessing Renewable energy at HH level",
+      "indicator": "Env-Energy",
+      "indicator_code": "energy",
+      "component": "Ecology"
+    },
+    {
+      "parameter_code": "no-of-hh-with-ihl-it-s-use",
+      "parameter_name": "No. of HH with IHL & it's Use",
+      "sub_indicator": "IHL and its Use",
+      "indicator": "S-WASH",
+      "indicator_code": "wash",
+      "component": "Social"
+    },
+    {
+      "parameter_code": "participation-in-village-level-gram-sabhas-palli-sabhas-mini-gram-sabhas-word-level-sabhas",
+      "parameter_name": "Participation in Village level Gram Sabhas/Palli Sabhas/Mini Gram Sabhas/Word level Sabhas",
+      "sub_indicator": "Gender Responsive Women Collectives",
+      "indicator": "S-Institution",
+      "indicator_code": "institution",
+      "component": "Social"
+    },
+    {
+      "parameter_code": "presence-of-forest-inside-revenue-boundary",
+      "parameter_name": "Presence of Forest inside Revenue Boundary",
+      "sub_indicator": "Presence of Forest inside Revenue Boundary",
+      "indicator": "Env-Forest",
+      "indicator_code": "forest",
+      "component": "Ecology"
+    },
+    {
+      "parameter_code": "presence-of-forest-outside-revenue-boundary",
+      "parameter_name": "Presence of Forest outside Revenue Boundary",
+      "sub_indicator": "Presence of Forest outside Revenue Boundary",
+      "indicator": "Env-Forest",
+      "indicator_code": "forest",
+      "component": "Ecology"
+    },
+    {
+      "parameter_code": "pri-cbo-colaboration",
+      "parameter_name": "PRI-CBO Colaboration",
+      "sub_indicator": "Vibrancy of CBOs",
+      "indicator": "S-Institution",
+      "indicator_code": "institution",
+      "component": "Social"
+    },
+    {
+      "parameter_code": "private-land-under-fruit-forest-private-forest",
+      "parameter_name": "Private Land under Fruit Forest/ Private Forest",
+      "sub_indicator": "Private Land under Fruit Forest/ Private Forest",
+      "indicator": "Env- Agro Ecology",
+      "indicator_code": "agro-ecology",
+      "component": "Ecology"
+    },
+    {
+      "parameter_code": "proportion-of-eligble-hhs-involved-in-fpo-fpcs",
+      "parameter_name": "Proportion of eligble HHs involved in FPO/FPCs",
+      "sub_indicator": "HH involvement in CBOs",
+      "indicator": "S-Institution",
+      "indicator_code": "institution",
+      "component": "Social"
+    },
+    {
+      "parameter_code": "quality-of-forest-health",
+      "parameter_name": "Quality of Forest Health",
+      "sub_indicator": "Quality of Forest Health",
+      "indicator": "Env-Forest",
+      "indicator_code": "forest",
+      "component": "Ecology"
+    },
+    {
+      "parameter_code": "sex-ratio-at-birth",
+      "parameter_name": "Sex Ratio at Birth",
+      "sub_indicator": "Addressing Basic Gender Concerns",
+      "indicator": "S-Gender & Inclusion",
+      "indicator_code": "gender-inclusion",
+      "component": "Social"
+    },
+    {
+      "parameter_code": "single-women-having-homestead-patta",
+      "parameter_name": "Single women having Homestead Patta",
+      "sub_indicator": "Women's Access Control & Ownership",
+      "indicator": "S-Gender & Inclusion",
+      "indicator_code": "gender-inclusion",
+      "component": "Social"
+    },
+    {
+      "parameter_code": "soil-quality",
+      "parameter_name": "Soil Quality",
+      "sub_indicator": "Soil Quality",
+      "indicator": "Env-Soil",
+      "indicator_code": "soil",
+      "component": "Ecology"
+    },
+    {
+      "parameter_code": "soil-type",
+      "parameter_name": "Soil type",
+      "sub_indicator": "Soil type",
+      "indicator": "Env-Soil",
+      "indicator_code": "soil",
+      "component": "Ecology"
+    },
+    {
+      "parameter_code": "status-of-chronic-diseases",
+      "parameter_name": "Status of Chronic diseases",
+      "sub_indicator": "Public Health Facilities",
+      "indicator": "S-Health & Nutrition",
+      "indicator_code": "health-nutrition",
+      "component": "Social"
+    },
+    {
+      "parameter_code": "vibrancy-of-gp-level-standing-committees",
+      "parameter_name": "Vibrancy of GP level Standing Committees",
+      "sub_indicator": "Vibrancy of CBOs",
+      "indicator": "S-Institution",
+      "indicator_code": "institution",
+      "component": "Social"
+    },
+    {
+      "parameter_code": "vibrancy-of-gramsabha-pallisabha",
+      "parameter_name": "Vibrancy of Gramsabha/Pallisabha",
+      "sub_indicator": "Vibrancy of CBOs",
+      "indicator": "S-Institution",
+      "indicator_code": "institution",
+      "component": "Social"
+    },
+    {
+      "parameter_code": "vibrancy-of-shgs",
+      "parameter_name": "Vibrancy of SHGs",
+      "sub_indicator": "Vibrancy of CBOs",
+      "indicator": "S-Institution",
+      "indicator_code": "institution",
+      "component": "Social"
+    },
+    {
+      "parameter_code": "water-level-in-open-wells",
+      "parameter_name": "Water level in open wells",
+      "sub_indicator": "Water level in open wells",
+      "indicator": "Env-Water",
+      "indicator_code": "water",
+      "component": "Ecology"
+    },
+    {
+      "parameter_code": "women-have-either-joint-or-solo-land-title-in-their-name",
+      "parameter_name": "Women have either Joint or Solo land title in their name",
+      "sub_indicator": "Women's Access Control & Ownership",
+      "indicator": "S-Gender & Inclusion",
+      "indicator_code": "gender-inclusion",
+      "component": "Social"
+    },
+    {
+      "parameter_code": "women-in-fpos-fpcs",
+      "parameter_name": "Women in FPOs/FPCs",
+      "sub_indicator": "Gender Responsive Women Collectives",
+      "indicator": "S-Institution",
+      "indicator_code": "institution",
+      "component": "Social"
+    },
+    {
+      "parameter_code": "women-in-shgs",
+      "parameter_name": "Women in SHGs",
+      "sub_indicator": "Gender Responsive Women Collectives",
+      "indicator": "S-Institution",
+      "indicator_code": "institution",
+      "component": "Social"
+    },
+    {
+      "parameter_code": "women-with-technical-knowledge-and-skill",
+      "parameter_name": "Women with Technical knowledge and skill",
+      "sub_indicator": "Women as producer /entrepreneur / value chain actor",
+      "indicator": "S-Gender & Inclusion",
+      "indicator_code": "gender-inclusion",
+      "component": "Social"
+    },
+    {
+      "parameter_code": "women-s-participation-in-public-spaces",
+      "parameter_name": "Women's Participation in Public Spaces",
+      "sub_indicator": "Women's Participation in Public Spaces",
+      "indicator": "S-Gender & Inclusion",
+      "indicator_code": "gender-inclusion",
+      "component": "Social"
+    }
+  ]
+}

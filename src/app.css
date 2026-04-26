@@ -1,0 +1,20 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-eco-50: oklch(0.98 0.02 145);
+  --color-eco-500: oklch(0.62 0.15 145);
+  --color-eco-700: oklch(0.45 0.16 145);
+
+  --color-econ-50: oklch(0.98 0.04 75);
+  --color-econ-500: oklch(0.72 0.17 75);
+  --color-econ-700: oklch(0.55 0.18 75);
+
+  --color-soc-50: oklch(0.97 0.03 250);
+  --color-soc-500: oklch(0.62 0.16 250);
+  --color-soc-700: oklch(0.45 0.18 250);
+}
+
+html,
+body {
+  height: 100%;
+}

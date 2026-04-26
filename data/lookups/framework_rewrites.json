@@ -1,0 +1,47 @@
+{
+  "parameter_aliases": {
+    "& micro enterprise": "No of Youth engaged in entrepreneurship & micro enterprise",
+    "No of Youth engaged in entrepreneurship": "No of Youth engaged in entrepreneurship & micro enterprise",
+    "Status of Cronic diseases": "Status of Chronic diseases",
+    "Status of Cronic diseasess:": "Status of Chronic diseases",
+    "Status of Cronic diseasess": "Status of Chronic diseases",
+    "Amenia in Children": "Anaemia in Children",
+    "Livelihood Servicess availed by members of FPO/FPC/Cooperative": "Livelihood Services availed by members of FPO/FPC/Cooperative",
+    "Control of women over HH Income:": "Control of women over HH Income"
+  },
+  "sub_indicator_aliases": {
+    "Area under Rain water Harvesting and Water Conservation measures taken": "Area where Rain water Harvesting and Water Conservation measures taken",
+    "Public Health Facilities & Status": "Public Health Facilities",
+    "Arresting Distress Migration": "Resistant to Distress Migration",
+    "Export import": "Export/Import ratio"
+  },
+  "indicator_codes": {
+    "Ec- Arresting Distress Migration": { "code": "distress-migration", "label": "Distress Migration", "component": "Economic" },
+    "Ec-Export import": { "code": "export-import", "label": "Export/Import", "component": "Economic" },
+    "Ec-HH Income": { "code": "hh-income", "label": "HH Income", "component": "Economic" },
+    "Ec-Livelihood Basket": { "code": "livelihood-basket", "label": "Livelihood Basket", "component": "Economic" },
+    "Ec-Youth Employment": { "code": "youth-employment", "label": "Youth Employment", "component": "Economic" },
+    "Env- Agro Ecology": { "code": "agro-ecology", "label": "Agro Ecology", "component": "Ecology" },
+    "Env-Energy": { "code": "energy", "label": "Energy", "component": "Ecology" },
+    "Env-Forest": { "code": "forest", "label": "Forest", "component": "Ecology" },
+    "Env-Soil": { "code": "soil", "label": "Soil", "component": "Ecology" },
+    "Env-Water": { "code": "water", "label": "Water", "component": "Ecology" },
+    "S-Gender & Inclusion": { "code": "gender-inclusion", "label": "Gender & Inclusion", "component": "Social" },
+    "S-Health & Nutrition": { "code": "health-nutrition", "label": "Health & Nutrition", "component": "Social" },
+    "S-Institution": { "code": "institution", "label": "Institution", "component": "Social" },
+    "S-WASH": { "code": "wash", "label": "WASH", "component": "Social" }
+  },
+  "state_codes": {
+    "Chhattisgarh": "CG",
+    "Jharkhand": "JH",
+    "Odisha": "OD"
+  },
+  "district_geojson_aliases": {
+    "Balrampur|Chhattisgarh": "Surguja|Chhattisgarh",
+    "Kabirdham|Chhattisgarh": "Kawardha|Chhattisgarh",
+    "West Singhbhum|Jharkhand": "Pashchim Singhbhum|Jharkhand"
+  },
+  "geojson_state_aliases": {
+    "Odisha": "Orissa"
+  }
+}

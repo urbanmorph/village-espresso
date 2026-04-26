@@ -1,0 +1,19 @@
+{
+  "source_file": "data/raw/powerbi_village_data.xlsx",
+  "source_mtime": "2026-04-26T12:38:48.133Z",
+  "built_at": "2026-04-26T13:13:22.836Z",
+  "counts": {
+    "villages": 63,
+    "indicators": 14,
+    "sub_indicators": 32,
+    "parameters": 48,
+    "score_rows": 2773,
+    "score_rows_dropped_ghost": 63,
+    "score_rows_dropped_no_village": 0,
+    "score_alignment_pct": 13.9,
+    "economic_rows": 4917,
+    "econ_dropped_zero": 1952,
+    "econ_dropped_placeholder": 253,
+    "econ_dropped_no_village": 237
+  }
+}

@@ -1,0 +1,1199 @@
+[
+  {
+    "village_code": "cg-kanker-aamajhola",
+    "scores": {
+      "distress-migration": 93,
+      "export-import": 40,
+      "hh-income": 51,
+      "livelihood-basket": 10,
+      "youth-employment": 19,
+      "agro-ecology": 60,
+      "energy": 34,
+      "forest": 58,
+      "soil": 46,
+      "water": 26,
+      "gender-inclusion": 40,
+      "health-nutrition": 15,
+      "institution": 53,
+      "wash": 74
+    }
+  },
+  {
+    "village_code": "cg-kanker-aamakot",
+    "scores": {
+      "distress-migration": 100,
+      "export-import": 100,
+      "hh-income": 47,
+      "livelihood-basket": 52,
+      "youth-employment": 9,
+      "agro-ecology": 25,
+      "energy": 21,
+      "forest": 54,
+      "soil": 36,
+      "water": 17,
+      "gender-inclusion": 43,
+      "health-nutrition": 44,
+      "institution": 25,
+      "wash": 43
+    }
+  },
+  {
+    "village_code": "jh-west-singhbhum-angariya",
+    "scores": {
+      "distress-migration": 90,
+      "export-import": 20,
+      "hh-income": 12,
+      "livelihood-basket": 53,
+      "youth-employment": 8,
+      "agro-ecology": 67,
+      "energy": 0,
+      "forest": 61,
+      "soil": 59,
+      "water": 26,
+      "gender-inclusion": 24,
+      "health-nutrition": 53,
+      "institution": 35,
+      "wash": 31
+    }
+  },
+  {
+    "village_code": "od-koraput-anlaghati",
+    "scores": {
+      "distress-migration": 94,
+      "export-import": 60,
+      "hh-income": 42,
+      "livelihood-basket": 42,
+      "youth-employment": 0,
+      "agro-ecology": 18,
+      "energy": 9,
+      "forest": 53,
+      "soil": 68,
+      "water": 20,
+      "gender-inclusion": 34,
+      "health-nutrition": 48,
+      "institution": 42,
+      "wash": 49
+    }
+  },
+  {
+    "village_code": "cg-kanker-babukohaka",
+    "scores": {
+      "distress-migration": 98,
+      "export-import": 40,
+      "hh-income": 38,
+      "livelihood-basket": 69,
+      "youth-employment": 2,
+      "agro-ecology": 35,
+      "energy": 42,
+      "forest": 46,
+      "soil": 33,
+      "water": 50,
+      "gender-inclusion": 62,
+      "health-nutrition": 51,
+      "institution": 58,
+      "wash": 79
+    }
+  },
+  {
+    "village_code": "od-mayurbhanj-baliabeda",
+    "scores": {
+      "distress-migration": 29,
+      "export-import": 40,
+      "hh-income": 44,
+      "livelihood-basket": 65,
+      "youth-employment": 6,
+      "agro-ecology": 20,
+      "energy": 12,
+      "forest": 30,
+      "soil": 49,
+      "water": 25,
+      "gender-inclusion": 40,
+      "health-nutrition": 38,
+      "institution": 48,
+      "wash": 65
+    }
+  },
+  {
+    "village_code": "jh-dumka-bamerjhanti",
+    "scores": {
+      "distress-migration": 39,
+      "export-import": 20,
+      "hh-income": 84,
+      "livelihood-basket": 77,
+      "youth-employment": 25,
+      "agro-ecology": 13,
+      "energy": 9,
+      "forest": 45,
+      "soil": 42,
+      "water": 41,
+      "gender-inclusion": 46,
+      "health-nutrition": 48,
+      "institution": 48,
+      "wash": 56
+    }
+  },
+  {
+    "village_code": "jh-godda-bansdanda",
+    "scores": {
+      "distress-migration": 76,
+      "export-import": 40,
+      "hh-income": 12,
+      "livelihood-basket": 17,
+      "youth-employment": 0,
+      "agro-ecology": 14,
+      "energy": 33,
+      "forest": 39,
+      "soil": 36,
+      "water": 41,
+      "gender-inclusion": 28,
+      "health-nutrition": 34,
+      "institution": 51,
+      "wash": 32
+    }
+  },
+  {
+    "village_code": "jh-lohardaga-barchorgain",
+    "scores": {
+      "distress-migration": 73,
+      "export-import": 40,
+      "hh-income": 46,
+      "livelihood-basket": 43,
+      "youth-employment": 7,
+      "agro-ecology": 45,
+      "energy": 13,
+      "forest": 51,
+      "soil": 53,
+      "water": 14,
+      "gender-inclusion": 20,
+      "health-nutrition": 53,
+      "institution": 45,
+      "wash": 58
+    }
+  },
+  {
+    "village_code": "jh-godda-bariyarpur",
+    "scores": {
+      "distress-migration": 40,
+      "export-import": 20,
+      "hh-income": 26,
+      "livelihood-basket": 15,
+      "youth-employment": 12,
+      "agro-ecology": 65,
+      "energy": 39,
+      "forest": 39,
+      "soil": 51,
+      "water": 42,
+      "gender-inclusion": 38,
+      "health-nutrition": 35,
+      "institution": 51,
+      "wash": 40
+    }
+  },
+  {
+    "village_code": "od-kandhamal-bhandarpadar",
+    "scores": {
+      "distress-migration": 92,
+      "export-import": 40,
+      "hh-income": 52,
+      "livelihood-basket": 79,
+      "youth-employment": 50,
+      "agro-ecology": 35,
+      "energy": 42,
+      "forest": 63,
+      "soil": 50,
+      "water": 38,
+      "gender-inclusion": 63,
+      "health-nutrition": 65,
+      "institution": 39,
+      "wash": 51
+    }
+  },
+  {
+    "village_code": "od-koraput-bhatabir",
+    "scores": {
+      "distress-migration": 98,
+      "export-import": 60,
+      "hh-income": 37,
+      "livelihood-basket": 44,
+      "youth-employment": 13,
+      "agro-ecology": 26,
+      "energy": 5,
+      "forest": 55,
+      "soil": 54,
+      "water": 27,
+      "gender-inclusion": 28,
+      "health-nutrition": 46,
+      "institution": 42,
+      "wash": 28
+    }
+  },
+  {
+    "village_code": "jh-west-singhbhum-bikrampur",
+    "scores": {
+      "distress-migration": 70,
+      "export-import": 40,
+      "hh-income": 45,
+      "livelihood-basket": 47,
+      "youth-employment": 1,
+      "agro-ecology": 36,
+      "energy": 1,
+      "forest": 40,
+      "soil": 43,
+      "water": 25,
+      "gender-inclusion": 28,
+      "health-nutrition": 57,
+      "institution": 33,
+      "wash": 26
+    }
+  },
+  {
+    "village_code": "od-koraput-burudiput",
+    "scores": {
+      "distress-migration": 99,
+      "export-import": 60,
+      "hh-income": 47,
+      "livelihood-basket": 42,
+      "youth-employment": 0,
+      "agro-ecology": 21,
+      "energy": 4,
+      "forest": 47,
+      "soil": 51,
+      "water": 35,
+      "gender-inclusion": 36,
+      "health-nutrition": 47,
+      "institution": 40,
+      "wash": 25
+    }
+  },
+  {
+    "village_code": "jh-lohardaga-chandwa",
+    "scores": {
+      "distress-migration": 33,
+      "export-import": 40,
+      "hh-income": 52,
+      "livelihood-basket": 33,
+      "youth-employment": 18,
+      "agro-ecology": 52,
+      "energy": 12,
+      "forest": 53,
+      "soil": 53,
+      "water": 14,
+      "gender-inclusion": 38,
+      "health-nutrition": 49,
+      "institution": 31,
+      "wash": 54
+    }
+  },
+  {
+    "village_code": "jh-gumla-chhota-ajiyatu",
+    "scores": {
+      "distress-migration": 36,
+      "export-import": 20,
+      "hh-income": 43,
+      "livelihood-basket": 55,
+      "youth-employment": 0,
+      "agro-ecology": 11,
+      "energy": 12,
+      "forest": 75,
+      "soil": 40,
+      "water": 24,
+      "gender-inclusion": 44,
+      "health-nutrition": 54,
+      "institution": 33,
+      "wash": 58
+    }
+  },
+  {
+    "village_code": "jh-godda-chhota-haripur",
+    "scores": {
+      "distress-migration": 75,
+      "export-import": 40,
+      "hh-income": 40,
+      "livelihood-basket": 28,
+      "youth-employment": 0,
+      "agro-ecology": 37,
+      "energy": 13,
+      "forest": 41,
+      "soil": 64,
+      "water": 42,
+      "gender-inclusion": 41,
+      "health-nutrition": 55,
+      "institution": 36,
+      "wash": 37
+    }
+  },
+  {
+    "village_code": "jh-godda-chhota-sindari",
+    "scores": {
+      "distress-migration": 34,
+      "export-import": 20,
+      "hh-income": 30,
+      "livelihood-basket": 37,
+      "youth-employment": 18,
+      "agro-ecology": 28,
+      "energy": 11,
+      "forest": 52,
+      "soil": 53,
+      "water": 38,
+      "gender-inclusion": 31,
+      "health-nutrition": 62,
+      "institution": 31,
+      "wash": 41
+    }
+  },
+  {
+    "village_code": "jh-lohardaga-chhotchorgain",
+    "scores": {
+      "distress-migration": 42,
+      "export-import": 80,
+      "hh-income": 50,
+      "livelihood-basket": 42,
+      "youth-employment": 10,
+      "agro-ecology": 45,
+      "energy": 12,
+      "forest": 59,
+      "soil": 50,
+      "water": 21,
+      "gender-inclusion": 30,
+      "health-nutrition": 55,
+      "institution": 34,
+      "wash": 38
+    }
+  },
+  {
+    "village_code": "cg-bastar-chhote-aamabal",
+    "scores": {
+      "distress-migration": 98,
+      "export-import": 20,
+      "hh-income": 45,
+      "livelihood-basket": 58,
+      "youth-employment": 21,
+      "agro-ecology": 52,
+      "energy": 9,
+      "forest": 57,
+      "soil": 53,
+      "water": 30,
+      "gender-inclusion": 44,
+      "health-nutrition": 43,
+      "institution": 37,
+      "wash": 60
+    }
+  },
+  {
+    "village_code": "jh-lohardaga-churku",
+    "scores": {
+      "distress-migration": 71,
+      "export-import": 20,
+      "hh-income": 44,
+      "livelihood-basket": 41,
+      "youth-employment": 44,
+      "agro-ecology": 41,
+      "energy": 21,
+      "forest": 41,
+      "soil": 56,
+      "water": 16,
+      "gender-inclusion": 42,
+      "health-nutrition": 60,
+      "institution": 37,
+      "wash": 51
+    }
+  },
+  {
+    "village_code": "cg-kanker-damkasa",
+    "scores": {
+      "distress-migration": 94,
+      "export-import": 40,
+      "hh-income": 36,
+      "livelihood-basket": 74,
+      "youth-employment": 4,
+      "agro-ecology": 40,
+      "energy": 25,
+      "forest": 81,
+      "soil": 52,
+      "water": 43,
+      "gender-inclusion": 49,
+      "health-nutrition": 32,
+      "institution": 49,
+      "wash": 75
+    }
+  },
+  {
+    "village_code": "cg-kabirdham-dhamindih",
+    "scores": {
+      "distress-migration": 89,
+      "export-import": 20,
+      "hh-income": 52,
+      "livelihood-basket": 42,
+      "youth-employment": 25,
+      "agro-ecology": 28,
+      "energy": 7,
+      "forest": 47,
+      "soil": 51,
+      "water": 23,
+      "gender-inclusion": 28,
+      "health-nutrition": 46,
+      "institution": 24,
+      "wash": 74
+    }
+  },
+  {
+    "village_code": "cg-kanker-enhur",
+    "scores": {
+      "distress-migration": 94,
+      "export-import": 100,
+      "hh-income": 64,
+      "livelihood-basket": 60,
+      "youth-employment": 14,
+      "agro-ecology": 13,
+      "energy": 9,
+      "forest": 57,
+      "soil": 52,
+      "water": 15,
+      "gender-inclusion": 51,
+      "health-nutrition": 42,
+      "institution": 14,
+      "wash": 60
+    }
+  },
+  {
+    "village_code": "cg-bastar-farsara",
+    "scores": {
+      "distress-migration": 70,
+      "export-import": 20,
+      "hh-income": 55,
+      "livelihood-basket": 22,
+      "youth-employment": 50,
+      "agro-ecology": 10,
+      "energy": 6,
+      "forest": 47,
+      "soil": 66,
+      "water": 33,
+      "gender-inclusion": 35,
+      "health-nutrition": 52,
+      "institution": 25,
+      "wash": 31
+    }
+  },
+  {
+    "village_code": "cg-balrampur-ghughari-khurd",
+    "scores": {
+      "distress-migration": 50,
+      "export-import": 40,
+      "hh-income": 19,
+      "livelihood-basket": 31,
+      "youth-employment": 52,
+      "agro-ecology": 36,
+      "energy": 15,
+      "forest": 38,
+      "soil": 63,
+      "water": 37,
+      "gender-inclusion": 32,
+      "health-nutrition": 46,
+      "institution": 37,
+      "wash": 25
+    }
+  },
+  {
+    "village_code": "od-rayagada-hajaridang",
+    "scores": {
+      "distress-migration": 95,
+      "export-import": 20,
+      "hh-income": 15,
+      "livelihood-basket": 76,
+      "youth-employment": 10,
+      "agro-ecology": 42,
+      "energy": 32,
+      "forest": 60,
+      "soil": 27,
+      "water": 22,
+      "gender-inclusion": 61,
+      "health-nutrition": 75,
+      "institution": 61,
+      "wash": 24
+    }
+  },
+  {
+    "village_code": "cg-balrampur-harry",
+    "scores": {
+      "distress-migration": 61,
+      "export-import": 20,
+      "hh-income": 19,
+      "livelihood-basket": 31,
+      "youth-employment": 54,
+      "agro-ecology": 35,
+      "energy": 16,
+      "forest": 53,
+      "soil": 61,
+      "water": 36,
+      "gender-inclusion": 33,
+      "health-nutrition": 57,
+      "institution": 41,
+      "wash": 20
+    }
+  },
+  {
+    "village_code": "jh-lohardaga-hisri",
+    "scores": {
+      "distress-migration": 79,
+      "export-import": 20,
+      "hh-income": 47,
+      "livelihood-basket": 47,
+      "youth-employment": 56,
+      "agro-ecology": 24,
+      "energy": 1,
+      "forest": 52,
+      "soil": 53,
+      "water": 30,
+      "gender-inclusion": 26,
+      "health-nutrition": 69,
+      "institution": 37,
+      "wash": 53
+    }
+  },
+  {
+    "village_code": "jh-dumka-jabardaha",
+    "scores": {
+      "distress-migration": 79,
+      "export-import": 20,
+      "hh-income": 33,
+      "livelihood-basket": 20,
+      "youth-employment": 27,
+      "agro-ecology": 32,
+      "energy": 11,
+      "forest": 72,
+      "soil": 64,
+      "water": 39,
+      "gender-inclusion": 38,
+      "health-nutrition": 54,
+      "institution": 50,
+      "wash": 16
+    }
+  },
+  {
+    "village_code": "jh-dumka-jadopani",
+    "scores": {
+      "distress-migration": 82,
+      "export-import": 40,
+      "hh-income": 37,
+      "livelihood-basket": 76,
+      "youth-employment": 12,
+      "agro-ecology": 31,
+      "energy": 3,
+      "forest": 55,
+      "soil": 52,
+      "water": 12,
+      "gender-inclusion": 22,
+      "health-nutrition": 54,
+      "institution": 55,
+      "wash": 56
+    }
+  },
+  {
+    "village_code": "jh-dumka-jambad",
+    "scores": {
+      "distress-migration": 44,
+      "export-import": 20,
+      "hh-income": 28,
+      "livelihood-basket": 12,
+      "youth-employment": 9,
+      "agro-ecology": 35,
+      "energy": 32,
+      "forest": 59,
+      "soil": 52,
+      "water": 45,
+      "gender-inclusion": 37,
+      "health-nutrition": 53,
+      "institution": 53,
+      "wash": 29
+    }
+  },
+  {
+    "village_code": "jh-gumla-jana",
+    "scores": {
+      "distress-migration": 64,
+      "export-import": 60,
+      "hh-income": 39,
+      "livelihood-basket": 54,
+      "youth-employment": 0,
+      "agro-ecology": 82,
+      "energy": 23,
+      "forest": 86,
+      "soil": 82,
+      "water": 35,
+      "gender-inclusion": 40,
+      "health-nutrition": 60,
+      "institution": 52,
+      "wash": 58
+    }
+  },
+  {
+    "village_code": "cg-kanker-jharripara",
+    "scores": {
+      "distress-migration": 88,
+      "export-import": 100,
+      "hh-income": 73,
+      "livelihood-basket": 61,
+      "youth-employment": 0,
+      "agro-ecology": 16,
+      "energy": 23,
+      "forest": 59,
+      "soil": 34,
+      "water": 15,
+      "gender-inclusion": 38,
+      "health-nutrition": 43,
+      "institution": 24,
+      "wash": 80
+    }
+  },
+  {
+    "village_code": "jh-dumka-jhutichapar",
+    "scores": {
+      "distress-migration": 81,
+      "export-import": 40,
+      "hh-income": 31,
+      "livelihood-basket": 66,
+      "youth-employment": 0,
+      "agro-ecology": 47,
+      "energy": 12,
+      "forest": 47,
+      "soil": 57,
+      "water": 16,
+      "gender-inclusion": 27,
+      "health-nutrition": 48,
+      "institution": 52,
+      "wash": 47
+    }
+  },
+  {
+    "village_code": "cg-surguja-jori",
+    "scores": {
+      "distress-migration": 89,
+      "export-import": 40,
+      "hh-income": 44,
+      "livelihood-basket": 46,
+      "youth-employment": 9,
+      "agro-ecology": 57,
+      "energy": 7,
+      "forest": 84,
+      "soil": 54,
+      "water": 20,
+      "gender-inclusion": 45,
+      "health-nutrition": 56,
+      "institution": 45,
+      "wash": 35
+    }
+  },
+  {
+    "village_code": "cg-surguja-kachhar",
+    "scores": {
+      "distress-migration": 89,
+      "export-import": 0,
+      "hh-income": 45,
+      "livelihood-basket": 62,
+      "youth-employment": 9,
+      "agro-ecology": 57,
+      "energy": 7,
+      "forest": 84,
+      "soil": 48,
+      "water": 18,
+      "gender-inclusion": 38,
+      "health-nutrition": 50,
+      "institution": 37,
+      "wash": 13
+    }
+  },
+  {
+    "village_code": "cg-bastar-kawadgaon",
+    "scores": {
+      "distress-migration": 72,
+      "export-import": 20,
+      "hh-income": 34,
+      "livelihood-basket": 70,
+      "youth-employment": 8,
+      "agro-ecology": 36,
+      "energy": 25,
+      "forest": 54,
+      "soil": 66,
+      "water": 42,
+      "gender-inclusion": 34,
+      "health-nutrition": 47,
+      "institution": 27,
+      "wash": 63
+    }
+  },
+  {
+    "village_code": "jh-lohardaga-khamhar",
+    "scores": {
+      "distress-migration": 46,
+      "export-import": 40,
+      "hh-income": 24,
+      "livelihood-basket": 47,
+      "youth-employment": 22,
+      "agro-ecology": 48,
+      "energy": 1,
+      "forest": 57,
+      "soil": 45,
+      "water": 24,
+      "gender-inclusion": 42,
+      "health-nutrition": 83,
+      "institution": 40,
+      "wash": 40
+    }
+  },
+  {
+    "village_code": "cg-kanker-komalpur",
+    "scores": {
+      "distress-migration": 91,
+      "export-import": 40,
+      "hh-income": 8,
+      "livelihood-basket": 8,
+      "youth-employment": 38,
+      "agro-ecology": 25,
+      "energy": 32,
+      "forest": 59,
+      "soil": 59,
+      "water": 25,
+      "gender-inclusion": 25,
+      "health-nutrition": 31,
+      "institution": 41,
+      "wash": 88
+    }
+  },
+  {
+    "village_code": "cg-kanker-kondarunj",
+    "scores": {
+      "distress-migration": 92,
+      "export-import": 80,
+      "hh-income": 58,
+      "livelihood-basket": 56,
+      "youth-employment": 2,
+      "agro-ecology": 17,
+      "energy": 20,
+      "forest": 52,
+      "soil": 49,
+      "water": 24,
+      "gender-inclusion": 36,
+      "health-nutrition": 41,
+      "institution": 40,
+      "wash": 46
+    }
+  },
+  {
+    "village_code": "cg-surguja-korandha",
+    "scores": {
+      "distress-migration": 95,
+      "export-import": 0,
+      "hh-income": 34,
+      "livelihood-basket": 52,
+      "youth-employment": 6,
+      "agro-ecology": 13,
+      "energy": 0,
+      "forest": 52,
+      "soil": 72,
+      "water": 30,
+      "gender-inclusion": 28,
+      "health-nutrition": 50,
+      "institution": 24,
+      "wash": 46
+    }
+  },
+  {
+    "village_code": "jh-gumla-kulhi",
+    "scores": {
+      "distress-migration": 37,
+      "export-import": 40,
+      "hh-income": 40,
+      "livelihood-basket": 23,
+      "youth-employment": 0,
+      "agro-ecology": 25,
+      "energy": 18,
+      "forest": 42,
+      "soil": 55,
+      "water": 39,
+      "gender-inclusion": 14,
+      "health-nutrition": 56,
+      "institution": 40,
+      "wash": 40
+    }
+  },
+  {
+    "village_code": "od-koraput-litiput",
+    "scores": {
+      "distress-migration": 90,
+      "export-import": 20,
+      "hh-income": 30,
+      "livelihood-basket": 43,
+      "youth-employment": 0,
+      "agro-ecology": 20,
+      "energy": 13,
+      "forest": 50,
+      "soil": 62,
+      "water": 37,
+      "gender-inclusion": 37,
+      "health-nutrition": 35,
+      "institution": 33,
+      "wash": 31
+    }
+  },
+  {
+    "village_code": "od-koraput-marda",
+    "scores": {
+      "distress-migration": 80,
+      "export-import": 100,
+      "hh-income": 61,
+      "livelihood-basket": 40,
+      "youth-employment": 0,
+      "agro-ecology": 12,
+      "energy": 12,
+      "forest": 50,
+      "soil": 62,
+      "water": 18,
+      "gender-inclusion": 31,
+      "health-nutrition": 56,
+      "institution": 66,
+      "wash": 23
+    }
+  },
+  {
+    "village_code": "cg-raigarh-mohanpur",
+    "scores": {
+      "distress-migration": 98,
+      "export-import": 40,
+      "hh-income": 30,
+      "livelihood-basket": 43,
+      "youth-employment": 33,
+      "agro-ecology": 13,
+      "energy": 0,
+      "forest": 50,
+      "soil": 49,
+      "water": 37,
+      "gender-inclusion": 33,
+      "health-nutrition": 69,
+      "institution": 42,
+      "wash": 55
+    }
+  },
+  {
+    "village_code": "jh-west-singhbhum-otar",
+    "scores": {
+      "distress-migration": 76,
+      "export-import": 20,
+      "hh-income": 29,
+      "livelihood-basket": 64,
+      "youth-employment": 2,
+      "agro-ecology": 25,
+      "energy": 0,
+      "forest": 45,
+      "soil": 46,
+      "water": 33,
+      "gender-inclusion": 23,
+      "health-nutrition": 54,
+      "institution": 21,
+      "wash": 20
+    }
+  },
+  {
+    "village_code": "cg-balrampur-pahari",
+    "scores": {
+      "distress-migration": 70,
+      "export-import": 40,
+      "hh-income": 27,
+      "livelihood-basket": 34,
+      "youth-employment": 28,
+      "agro-ecology": 39,
+      "energy": 17,
+      "forest": 80,
+      "soil": 52,
+      "water": 39,
+      "gender-inclusion": 32,
+      "health-nutrition": 46,
+      "institution": 37,
+      "wash": 28
+    }
+  },
+  {
+    "village_code": "od-kalahandi-podapadar",
+    "scores": {
+      "distress-migration": 86,
+      "export-import": 40,
+      "hh-income": 29,
+      "livelihood-basket": 59,
+      "youth-employment": 5,
+      "agro-ecology": 39,
+      "energy": 28,
+      "forest": 66,
+      "soil": 25,
+      "water": 17,
+      "gender-inclusion": 64,
+      "health-nutrition": 52,
+      "institution": 49,
+      "wash": 34
+    }
+  },
+  {
+    "village_code": "jh-gumla-podha",
+    "scores": {
+      "distress-migration": 40,
+      "export-import": 60,
+      "hh-income": 41,
+      "livelihood-basket": 67,
+      "youth-employment": 0,
+      "agro-ecology": 62,
+      "energy": 28,
+      "forest": 57,
+      "soil": 35,
+      "water": 47,
+      "gender-inclusion": 58,
+      "health-nutrition": 53,
+      "institution": 65,
+      "wash": 56
+    }
+  },
+  {
+    "village_code": "od-koraput-potenda",
+    "scores": {
+      "distress-migration": 100,
+      "export-import": 60,
+      "hh-income": 31,
+      "livelihood-basket": 47,
+      "youth-employment": 6,
+      "agro-ecology": 43,
+      "energy": 10,
+      "forest": 44,
+      "soil": 55,
+      "water": 22,
+      "gender-inclusion": 25,
+      "health-nutrition": 44,
+      "institution": 41,
+      "wash": 25
+    }
+  },
+  {
+    "village_code": "cg-kanker-pungaon",
+    "scores": {
+      "distress-migration": 95,
+      "export-import": 100,
+      "hh-income": 44,
+      "livelihood-basket": 52,
+      "youth-employment": 8,
+      "agro-ecology": 35,
+      "energy": 2,
+      "forest": 50,
+      "soil": 52,
+      "water": 35,
+      "gender-inclusion": 51,
+      "health-nutrition": 44,
+      "institution": 46,
+      "wash": 58
+    }
+  },
+  {
+    "village_code": "od-mayurbhanj-raipada",
+    "scores": {
+      "distress-migration": 90,
+      "export-import": 40,
+      "hh-income": 37,
+      "livelihood-basket": 74,
+      "youth-employment": 18,
+      "agro-ecology": 42,
+      "energy": 2,
+      "forest": 84,
+      "soil": 42,
+      "water": 26,
+      "gender-inclusion": 58,
+      "health-nutrition": 51,
+      "institution": 39,
+      "wash": 44
+    }
+  },
+  {
+    "village_code": "cg-kanker-ratedih",
+    "scores": {
+      "distress-migration": 93,
+      "export-import": 60,
+      "hh-income": 51,
+      "livelihood-basket": 17,
+      "youth-employment": 0,
+      "agro-ecology": 33,
+      "energy": 30,
+      "forest": 86,
+      "soil": 46,
+      "water": 26,
+      "gender-inclusion": 49,
+      "health-nutrition": 56,
+      "institution": 42,
+      "wash": 83
+    }
+  },
+  {
+    "village_code": "jh-lohardaga-rocho",
+    "scores": {
+      "distress-migration": 60,
+      "export-import": 40,
+      "hh-income": 41,
+      "livelihood-basket": 40,
+      "youth-employment": 3,
+      "agro-ecology": 55,
+      "energy": 9,
+      "forest": 50,
+      "soil": 57,
+      "water": 17,
+      "gender-inclusion": 40,
+      "health-nutrition": 55,
+      "institution": 49,
+      "wash": 59
+    }
+  },
+  {
+    "village_code": "cg-kanker-rodepara",
+    "scores": {
+      "distress-migration": 99,
+      "export-import": 20,
+      "hh-income": 36,
+      "livelihood-basket": 49,
+      "youth-employment": 0,
+      "agro-ecology": 49,
+      "energy": 12,
+      "forest": 54,
+      "soil": 48,
+      "water": 11,
+      "gender-inclusion": 43,
+      "health-nutrition": 15,
+      "institution": 52,
+      "wash": 59
+    }
+  },
+  {
+    "village_code": "jh-west-singhbhum-sankai",
+    "scores": {
+      "distress-migration": 86,
+      "export-import": 80,
+      "hh-income": 30,
+      "livelihood-basket": 61,
+      "youth-employment": 19,
+      "agro-ecology": 82,
+      "energy": 0,
+      "forest": 76,
+      "soil": 48,
+      "water": 24,
+      "gender-inclusion": 30,
+      "health-nutrition": 53,
+      "institution": 26,
+      "wash": 5
+    }
+  },
+  {
+    "village_code": "cg-kanker-silibahar",
+    "scores": {
+      "distress-migration": 93,
+      "export-import": 20,
+      "hh-income": 64,
+      "livelihood-basket": 74,
+      "youth-employment": 0,
+      "agro-ecology": 16,
+      "energy": 0,
+      "forest": 81,
+      "soil": 56,
+      "water": 14,
+      "gender-inclusion": 48,
+      "health-nutrition": 58,
+      "institution": 25,
+      "wash": 27
+    }
+  },
+  {
+    "village_code": "jh-godda-talbadiya",
+    "scores": {
+      "distress-migration": 80,
+      "export-import": 40,
+      "hh-income": 15,
+      "livelihood-basket": 22,
+      "youth-employment": 5,
+      "agro-ecology": 42,
+      "energy": 18,
+      "forest": 38,
+      "soil": 47,
+      "water": 26,
+      "gender-inclusion": 19,
+      "health-nutrition": 50,
+      "institution": 10,
+      "wash": 7
+    }
+  },
+  {
+    "village_code": "cg-kanker-tarai-ghotiya",
+    "scores": {
+      "distress-migration": 94,
+      "export-import": 80,
+      "hh-income": 53,
+      "livelihood-basket": 43,
+      "youth-employment": 8,
+      "agro-ecology": 12,
+      "energy": 6,
+      "forest": 49,
+      "soil": 53,
+      "water": 22,
+      "gender-inclusion": 41,
+      "health-nutrition": 37,
+      "institution": 43,
+      "wash": 64
+    }
+  },
+  {
+    "village_code": "jh-lohardaga-tisiya",
+    "scores": {
+      "distress-migration": 76,
+      "export-import": 40,
+      "hh-income": 46,
+      "livelihood-basket": 50,
+      "youth-employment": 37,
+      "agro-ecology": 50,
+      "energy": 12,
+      "forest": 56,
+      "soil": 49,
+      "water": 23,
+      "gender-inclusion": 23,
+      "health-nutrition": 84,
+      "institution": 39,
+      "wash": 52
+    }
+  },
+  {
+    "village_code": "od-kandhamal-traskipadar",
+    "scores": {
+      "distress-migration": 93,
+      "export-import": 20,
+      "hh-income": 36,
+      "livelihood-basket": 76,
+      "youth-employment": 10,
+      "agro-ecology": 36,
+      "energy": 10,
+      "forest": 59,
+      "soil": 82,
+      "water": 43,
+      "gender-inclusion": 63,
+      "health-nutrition": 63,
+      "institution": 33,
+      "wash": 31
+    }
+  },
+  {
+    "village_code": "cg-kanker-vaynar",
+    "scores": {
+      "distress-migration": 96,
+      "export-import": 60,
+      "hh-income": 56,
+      "livelihood-basket": 47,
+      "youth-employment": 11,
+      "agro-ecology": 13,
+      "energy": 6,
+      "forest": 55,
+      "soil": 51,
+      "water": 25,
+      "gender-inclusion": 20,
+      "health-nutrition": 40,
+      "institution": 25,
+      "wash": 66
+    }
+  }
+]

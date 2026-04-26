@@ -1,0 +1,64 @@
+village_code,name,district,block,state,matched_name,matched_block,distance,block_dist,status
+cg-kanker-aamajhola,Aamajhola,Kanker,Kanker,Chhattisgarh,AMAJHOLA,KANKER,1,0,fuzzy
+cg-kanker-aamakot,Aamakot,Kanker,Antagarh,Chhattisgarh,AAMAKOT,ANTAGARH,0,,exact
+jh-west-singhbhum-angariya,Angariya,West Singhbhum,Bandgaon,Jharkhand,ANGARIA,BANDGAON,0,,exact
+od-koraput-anlaghati,Anlaghati,Koraput,Nandapur,Odisha,ANALAGHAT,NANDAPUR,1,0,fuzzy
+cg-kanker-babukohaka,Babukohaka,Kanker,Charama,Chhattisgarh,BABU KOHAKA,CHARAMA,1,0,fuzzy
+od-mayurbhanj-baliabeda,Baliabeda,Mayurbhanj,Thakurmunda,Odisha,BALIABEDA,THAKURMUNDA,0,,exact
+jh-dumka-bamerjhanti,Bamerjhanti,Dumka,Kathikund,Jharkhand,BAMERJHANTI,KATHIKUND,0,,exact
+jh-godda-bansdanda,Bansdanda,Godda,Boarijor,Jharkhand,BANSDANDA,BOARIJOR,0,,exact
+jh-lohardaga-barchorgain,Barchorgain,Lohardaga,Kisko,Jharkhand,BARCHORGAIN,KISKO,0,,exact
+jh-godda-bariyarpur,Bariyarpur,Godda,Sundarpahari,Jharkhand,BARIYARPUR,SUNDARPAHARI,0,,exact
+od-kandhamal-bhandarpadar,Bhandarpadar,Kandhamal,Phulbani,Odisha,KAKANSUGA,PHULBANI,0,,exact
+od-koraput-bhatabir,Bhatabir,Koraput,Nandapur,Odisha,[BLOCK PROXY: NANDAPUR],NANDAPUR,0,0,block-proxy
+jh-west-singhbhum-bikrampur,Bikrampur,West Singhbhum,Sonua,Jharkhand,BIKRAMPUR,SONUA,0,,exact
+od-koraput-burudiput,Burudiput,Koraput,Nandapur,Odisha,BHURUDIPUT,JEYPORE,0,7,exact-block
+jh-lohardaga-chandwa,Chandwa,Lohardaga,Senha,Jharkhand,CHANDWA,SENHA,0,,exact
+jh-gumla-chhota-ajiyatu,Chhota Ajiyatu,Gumla,Ghaghra,Jharkhand,CHHOTA AJIYATU,GHAGHRA,0,,exact
+jh-godda-chhota-haripur,Chhota Haripur,Godda,Sundarpahari,Jharkhand,CHHOTA HARIPUR,SUNDARPAHARI,0,,exact
+jh-godda-chhota-sindari,Chhota Sindari,Godda,Sundarpahari,Jharkhand,CHHOTA SINDARI,SUNDARPAHARI,0,0,exact-block
+jh-lohardaga-chhotchorgain,Chhotchorgain,Lohardaga,Kisko,Jharkhand,CHHOTCHORGAIN,KISKO,0,,exact
+cg-bastar-chhote-aamabal,Chhote Aamabal,Bastar,Bastar,Chhattisgarh,CHHOTEAMAWAL,BASTAR,1,0,fuzzy
+jh-lohardaga-churku,Churku,Lohardaga,Senha,Jharkhand,CHURKU,SENHA,0,,exact
+cg-kanker-damkasa,Damkasa,Kanker,Charama,Chhattisgarh,DAMKASA,CHARAMA,0,0,exact-block
+cg-kabirdham-dhamindih,Dhamindih,Kabirdham,Bodla,Chhattisgarh,DHAMINDIH,BODLA,0,,exact
+cg-kanker-enhur,Enhur,Kanker,Durgukondal,Chhattisgarh,ANHUR,DURGUKONDAL,1,0,fuzzy
+cg-bastar-farsara,Farsara,Bastar,Bakawand,Chhattisgarh,FARASARA,BAKAWAND,1,0,fuzzy
+cg-balrampur-ghughari-khurd,Ghughari Khurd,Balrampur,Shankargarh,Chhattisgarh,GHUGHARI KHURD,SHANKARGARH,0,,exact
+od-rayagada-hajaridang,Hajaridang,Rayagada,Kolnara,Odisha,HAJARIDANG,KOLNARA,0,0,exact-block
+cg-balrampur-harry,Harry,Balrampur,Kusmi,Chhattisgarh,HARRI,KUSMI,1,0,fuzzy
+jh-lohardaga-hisri,Hisri,Lohardaga,Kisko,Jharkhand,HISRI,KISKO,0,,exact
+jh-dumka-jabardaha,Jabardaha,Dumka,Shikaripara,Jharkhand,JABARDAHA,SIKARIPARA,0,,exact
+jh-dumka-jadopani,Jadopani,Dumka,Gopikandar,Jharkhand,JAROPANI,GOPIKANDER,1,1,fuzzy
+jh-dumka-jambad,Jambad,Dumka,Shikaripara,Jharkhand,JAMBAD,SIKARIPARA,0,1,exact-block
+jh-gumla-jana,Jana,Gumla,Gumla,Jharkhand,JANA,GUMLA,0,,exact
+cg-kanker-jharripara,Jharripara,Kanker,Durgukondal,Chhattisgarh,JHARRIPARA,DURGUKONDAL,0,,exact
+jh-dumka-jhutichapar,Jhutichapar,Dumka,Gopikandar,Jharkhand,JHUNTICHAPAR,GOPIKANDER,1,1,fuzzy
+cg-surguja-jori,Jori,Surguja,Lundra,Chhattisgarh,JORI,LUNDRA,0,,exact
+cg-surguja-kachhar,Kachhar,Surguja,Lundra,Chhattisgarh,KACHHAR,LUNDRA,0,,exact
+cg-bastar-kawadgaon,Kawadgaon,Bastar,Bastar,Chhattisgarh,KAWADGAON,BASTAR,0,,exact
+jh-lohardaga-khamhar,Khamhar,Lohardaga,Kuru,Jharkhand,KHAMHAR,KURU,0,,exact
+cg-kanker-komalpur,Komalpur,Kanker,Kanker,Chhattisgarh,KOMALPUR,KANKER,0,,exact
+cg-kanker-kondarunj,Kondarunj,Kanker,Durgukondal,Chhattisgarh,KONDRUJ,DURGUKONDAL,1,0,fuzzy
+cg-surguja-korandha,Korandha,Surguja,Lundra,Chhattisgarh,KORANDHA,LUNDRA,0,,exact
+jh-gumla-kulhi,Kulhi,Gumla,Gumla,Jharkhand,KULHI,GUMLA,0,,exact
+od-koraput-litiput,Litiput,Koraput,Lamtaput,Odisha,LITIPUT,LAMTAPUT,0,0,exact-block
+od-koraput-marda,Marda,Koraput,Nandapur,Odisha,MARADA,LAMTAPUT,1,4,fuzzy
+cg-raigarh-mohanpur,Mohanpur,Raigarh,Lailunga,Chhattisgarh,MOHANPUR,LAILUNGA,0,,exact
+jh-west-singhbhum-otar,Otar,West Singhbhum,Bandgaon,Jharkhand,OTAR,BANDGAON,0,0,exact-block
+cg-balrampur-pahari,Pahari,Balrampur,Shankargarh,Chhattisgarh,PAHARI,SHANKARGARH,0,,exact
+od-kalahandi-podapadar,Podapadar,Kalahandi,Lanjigarh,Odisha,PODAPADAR,LANJIGARH,0,0,exact-block
+jh-gumla-podha,Podha,Gumla,Ghaghra,Jharkhand,PORHA,GHAGHRA,0,0,fuzzy-confirmed
+od-koraput-potenda,Potenda,Koraput,Lamtaput,Odisha,POTENDA,LAMTAPUT,0,,exact
+cg-kanker-pungaon,Pungaon,Kanker,Antagarh,Chhattisgarh,PUNGAON,ANTAGARH,0,,exact
+od-mayurbhanj-raipada,Raipada,Mayurbhanj,Thakurmunda,Odisha,RAIPADA,THAKURMUNDA,0,0,exact-block
+cg-kanker-ratedih,Ratedih,Kanker,Charama,Chhattisgarh,RATEDIH,CHARAMA,0,,exact
+jh-lohardaga-rocho,Rocho,Lohardaga,Kuru,Jharkhand,ROCHO,KURU,0,,exact
+cg-kanker-rodepara,Rodepara,Kanker,Kanker,Chhattisgarh,KANHARPURI,KANKER,0,0,gp-proxy
+jh-west-singhbhum-sankai,Sankai,West Singhbhum,Bandgaon,Jharkhand,SANKAI,BANDGAON,0,,exact
+cg-kanker-silibahar,Silibahar,Kanker,Bhanupratappur,Chhattisgarh,SILIBAHAR,BHANUPRATAPPUR,0,,exact
+jh-godda-talbadiya,Talbadiya,Godda,Boarijor,Jharkhand,TALBARIA,BOARIJOR,0,0,fuzzy-confirmed
+cg-kanker-tarai-ghotiya,Tarai Ghotiya,Kanker,Durgukondal,Chhattisgarh,TARAIGHOTIA,DURGUKONDAL,0,,exact
+jh-lohardaga-tisiya,Tisiya,Lohardaga,Kisko,Jharkhand,TISIYA,KISKO,0,,exact
+od-kandhamal-traskipadar,Traskipadar,Kandhamal,Phulbani,Odisha,TRASKIPADAR,PHULBANI,0,,exact
+cg-kanker-vaynar,Vaynar,Kanker,Durgukondal,Chhattisgarh,VAINAR,DURGUKONDAL,1,0,fuzzy

@@ -17,3 +17,4 @@ supporting-docs/
 data/raw/
 data/geo/*.pmtiles
 data/geo/*.parquet
+data/geo/_*.json   # intermediate filtered dumps (re-buildable from parquet)
