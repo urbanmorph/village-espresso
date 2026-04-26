@@ -1,0 +1,11 @@
+node_modules
+.svelte-kit
+.vercel
+.git
+supporting-docs
+data/raw
+data/geo
+data/processed/_source.json
+*.parquet
+*.pmtiles
+*.xlsx
