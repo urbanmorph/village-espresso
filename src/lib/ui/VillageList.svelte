@@ -3,6 +3,7 @@
     INDICATORS,
     avgInComponent,
     effectiveScore,
+    dataConfidence,
     type Village
   } from '$lib/data';
   import { scoreBg, scoreText } from '$lib/colors';
@@ -104,6 +105,9 @@
       {@const sel = indicatorVal(v)}
       {@const overall = avgInComponent(v.code, selectedComponentCode)}
       {@const isSelected = v.code === selectedVillageCode}
+      {@const conf = dataConfidence(v.code, v.households)}
+      {@const dots = conf.tier === 'solid' ? '●●●' : conf.tier === 'thin' ? '●●○' : '●○○'}
+      {@const dotTone = conf.tier === 'solid' ? 'text-neutral-700' : conf.tier === 'thin' ? 'text-neutral-500' : 'text-neutral-400'}
       <li>
         <button
           type="button"
@@ -117,9 +121,15 @@
 
           <span class="min-w-0">
             <span class="block truncate text-sm font-medium leading-tight">{v.name}</span>
-            <span class="block truncate text-[11px] text-neutral-500"
-              >{v.district} · {v.state} · {v.households ?? '—'} HHs</span
-            >
+            <span class="block truncate text-[11px] text-neutral-500">
+              {v.district} · {v.state} · {v.households ?? '—'} HHs
+              <span
+                class="ml-1 inline-block tabular-nums tracking-tighter {dotTone}"
+                title="Data confidence: {conf.tier} — {conf.reason}"
+              >
+                {dots}
+              </span>
+            </span>
             <!-- single avg-score bar — width = village avg, color = bucket -->
             <span class="mt-1 block h-1.5 w-full overflow-hidden rounded-sm bg-neutral-100">
               <span

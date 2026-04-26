@@ -149,3 +149,40 @@ export function effectiveScore(
   if (indicatorCode === 'overall') return avgInComponent(code, componentCode);
   return indicatorScore(code, indicatorCode);
 }
+
+/**
+ * Front-end "data confidence" badge for the village list.
+ *
+ * Sample size dominates (households). Indicator-level zero-rate is a
+ * secondary signal — many indicators stuck at 0 often means questions
+ * were skipped or scored uniformly low rather than measured.
+ *
+ * NOTE: this is *data confidence*, not true sampling bias. We don't have
+ * the survey methodology metadata (who was sampled, how many HHs surveyed,
+ * respondent characteristics) to compute real bias.
+ */
+export type DataConfidence = 'solid' | 'thin' | 'limited';
+export function dataConfidence(
+  code: string,
+  households: number | null
+): { tier: DataConfidence; reason: string } {
+  const scores = getScores(code);
+  const values = Object.values(scores);
+  const totalInds = values.length;
+  const zeroCount = values.filter((s) => s < 5).length;
+  const zeroRate = totalInds > 0 ? zeroCount / totalInds : 1;
+
+  let tier: DataConfidence;
+  if (households == null || households < 50) tier = 'limited';
+  else if (households < 150) tier = 'thin';
+  else tier = 'solid';
+
+  // demote one tier if many indicators are stuck near zero (skipped / collapsed)
+  if (zeroRate > 0.35) {
+    tier = tier === 'solid' ? 'thin' : 'limited';
+  }
+
+  const hhStr = households == null ? 'no HH count' : `${households} HHs`;
+  const reason = `${hhStr} · ${zeroCount}/${totalInds} indicators near zero`;
+  return { tier, reason };
+}

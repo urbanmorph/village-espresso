@@ -13,6 +13,7 @@
   import Radar from '$lib/charts/Radar.svelte';
   import SubIndicatorMatrix from '$lib/charts/SubIndicatorMatrix.svelte';
   import EconomicStrip from '$lib/charts/EconomicStrip.svelte';
+  import ParticipationLens from '$lib/charts/ParticipationLens.svelte';
   import VillageList from '$lib/ui/VillageList.svelte';
   import VillageContextCards from '$lib/ui/VillageContextCards.svelte';
 
@@ -292,8 +293,13 @@
     </div>
   </section>
 
+  <!-- Zone D — Participation lens -->
+  <section class="mt-8">
+    <ParticipationLens villages={filteredVillages} {selectedComponentCode} />
+  </section>
+
   <footer class="mt-10 border-t border-neutral-200 pt-4 text-xs text-neutral-500">
     Real data · {VILLAGES.length} villages · {INDICATORS.length} indicators · built from
-    powerbi_village_data.xlsx
+    powerbi_village_data.xlsx by PRADAN
   </footer>
 </main>
