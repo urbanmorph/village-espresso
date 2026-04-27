@@ -2,12 +2,18 @@
   import { INDICATORS, INDICATOR_SCORES, type Village } from '$lib/data';
 
   type Props = {
-    villages: Village[]; // already-filtered set
+    villages: Village[]; // already-filtered set from header
     selectedComponentCode: string;
   };
   let { villages, selectedComponentCode }: Props = $props();
 
   const CENTROID = 'institution';
+
+  // ── scenario state ───────────────────────────────────────────────────────
+  type ProxyKind = 'forest' | 'inverse-migration';
+  let proxyKind = $state<ProxyKind>('forest');
+  let alpha = $state(1); // 1 = pure Vibrancy (current), 0 = pure proxy
+  const isBlended = $derived(alpha < 1);
 
   // ── stats ────────────────────────────────────────────────────────────────
   function ranks(xs: number[]): number[] {
@@ -36,13 +42,26 @@
       dx2 += (xs[i] - mx) ** 2;
       dy2 += (ys[i] - my) ** 2;
     }
-    const denom = Math.sqrt(dx2 * dy2);
-    return denom === 0 ? 0 : num / denom;
+    const d = Math.sqrt(dx2 * dy2);
+    return d === 0 ? 0 : num / d;
   }
   const spearman = (xs: number[], ys: number[]) => pearson(ranks(xs), ranks(ys));
 
   // ── data ─────────────────────────────────────────────────────────────────
   const scoresByCode = new Map(INDICATOR_SCORES.map((r) => [r.village_code, r.scores]));
+
+  function proxyScore(code: string): number {
+    const s = scoresByCode.get(code);
+    if (!s) return 0;
+    return proxyKind === 'forest'
+      ? (s.forest ?? 0)
+      : 100 - (s['distress-migration'] ?? 0);
+  }
+  function blendedInstitution(code: string): number {
+    const s = scoresByCode.get(code);
+    if (!s) return 0;
+    return alpha * (s[CENTROID] ?? 0) + (1 - alpha) * proxyScore(code);
+  }
 
   const N = $derived(villages.length);
   const tooSmall = $derived(N < 15);
@@ -55,16 +74,10 @@
     )
   );
 
-  type Row = {
-    code: string;
-    label: string;
-    component: string;
-    rho: number;
-  };
-
+  type Row = { code: string; label: string; component: string; rho: number };
   const correlations = $derived.by<Row[]>(() => {
     if (tooSmall) return [];
-    const inst = villages.map((v) => scoresByCode.get(v.code)?.[CENTROID] ?? 0);
+    const inst = villages.map((v) => blendedInstitution(v.code));
     return otherIndicators
       .map((ind) => {
         const ys = villages.map((v) => scoresByCode.get(v.code)?.[ind.code] ?? 0);
@@ -75,228 +88,80 @@
 
   const STRONG = 0.3;
   const WEAK = 0.15;
-
   const strongCount = $derived(correlations.filter((r) => Math.abs(r.rho) >= STRONG).length);
   const weakPosCount = $derived(
     correlations.filter((r) => r.rho >= WEAK && r.rho < STRONG).length
   );
   const flatCount = $derived(correlations.filter((r) => Math.abs(r.rho) < WEAK).length);
+  const firstWeakIdx = $derived(correlations.findIndex((r) => Math.abs(r.rho) < STRONG));
 
-  // index of the row where |ρ| first drops below STRONG (for the threshold divider)
-  const firstWeakIdx = $derived(
-    correlations.findIndex((r) => Math.abs(r.rho) < STRONG)
-  );
-
-  // ── all-pair correlation matrix (91 pairs at the indicator level) ────────
-  type Pair = {
-    a: string;
-    b: string;
-    aLabel: string;
-    bLabel: string;
-    aComp: string;
-    bComp: string;
-    rho: number;
-  };
-  const allPairs = $derived.by<Pair[]>(() => {
-    if (tooSmall) return [];
-    const xs = INDICATORS.map((i) => ({
-      i,
-      v: villages.map((v) => scoresByCode.get(v.code)?.[i.code] ?? 0)
+  // ── movers when blending is engaged ──────────────────────────────────────
+  type Mover = { name: string; district: string; deltaRank: number };
+  const movers = $derived.by<{ up: Mover[]; down: Mover[] } | null>(() => {
+    if (!isBlended || tooSmall) return null;
+    const pure = villages.map((v) => scoresByCode.get(v.code)?.[CENTROID] ?? 0);
+    const blended = villages.map((v) => blendedInstitution(v.code));
+    const pureRanks = ranks(pure);
+    const blendedRanks = ranks(blended);
+    const all: Mover[] = villages.map((v, i) => ({
+      name: v.name,
+      district: v.district,
+      deltaRank: blendedRanks[i] - pureRanks[i]
     }));
-    const out: Pair[] = [];
-    for (let i = 0; i < xs.length; i++) {
-      for (let j = i + 1; j < xs.length; j++) {
-        out.push({
-          a: xs[i].i.code,
-          b: xs[j].i.code,
-          aLabel: xs[i].i.label,
-          bLabel: xs[j].i.label,
-          aComp: xs[i].i.component,
-          bComp: xs[j].i.component,
-          rho: spearman(xs[i].v, xs[j].v)
-        });
-      }
-    }
-    return out;
+    return {
+      up: [...all].sort((a, b) => b.deltaRank - a.deltaRank).slice(0, 3),
+      down: [...all].sort((a, b) => a.deltaRank - b.deltaRank).slice(0, 3)
+    };
   });
 
-  // ── theory-supported pathways (subset, the ones with strong literature) ─
-  type Prediction = { a: string; b: string; sign: '+' | '-'; note?: string };
-  const PREDICTIONS: Prediction[] = [
-    { a: 'wash', b: 'health-nutrition', sign: '+', note: 'WHO/UNICEF JMP; Spears 2013; Cumming BMJ 2019' },
-    { a: 'gender-inclusion', b: 'health-nutrition', sign: '+', note: 'IFPRI WEAI; Sraboni et al' },
-    { a: 'forest', b: 'distress-migration', sign: '-', note: 'Sunderlin; Angelsen-CIFOR PEN' },
-    { a: 'forest', b: 'hh-income', sign: '+', note: 'NTFP / forest income (CIFOR PEN)' },
-    { a: 'agro-ecology', b: 'hh-income', sign: '+', note: 'Pretty et al regenerative ag yields' },
-    { a: 'water', b: 'wash', sign: '+', note: 'JMP — drinking water access' },
-    { a: 'water', b: 'agro-ecology', sign: '+', note: 'ICRISAT — irrigation enables RA' },
-    { a: 'forest', b: 'water', sign: '+', note: 'Catchment hydrology' },
-    { a: 'institution', b: 'hh-income', sign: '+', note: 'SHG/FPO impact (Deininger & Liu)' },
-    { a: 'institution', b: 'distress-migration', sign: '-', note: 'Group livelihoods reduce migration' },
-    { a: 'livelihood-basket', b: 'distress-migration', sign: '-', note: 'Diversification reduces distress, Ellis 2000' }
-  ];
-  const predictedSet = new Set(
-    PREDICTIONS.flatMap((p) => [`${p.a}|${p.b}`, `${p.b}|${p.a}`])
-  );
-
-  // ── interpretive captions for known surprises (hand-written) ─────────────
-  const PAIR_CAPTIONS: Record<string, string> = {
-    'forest|gender-inclusion':
-      "Tribal forest economies are women-led (NTFP, mahua, fuelwood). Strong forests → stronger women's economic role.",
-    'livelihood-basket|gender-inclusion':
-      'Diversified livelihoods rely on women-led non-farm enterprise; both rise together.',
-    'hh-income|wash':
-      'Higher-income villages can afford toilets, piped water, soap. Income may pull WASH along.',
-    'hh-income|water':
-      "PRADAN's NRM work is concentrated in lower-income villages. NRM scores rise; income hasn't caught up yet.",
-    'hh-income|agro-ecology':
-      "Same pattern as Water — agro-ecology intervention is targeted at marginal-income villages."
-  };
-  function captionFor(a: string, b: string): string | null {
-    return PAIR_CAPTIONS[`${a}|${b}`] ?? PAIR_CAPTIONS[`${b}|${a}`] ?? null;
-  }
-
-  // ── Beyond Institution: surprise pairs (top |ρ| not involving Institution
-  //    and not in our prediction list) ──────────────────────────────────────
-  const surprisePairs = $derived.by(() =>
-    allPairs
-      .filter(
-        (p) =>
-          p.a !== CENTROID &&
-          p.b !== CENTROID &&
-          !predictedSet.has(`${p.a}|${p.b}`) &&
-          Math.abs(p.rho) >= 0.25
-      )
-      .sort((a, b) => Math.abs(b.rho) - Math.abs(a.rho))
-      .slice(0, 3)
-  );
-
-  // ── Contradictions: theory predictions whose sign in our data is opposite
-  //    or strongly null on a high-confidence prediction ─────────────────────
-  type Contradiction = {
-    aLabel: string;
-    bLabel: string;
-    rho: number;
-    expectedSign: '+' | '-';
-    note: string;
-  };
-  const contradictions = $derived.by<Contradiction[]>(() => {
-    if (tooSmall) return [];
-    const out: Contradiction[] = [];
-    for (const pred of PREDICTIONS) {
-      const pair = allPairs.find(
-        (p) => (p.a === pred.a && p.b === pred.b) || (p.a === pred.b && p.b === pred.a)
-      );
-      if (!pair) continue;
-      const expected = pred.sign === '+' ? 1 : -1;
-      const observed = Math.sign(pair.rho);
-      // contradiction = wrong sign with non-trivial magnitude
-      if (Math.abs(pair.rho) >= 0.2 && expected !== observed) {
-        out.push({
-          aLabel: pair.aLabel,
-          bLabel: pair.bLabel,
-          rho: pair.rho,
-          expectedSign: pred.sign,
-          note: pred.note ?? ''
-        });
-      }
-    }
-    return out.sort((a, b) => Math.abs(b.rho) - Math.abs(a.rho)).slice(0, 3);
-  });
-
-  // ── outliers: residuals from the strongest visible correlation ───────────
-  type Outlier = {
-    name: string;
-    district: string;
-    state: string;
-    instScore: number;
-    yScore: number;
-    yLabel: string;
-    residual: number;
-  };
-
-  const outliers = $derived.by<{ over: Outlier[]; under: Outlier[]; pairLabel: string } | null>(
-    () => {
-      if (tooSmall || correlations.length === 0) return null;
-      const top = correlations[0];
-      if (Math.abs(top.rho) < WEAK) return null;
-      const inst = villages.map((v) => scoresByCode.get(v.code)?.[CENTROID] ?? 0);
-      const ys = villages.map((v) => scoresByCode.get(v.code)?.[top.code] ?? 0);
-      const r = pearson(inst, ys);
-      const mx = inst.reduce((a, b) => a + b, 0) / inst.length;
-      const my = ys.reduce((a, b) => a + b, 0) / ys.length;
-      const sx = Math.sqrt(inst.reduce((s, x) => s + (x - mx) ** 2, 0) / inst.length);
-      const sy = Math.sqrt(ys.reduce((s, y) => s + (y - my) ** 2, 0) / ys.length);
-      const slope = sx === 0 ? 0 : r * (sy / sx);
-      const intercept = my - slope * mx;
-      const rows: Outlier[] = villages.map((v, i) => ({
-        name: v.name,
-        district: v.district,
-        state: v.state,
-        instScore: inst[i],
-        yScore: ys[i],
-        yLabel: top.label,
-        residual: ys[i] - (intercept + slope * inst[i])
-      }));
-      return {
-        over: [...rows].sort((a, b) => b.residual - a.residual).slice(0, 3),
-        under: [...rows].sort((a, b) => a.residual - b.residual).slice(0, 3),
-        pairLabel: top.label
-      };
-    }
-  );
-
-  // ── visual scales ────────────────────────────────────────────────────────
-  // Bar width: |ρ|/0.5 * 100% (capped). 0.5 fills the bar; 0.3 ≈ 60%.
+  // ── visual ───────────────────────────────────────────────────────────────
   const BAR_FULL_RHO = 0.5;
-  function barWidth(rho: number): number {
-    return Math.min(100, (Math.abs(rho) / BAR_FULL_RHO) * 100);
-  }
-  function rhoLabel(rho: number): string {
-    const sign = rho >= 0 ? '+' : '−';
-    return `${sign}${Math.abs(rho).toFixed(2)}`;
-  }
+  const barWidth = (rho: number) => Math.min(100, (Math.abs(rho) / BAR_FULL_RHO) * 100);
+  const rhoLabel = (rho: number) => `${rho >= 0 ? '+' : '−'}${Math.abs(rho).toFixed(2)}`;
 </script>
 
-<section class="rounded-lg border border-neutral-200 bg-white p-5">
-  <header class="mb-3">
+<section class="rounded-lg border border-neutral-200 bg-white p-4 sm:p-5">
+  <header>
     <h2 class="text-base font-semibold tracking-tight">
       Does local participation predict outcomes?
     </h2>
     <p class="mt-0.5 text-xs text-neutral-500">
-      Spearman ρ between the Institution score (a process measure) and the other 13 indicators
-      (outcome measures) · n = {N} villages
+      Spearman ρ ·
+      {#if isBlended}
+        <span class="font-semibold text-amber-700">blended Institution</span>
+        (α = {alpha.toFixed(2)})
+      {:else}
+        Institution (process measure)
+      {/if}
+      vs the other 13 indicators · n = {N}
+    </p>
+    <p class="mt-0.5 text-[11px] text-neutral-400">
+      Aggregate view across the {N} filtered villages — selecting one in the list does not
+      change Zone&nbsp;D. For per-village detail, use the radar / matrix / economic cards above.
     </p>
   </header>
 
-  <!-- Process-vs-outcome framing — load-bearing caveat -->
-  <div class="mb-4 rounded-md border-l-4 border-amber-400 bg-amber-50 px-3 py-2 text-[12.5px] leading-snug text-neutral-700">
-    <span class="font-semibold text-amber-900">⚠ Read this first.</span>
-    <span class="ml-1">
-      Institution measures <span class="font-semibold">process</span> — vibrancy of meetings,
-      attendance, participation in CBOs / Gram Sabhas / FPCs. The 13 indicators below measure
-      <span class="font-semibold">outcomes</span> (income, health, migration, etc.).
-      Process-to-outcome lags are real: months for the process score to move, years for outcomes
-      to follow. <span class="text-amber-900">A weak correlation in a snapshot is not evidence
-      the institutions don't matter.</span>
-    </span>
-  </div>
+  <!-- Process-vs-outcome caveat — single sentence, load-bearing -->
+  <p class="mt-3 rounded-md border-l-4 border-amber-400 bg-amber-50 px-3 py-2 text-[12px] leading-snug text-neutral-700">
+    <span class="font-semibold text-amber-900">Read this first.</span>
+    Institution measures <span class="font-semibold">process</span> (vibrancy, attendance);
+    the 13 below measure <span class="font-semibold">outcomes</span>. Process moves in months,
+    outcomes in years. Weak correlations in a snapshot are not evidence the institutions don't matter.
+  </p>
 
   {#if tooSmall}
-    <div class="rounded-md bg-neutral-100 px-3 py-3 text-sm text-neutral-600">
-      Sample too small (n = {N}). Need at least 15 villages for a readable signal — widen the
-      State filter.
+    <div class="mt-4 rounded-md bg-neutral-100 px-3 py-3 text-sm text-neutral-600">
+      Sample too small (n = {N}). Need at least 15 villages — widen the State filter.
     </div>
   {:else}
-    <!-- Summary line -->
-    <div class="mb-3 text-[13px] text-neutral-700">
-      <span class="font-semibold">{strongCount}</span> of {correlations.length} strong (|ρ| ≥ 0.30)
-      · <span class="font-semibold">{weakPosCount}</span> weak-positive ·
-      <span class="font-semibold">{flatCount}</span> effectively flat
+    <!-- ── Bar list (the truth) ───────────────────────────────────────── -->
+    <div class="mt-4 text-[13px] text-neutral-700">
+      <span class="font-semibold">{strongCount}</span> strong (|ρ| ≥ 0.30)
+      · <span class="font-semibold">{weakPosCount}</span> weak-positive
+      · <span class="font-semibold">{flatCount}</span> effectively flat
     </div>
 
-    <!-- Bar list -->
-    <ul class="space-y-1.5">
+    <ul class="mt-2 space-y-1.5">
       {#each correlations as r, i (r.code)}
         {#if firstWeakIdx >= 0 && i === firstWeakIdx}
           <li
@@ -307,7 +172,7 @@
             <span class="h-px flex-1 border-t border-dashed border-neutral-300"></span>
           </li>
         {/if}
-        <li class="grid grid-cols-[200px_1fr_60px] items-center gap-3 text-[12.5px]">
+        <li class="grid grid-cols-[minmax(120px,180px)_1fr_56px] items-center gap-3 text-[12.5px]">
           <span class="truncate text-neutral-700">{r.label}</span>
           <span class="relative h-3 w-full overflow-hidden rounded-sm bg-neutral-100">
             <span
@@ -318,7 +183,6 @@
                   : 'bg-rose-300'}"
               style="width:{barWidth(r.rho)}%"
             ></span>
-            <!-- threshold tick at |ρ|=0.30 -->
             <span
               class="absolute top-0 h-full w-px bg-neutral-400"
               style="left:{(STRONG / BAR_FULL_RHO) * 100}%"
@@ -331,120 +195,119 @@
       {/each}
     </ul>
 
-    <!-- Plain reading -->
-    <div class="mt-5 grid grid-cols-1 gap-4 lg:grid-cols-2">
-      <div>
-        <h3 class="text-xs font-semibold tracking-wide text-neutral-500 uppercase">Plain reading</h3>
-        <p class="mt-1 text-[13px] leading-snug text-neutral-700">
-          Strong CBOs / participation track with <span class="font-semibold">ecology outcomes</span>
-          — energy access, forest, water, agro-ecology — where collective action is the dominant
-          lever. They do not (yet) track with <span class="font-semibold">income, migration, or
-          health-direct outcomes</span>, consistent with longer process-to-outcome lags for those.
-        </p>
+    <!-- ── Scenario modeller ──────────────────────────────────────────── -->
+    <div class="mt-6 rounded-md border border-amber-200 bg-amber-50/40 p-4">
+      <h3 class="text-xs font-semibold tracking-wide uppercase text-amber-900">
+        Scenario · what if we measured agency, not just vibrancy?
+      </h3>
+      <p class="mt-1 text-[12.5px] leading-snug text-neutral-700">
+        We don't have direct Agency data, but we can blend the current Vibrancy score with a
+        proxy that <em>behaves like</em> ownership. Move the slider — bars above recompute live.
+      </p>
+
+      <div class="mt-3 flex flex-col gap-3 sm:flex-row sm:items-end sm:gap-5">
+        <div class="flex-1">
+          <div class="text-[10px] font-medium tracking-wide uppercase text-neutral-500">
+            Agency proxy
+          </div>
+          <div class="mt-1 space-y-1 text-[12.5px]">
+            <label class="flex cursor-pointer items-center gap-2">
+              <input type="radio" bind:group={proxyKind} value="forest" />
+              <span><span class="font-medium">Forest score</span> — tribal commons governance</span>
+            </label>
+            <label class="flex cursor-pointer items-center gap-2">
+              <input type="radio" bind:group={proxyKind} value="inverse-migration" />
+              <span>
+                <span class="font-medium">Stay-and-organise</span> — (100 − Distress Migration)
+              </span>
+            </label>
+          </div>
+        </div>
+
+        <div class="flex-1">
+          <label
+            for="alpha-slider"
+            class="block text-[10px] font-medium tracking-wide uppercase text-neutral-500"
+          >
+            Blend (Institution = α · Vibrancy + (1−α) · Proxy)
+          </label>
+          <input
+            id="alpha-slider"
+            type="range"
+            min="0"
+            max="1"
+            step="0.05"
+            bind:value={alpha}
+            class="mt-2 block w-full accent-amber-700"
+          />
+          <div class="mt-1 flex justify-between text-[10px] text-neutral-500">
+            <span>0 · pure proxy</span>
+            <span class="font-medium text-amber-800">α = {alpha.toFixed(2)}</span>
+            <span>1 · current</span>
+          </div>
+        </div>
       </div>
 
-      {#if outliers}
-        <div>
-          <h3 class="text-xs font-semibold tracking-wide text-neutral-500 uppercase">
-            Worth a closer look
-          </h3>
-          <p class="mt-1 text-[11px] text-neutral-500">
-            Residuals from the line of best fit on the strongest pair (Institution × {outliers.pairLabel}).
-          </p>
-          <ul class="mt-1.5 space-y-1 text-[12.5px] text-neutral-700">
-            {#each outliers.over as o}
-              <li>
-                <span class="font-semibold">{o.name}</span>
-                <span class="text-neutral-500"> ({o.district}, {o.state}) </span>
-                <span class="text-emerald-600">+{o.residual.toFixed(0)}</span>
-                <span class="text-neutral-400">
-                  · Inst {Math.round(o.instScore)} → {outliers.pairLabel} {Math.round(o.yScore)}
-                </span>
-              </li>
-            {/each}
-            {#each outliers.under as o}
-              <li>
-                <span class="font-semibold">{o.name}</span>
-                <span class="text-neutral-500"> ({o.district}, {o.state}) </span>
-                <span class="text-rose-600">{o.residual.toFixed(0)}</span>
-                <span class="text-neutral-400">
-                  · Inst {Math.round(o.instScore)} → {outliers.pairLabel} {Math.round(o.yScore)}
-                </span>
-              </li>
-            {/each}
-          </ul>
+      {#if movers}
+        <div class="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2">
+          <div>
+            <div class="text-[10px] font-semibold tracking-wide uppercase text-neutral-500">
+              Move up under the new framing
+            </div>
+            <ul class="mt-1 space-y-0.5 text-[12.5px] text-neutral-700">
+              {#each movers.up as m}
+                <li>
+                  <span class="font-medium">{m.name}</span>
+                  <span class="text-neutral-500"> ({m.district})</span>
+                  <span class="ml-1 text-emerald-600">+{Math.round(m.deltaRank)}</span>
+                </li>
+              {/each}
+            </ul>
+          </div>
+          <div>
+            <div class="text-[10px] font-semibold tracking-wide uppercase text-neutral-500">
+              Move down
+            </div>
+            <ul class="mt-1 space-y-0.5 text-[12.5px] text-neutral-700">
+              {#each movers.down as m}
+                <li>
+                  <span class="font-medium">{m.name}</span>
+                  <span class="text-neutral-500"> ({m.district})</span>
+                  <span class="ml-1 text-rose-600">{Math.round(m.deltaRank)}</span>
+                </li>
+              {/each}
+            </ul>
+          </div>
         </div>
       {/if}
+
+      <details class="mt-4 text-[12.5px] text-neutral-700">
+        <summary class="cursor-pointer text-[10px] font-semibold tracking-wide uppercase text-amber-900">
+          The 5 survey additions that would replace the proxy with real Agency data →
+        </summary>
+        <ol class="mt-2 list-inside list-decimal space-y-0.5 leading-snug">
+          <li>
+            <span class="font-medium">Self-initiated actions per year</span> — community-identified
+            issues acted on without prompting.
+          </li>
+          <li>
+            <span class="font-medium">Agenda-setting share</span> — % of agendas set by members
+            vs facilitator.
+          </li>
+          <li>
+            <span class="font-medium">Internal-to-external revenue ratio</span> — fees / savings ÷
+            external grants.
+          </li>
+          <li>
+            <span class="font-medium">Successful entitlement claims won</span> — MGNREGA, PDS,
+            pension, forest-rights.
+          </li>
+          <li>
+            <span class="font-medium">Persistence-without-facilitator</span> — activity over a
+            90-day no-visit window.
+          </li>
+        </ol>
+      </details>
     </div>
-
-    <!-- Beyond Institution: surprise pairs -->
-    {#if surprisePairs.length > 0}
-      <div class="mt-6 border-t border-neutral-100 pt-4">
-        <h3 class="text-xs font-semibold tracking-wide text-neutral-500 uppercase">
-          Beyond Institution — strongest pairs the literature didn't predict
-        </h3>
-        <ul class="mt-2 space-y-3">
-          {#each surprisePairs as p}
-            {@const cap = captionFor(p.a, p.b)}
-            <li class="grid grid-cols-[260px_1fr_60px] items-start gap-3 text-[12.5px]">
-              <span class="text-neutral-700">
-                <span class="font-medium">{p.aLabel}</span>
-                <span class="text-neutral-400">⇄</span>
-                <span class="font-medium">{p.bLabel}</span>
-              </span>
-              <span class="relative h-3 w-full overflow-hidden rounded-sm bg-neutral-100 self-center">
-                <span
-                  class="absolute top-0 left-0 block h-full rounded-sm {Math.abs(p.rho) >= STRONG
-                    ? p.rho >= 0
-                      ? 'bg-emerald-500'
-                      : 'bg-rose-500'
-                    : p.rho >= 0
-                      ? 'bg-emerald-200'
-                      : 'bg-rose-300'}"
-                  style="width:{barWidth(p.rho)}%"
-                ></span>
-              </span>
-              <span class="text-right tabular-nums text-neutral-700 self-center">
-                {rhoLabel(p.rho)}{Math.abs(p.rho) >= STRONG ? ' ✓' : ''}
-              </span>
-              {#if cap}
-                <span class="col-start-1 col-span-3 text-[11.5px] leading-snug text-neutral-500">
-                  {cap}
-                </span>
-              {/if}
-            </li>
-          {/each}
-        </ul>
-      </div>
-    {/if}
-
-    <!-- Where the literature didn't hold -->
-    {#if contradictions.length > 0}
-      <div class="mt-6 border-t border-neutral-100 pt-4">
-        <h3 class="text-xs font-semibold tracking-wide text-neutral-500 uppercase">
-          Where the literature didn't hold
-        </h3>
-        <p class="mt-1 text-[11.5px] text-neutral-500">
-          Sign opposite to the canonical literature. Worth treating as an open
-          question — possible measurement issue, selection effect, or local context.
-        </p>
-        <ul class="mt-2 space-y-2 text-[12.5px]">
-          {#each contradictions as c}
-            <li>
-              <span class="font-semibold text-neutral-700">{c.aLabel} ⇄ {c.bLabel}</span>
-              <span class="ml-1 text-neutral-400">
-                expected {c.expectedSign}, observed
-              </span>
-              <span class={c.rho >= 0 ? 'text-emerald-600' : 'text-rose-600'}>
-                {rhoLabel(c.rho)}
-              </span>
-              {#if c.note}
-                <div class="text-[11.5px] text-neutral-500">{c.note}</div>
-              {/if}
-            </li>
-          {/each}
-        </ul>
-      </div>
-    {/if}
   {/if}
 </section>
