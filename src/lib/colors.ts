@@ -46,6 +46,40 @@ export const SCORE_PAINT_STEP = [
   70, '#10b981'
 ] as const;
 
+/**
+ * Partner-map palette — one hue per organisation.
+ *
+ * Dots on a map are intermixed, so every pair of hues has to hold apart, not
+ * just neighbouring ones. These five slots of the shared categorical palette
+ * clear that all-pairs bar with room to spare (worst pair magenta↔blue ΔE 13
+ * under protanopia, violet↔blue 16.3 with normal vision). Six-hue sets exist
+ * that scrape past the floor, but only by putting aqua next to green — which
+ * the eye loses in Odisha, where Goonj and PRADAN overlap. The remaining, much
+ * smaller partners share a neutral rather than take a sixth hue that would
+ * collide with one of these. Identity is therefore always backed by the
+ * labelled list beside the map, and hovering a partner isolates its dots.
+ *
+ * Slots are assigned by each organisation's total place count over the whole
+ * dataset, so filtering the map never repaints anyone.
+ */
+export const ORG_SLOTS = [
+  '#2a78d6', // blue
+  '#eda100', // yellow
+  '#e87ba4', // magenta
+  '#008300', // green
+  '#4a3aa7' // violet
+] as const;
+
+/** Shared by the partners past the sixth — reads as neutral, not as a hue. */
+export const OTHER_ORG = '#52514e';
+
+/** Surface tone, used as the ring that separates overlapping marks. */
+export const SURFACE = '#fcfcfb';
+/** Near-black selection ring. */
+export const MAP_INK = '#0a0a0a';
+/** Muted ink for legend marks that stand for a shape, not an organisation. */
+export const NEUTRAL_INK = '#52514e';
+
 /** Diverging tone for "village vs benchmark" gaps; used by matrix Δ column. */
 export function gapTone(gap: number): string {
   if (gap >= 10) return 'text-emerald-600';

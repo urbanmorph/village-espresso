@@ -95,9 +95,13 @@
   );
 </script>
 
-<header class="border-b border-neutral-200 bg-white">
+<svelte:head>
+  <title>SOTH + BON · Village</title>
+</svelte:head>
+
+<div class="border-b border-neutral-200 bg-white">
   <div class="mx-auto flex max-w-[1600px] flex-wrap items-center gap-4 px-6 py-3">
-    <a href="/" class="text-lg font-semibold tracking-tight hover:text-neutral-700">SOTH+BON</a>
+    <h1 class="text-sm font-semibold tracking-tight">SOTH + BON</h1>
     <span class="text-xs text-neutral-500">
       {VILLAGES.length} villages · {INDICATORS.length} indicators · CG / JH / OD
     </span>
@@ -143,12 +147,12 @@
       </label>
     </div>
   </div>
-</header>
+</div>
 
 <main class="mx-auto max-w-[1600px] px-6 py-6">
   <section
     class="grid grid-cols-1 gap-6 lg:grid-cols-[3fr_2fr]"
-    style="height: calc(100vh - 8rem); min-height: 520px;"
+    style="height: calc(100vh - 12rem); min-height: 520px;"
   >
     <div class="h-full overflow-hidden rounded-lg border border-neutral-200 bg-neutral-100">
       {#if MapComponent}
