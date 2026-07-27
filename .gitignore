@@ -9,6 +9,7 @@ dist
 build
 .svelte-kit
 .vercel
+.playwright-mcp/
 
 # Working notes — not for the public repo
 supporting-docs/
@@ -17,4 +18,9 @@ supporting-docs/
 data/raw/
 data/geo/*.pmtiles
 data/geo/*.parquet
-data/geo/_*.json   # intermediate filtered dumps (re-buildable from parquet)
+# intermediate filtered dumps + their cache signatures (re-buildable from parquet).
+# Note: git has no trailing comments, so these patterns get their own lines.
+data/geo/_*.json
+data/geo/_*.key
+data/geo/_*.csv
+data/geo/_*.out.json
